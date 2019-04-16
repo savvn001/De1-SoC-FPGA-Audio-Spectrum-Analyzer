@@ -87,29 +87,4 @@ module audioCore(
 	end
 
 
-
-
-
-
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 endmodule
