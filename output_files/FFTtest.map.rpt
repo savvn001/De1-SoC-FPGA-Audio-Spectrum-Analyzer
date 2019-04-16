@@ -1,0 +1,461 @@
+Analysis & Elaboration report for FFTtest
+Wed Apr 17 00:06:41 2019
+Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Elaboration Summary
+  3. Parallel Compilation
+  4. Analysis & Elaboration Settings
+  5. Analysis & Elaboration Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2017  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++-----------------------------------------------------------------------------+
+; Analysis & Elaboration Summary                                              ;
++-------------------------------+---------------------------------------------+
+; Analysis & Elaboration Status ; Successful - Wed Apr 17 00:06:41 2019       ;
+; Quartus Prime Version         ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
+; Revision Name                 ; FFTtest                                     ;
+; Top-level Entity Name         ; audioCore                                   ;
+; Family                        ; Cyclone V                                   ;
+; Logic utilization (in ALMs)   ; N/A until Partition Merge                   ;
+; Total registers               ; N/A until Partition Merge                   ;
+; Total pins                    ; N/A until Partition Merge                   ;
+; Total virtual pins            ; N/A until Partition Merge                   ;
+; Total block memory bits       ; N/A until Partition Merge                   ;
+; Total PLLs                    ; N/A until Partition Merge                   ;
+; Total DLLs                    ; N/A until Partition Merge                   ;
++-------------------------------+---------------------------------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 4           ;
+; Maximum allowed            ; 4           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
++----------------------------+-------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Elaboration Settings                                                                                           ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                          ; Setting            ; Default Value      ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                          ; 5CSEMA5F31C6       ;                    ;
+; Top-level entity name                                                           ; audioCore          ; FFTtest            ;
+; Family name                                                                     ; Cyclone V          ; Cyclone V          ;
+; Use smart compilation                                                           ; Off                ; Off                ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation      ; On                 ; On                 ;
+; Enable compact report table                                                     ; Off                ; Off                ;
+; Restructure Multiplexers                                                        ; Auto               ; Auto               ;
+; MLAB Add Timing Constraints For Mixed-Port Feed-Through Mode Setting Don't Care ; Off                ; Off                ;
+; Create Debugging Nodes for IP Cores                                             ; Off                ; Off                ;
+; Preserve fewer node names                                                       ; On                 ; On                 ;
+; Intel FPGA IP Evaluation Mode                                                   ; Enable             ; Enable             ;
+; Verilog Version                                                                 ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                                    ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                        ; Auto               ; Auto               ;
+; Safe State Machine                                                              ; Off                ; Off                ;
+; Extract Verilog State Machines                                                  ; On                 ; On                 ;
+; Extract VHDL State Machines                                                     ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                               ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                      ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                                  ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                         ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                       ; On                 ; On                 ;
+; Parallel Synthesis                                                              ; On                 ; On                 ;
+; DSP Block Balancing                                                             ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                              ; On                 ; On                 ;
+; Power-Up Don't Care                                                             ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                                    ; Off                ; Off                ;
+; Remove Duplicate Registers                                                      ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                            ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                          ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                           ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                       ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                            ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                             ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                                  ; Off                ; Off                ;
+; Optimization Technique                                                          ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                              ; 70                 ; 70                 ;
+; Auto Carry Chains                                                               ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                            ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                           ; Off                ; Off                ;
+; Auto ROM Replacement                                                            ; On                 ; On                 ;
+; Auto RAM Replacement                                                            ; On                 ; On                 ;
+; Auto DSP Block Replacement                                                      ; On                 ; On                 ;
+; Auto Shift Register Replacement                                                 ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                                 ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                                   ; On                 ; On                 ;
+; Strict RAM Replacement                                                          ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                               ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                           ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                                   ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                             ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                               ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                         ; On                 ; On                 ;
+; Report Parameter Settings                                                       ; On                 ; On                 ;
+; Report Source Assignments                                                       ; On                 ; On                 ;
+; Report Connectivity Checks                                                      ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                              ; Off                ; Off                ;
+; Synchronization Register Chain Length                                           ; 3                  ; 3                  ;
+; Power Optimization During Synthesis                                             ; Normal compilation ; Normal compilation ;
+; HDL message level                                                               ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                                 ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                        ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                              ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                       ; 100                ; 100                ;
+; Clock MUX Protection                                                            ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                     ; Off                ; Off                ;
+; Block Design Naming                                                             ; Auto               ; Auto               ;
+; SDC constraint protection                                                       ; Off                ; Off                ;
+; Synthesis Effort                                                                ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal                    ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                            ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                              ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                     ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                          ; On                 ; On                 ;
+; Automatic Parallel Synthesis                                                    ; On                 ; On                 ;
+; Partial Reconfiguration Bitstream ID                                            ; Off                ; Off                ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+
+
++---------------------------------+
+; Analysis & Elaboration Messages ;
++---------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Elaboration
+    Info: Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+    Info: Processing started: Wed Apr 17 00:06:17 2019
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off FFTtest -c FFTtest --analysis_and_elaboration
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20032): Parallel compilation is enabled and will use up to 4 processors
+Info (12021): Found 1 design units, including 1 entities, in source file fft/synthesis/fft.v
+    Info (12023): Found entity 1: FFT File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/FFT.v Line: 6
+Info (12021): Found 2 design units, including 0 entities, in source file fft/synthesis/submodules/auk_dspip_text_pkg.vhd
+    Info (12022): Found design unit 1: auk_dspip_text_pkg (fft) File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/auk_dspip_text_pkg.vhd Line: 60
+    Info (12022): Found design unit 2: auk_dspip_text_pkg-body File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/auk_dspip_text_pkg.vhd Line: 76
+Info (12021): Found 2 design units, including 0 entities, in source file fft/synthesis/submodules/auk_dspip_math_pkg.vhd
+    Info (12022): Found design unit 1: auk_dspip_math_pkg (fft) File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/auk_dspip_math_pkg.vhd Line: 51
+    Info (12022): Found design unit 2: auk_dspip_math_pkg-body File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/auk_dspip_math_pkg.vhd Line: 128
+Info (12021): Found 1 design units, including 0 entities, in source file fft/synthesis/submodules/auk_dspip_lib_pkg.vhd
+    Info (12022): Found design unit 1: auk_dspip_lib_pkg (fft) File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/auk_dspip_lib_pkg.vhd Line: 28
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/auk_dspip_avalon_streaming_block_sink.vhd
+    Info (12022): Found design unit 1: auk_dspip_avalon_streaming_block_sink-rtl File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/auk_dspip_avalon_streaming_block_sink.vhd Line: 59
+    Info (12023): Found entity 1: auk_dspip_avalon_streaming_block_sink File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/auk_dspip_avalon_streaming_block_sink.vhd Line: 22
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/auk_dspip_avalon_streaming_block_source.vhd
+    Info (12022): Found design unit 1: auk_dspip_avalon_streaming_block_source-rtl File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/auk_dspip_avalon_streaming_block_source.vhd Line: 47
+    Info (12023): Found entity 1: auk_dspip_avalon_streaming_block_source File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/auk_dspip_avalon_streaming_block_source.vhd Line: 25
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/auk_dspip_roundsat.vhd
+    Info (12022): Found design unit 1: auk_dspip_roundsat-beh File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/auk_dspip_roundsat.vhd Line: 61
+    Info (12023): Found entity 1: auk_dspip_roundsat File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/auk_dspip_roundsat.vhd Line: 45
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/auk_dspip_avalon_streaming_sink.vhd
+    Info (12022): Found design unit 1: auk_dspip_avalon_streaming_sink-rtl File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/auk_dspip_avalon_streaming_sink.vhd Line: 106
+    Info (12023): Found entity 1: auk_dspip_avalon_streaming_sink File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/auk_dspip_avalon_streaming_sink.vhd Line: 60
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/auk_dspip_avalon_streaming_source.vhd
+    Info (12022): Found design unit 1: auk_dspip_avalon_streaming_source-rtl File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/auk_dspip_avalon_streaming_source.vhd Line: 105
+    Info (12023): Found entity 1: auk_dspip_avalon_streaming_source File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/auk_dspip_avalon_streaming_source.vhd Line: 72
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/auk_dspip_avalon_streaming_controller.vhd
+    Info (12022): Found design unit 1: auk_dspip_avalon_streaming_controller-struct File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/auk_dspip_avalon_streaming_controller.vhd Line: 80
+    Info (12023): Found entity 1: auk_dspip_avalon_streaming_controller File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/auk_dspip_avalon_streaming_controller.vhd Line: 57
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/altera_fft_dual_port_ram.vhd
+    Info (12022): Found design unit 1: altera_fft_dual_port_ram-rtl File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/altera_fft_dual_port_ram.vhd Line: 58
+    Info (12023): Found entity 1: altera_fft_dual_port_ram File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/altera_fft_dual_port_ram.vhd Line: 36
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/altera_fft_dual_port_rom.vhd
+    Info (12022): Found design unit 1: altera_fft_dual_port_rom-rtl File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/altera_fft_dual_port_rom.vhd Line: 43
+    Info (12023): Found entity 1: altera_fft_dual_port_rom File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/altera_fft_dual_port_rom.vhd Line: 23
+Info (12021): Found 6 design units, including 3 entities, in source file fft/synthesis/submodules/altera_fft_mult_add.vhd
+    Info (12022): Found design unit 1: altera_fft_mult_add-rtl File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/altera_fft_mult_add.vhd Line: 42
+    Info (12022): Found design unit 2: altera_fft_mult_add_new-rtl File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/altera_fft_mult_add.vhd Line: 159
+    Info (12022): Found design unit 3: altera_fft_mult_add_old-rtl File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/altera_fft_mult_add.vhd Line: 415
+    Info (12023): Found entity 1: altera_fft_mult_add File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/altera_fft_mult_add.vhd Line: 23
+    Info (12023): Found entity 2: altera_fft_mult_add_new File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/altera_fft_mult_add.vhd Line: 140
+    Info (12023): Found entity 3: altera_fft_mult_add_old File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/altera_fft_mult_add.vhd Line: 396
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/altera_fft_single_port_rom.vhd
+    Info (12022): Found design unit 1: altera_fft_single_port_rom-rtl File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/altera_fft_single_port_rom.vhd Line: 40
+    Info (12023): Found entity 1: altera_fft_single_port_rom File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/altera_fft_single_port_rom.vhd Line: 23
+Info (12021): Found 2 design units, including 0 entities, in source file fft/synthesis/submodules/auk_fft_pkg.vhd
+    Info (12022): Found design unit 1: auk_fft_pkg (fft) File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/auk_fft_pkg.vhd Line: 18
+    Info (12022): Found design unit 2: auk_fft_pkg-body File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/auk_fft_pkg.vhd Line: 27
+Info (12021): Found 1 design units, including 1 entities, in source file fft/synthesis/submodules/hyper_pipeline_interface.v
+    Info (12023): Found entity 1: hyper_pipeline_interface File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/hyper_pipeline_interface.v Line: 20
+Info (12021): Found 1 design units, including 1 entities, in source file fft/synthesis/submodules/counter_module.sv
+    Info (12023): Found entity 1: counter_module File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/counter_module.sv Line: 17
+Info (12021): Found 2 design units, including 0 entities, in source file fft/synthesis/submodules/fft_pack.vhd
+    Info (12022): Found design unit 1: fft_pack (fft) File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/fft_pack.vhd Line: 34
+    Info (12022): Found design unit 2: fft_pack-body File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/fft_pack.vhd Line: 2136
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/apn_fft_cmult_cpx.vhd
+    Info (12022): Found design unit 1: apn_fft_cmult_cpx-model File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/apn_fft_cmult_cpx.vhd Line: 58
+    Info (12023): Found entity 1: apn_fft_cmult_cpx File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/apn_fft_cmult_cpx.vhd Line: 38
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/apn_fft_cmult_cpx2.vhd
+    Info (12022): Found design unit 1: apn_fft_cmult_cpx2-model File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/apn_fft_cmult_cpx2.vhd Line: 57
+    Info (12023): Found entity 1: apn_fft_cmult_cpx2 File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/apn_fft_cmult_cpx2.vhd Line: 38
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/apn_fft_mult_can.vhd
+    Info (12022): Found design unit 1: apn_fft_mult_can-rtl File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/apn_fft_mult_can.vhd Line: 39
+    Info (12023): Found entity 1: apn_fft_mult_can File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/apn_fft_mult_can.vhd Line: 21
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/apn_fft_mult_cpx.vhd
+    Info (12022): Found design unit 1: apn_fft_mult_cpx-rtl File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/apn_fft_mult_cpx.vhd Line: 39
+    Info (12023): Found entity 1: apn_fft_mult_cpx File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/apn_fft_mult_cpx.vhd Line: 21
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_1dp_ram.vhd
+    Info (12022): Found design unit 1: asj_fft_1dp_ram-syn File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_1dp_ram.vhd Line: 64
+    Info (12023): Found entity 1: asj_fft_1dp_ram File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_1dp_ram.vhd Line: 45
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_1tdp_rom.vhd
+    Info (12022): Found design unit 1: asj_fft_1tdp_rom-syn File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_1tdp_rom.vhd Line: 69
+    Info (12023): Found entity 1: asj_fft_1tdp_rom File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_1tdp_rom.vhd Line: 47
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_3dp_rom.vhd
+    Info (12022): Found design unit 1: asj_fft_3dp_rom-syn File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_3dp_rom.vhd Line: 73
+    Info (12023): Found entity 1: asj_fft_3dp_rom File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_3dp_rom.vhd Line: 48
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_3pi_mram.vhd
+    Info (12022): Found design unit 1: asj_fft_3pi_mram-syn File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_3pi_mram.vhd Line: 100
+    Info (12023): Found entity 1: asj_fft_3pi_mram File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_3pi_mram.vhd Line: 75
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_3tdp_rom.vhd
+    Info (12022): Found design unit 1: asj_fft_3tdp_rom-syn File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_3tdp_rom.vhd Line: 87
+    Info (12023): Found entity 1: asj_fft_3tdp_rom File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_3tdp_rom.vhd Line: 55
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_4dp_ram.vhd
+    Info (12022): Found design unit 1: asj_fft_4dp_ram-syn File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_4dp_ram.vhd Line: 68
+    Info (12023): Found entity 1: asj_fft_4dp_ram File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_4dp_ram.vhd Line: 47
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_6tdp_rom.vhd
+    Info (12022): Found design unit 1: asj_fft_6tdp_rom-syn File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_6tdp_rom.vhd Line: 96
+    Info (12023): Found entity 1: asj_fft_6tdp_rom File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_6tdp_rom.vhd Line: 56
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_alt_shift_tdl.vhd
+    Info (12022): Found design unit 1: asj_fft_alt_shift_tdl-SYN File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_alt_shift_tdl.vhd Line: 100
+    Info (12023): Found entity 1: asj_fft_alt_shift_tdl File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_alt_shift_tdl.vhd Line: 82
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_bfp_ctrl.vhd
+    Info (12022): Found design unit 1: asj_fft_bfp_ctrl-syn File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_bfp_ctrl.vhd Line: 62
+    Info (12023): Found entity 1: asj_fft_bfp_ctrl File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_bfp_ctrl.vhd Line: 40
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_bfp_i.vhd
+    Info (12022): Found design unit 1: asj_fft_bfp_i-input_bfp File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_bfp_i.vhd Line: 70
+    Info (12023): Found entity 1: asj_fft_bfp_i File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_bfp_i.vhd Line: 39
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_bfp_i_1pt.vhd
+    Info (12022): Found design unit 1: asj_fft_bfp_i_1pt-input_bfp File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_bfp_i_1pt.vhd Line: 69
+    Info (12023): Found entity 1: asj_fft_bfp_i_1pt File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_bfp_i_1pt.vhd Line: 39
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_bfp_o.vhd
+    Info (12022): Found design unit 1: asj_fft_bfp_o-output_bfp File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_bfp_o.vhd Line: 76
+    Info (12023): Found entity 1: asj_fft_bfp_o File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_bfp_o.vhd Line: 45
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_bfp_o_1pt.vhd
+    Info (12022): Found design unit 1: asj_fft_bfp_o_1pt-output_bfp File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_bfp_o_1pt.vhd Line: 60
+    Info (12023): Found entity 1: asj_fft_bfp_o_1pt File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_bfp_o_1pt.vhd Line: 35
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_burst_ctrl.vhd
+    Info (12022): Found design unit 1: asj_fft_burst_ctrl-burst_sw File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_burst_ctrl.vhd Line: 92
+    Info (12023): Found entity 1: asj_fft_burst_ctrl File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_burst_ctrl.vhd Line: 41
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_burst_ctrl_de.vhd
+    Info (12022): Found design unit 1: asj_fft_burst_ctrl_de-cnt_sw File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_burst_ctrl_de.vhd Line: 101
+    Info (12023): Found entity 1: asj_fft_burst_ctrl_de File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_burst_ctrl_de.vhd Line: 39
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_burst_ctrl_qe.vhd
+    Info (12022): Found design unit 1: asj_fft_burst_ctrl_qe-cnt_sw File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_burst_ctrl_qe.vhd Line: 126
+    Info (12023): Found entity 1: asj_fft_burst_ctrl_qe File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_burst_ctrl_qe.vhd Line: 39
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_cmult_can.vhd
+    Info (12022): Found design unit 1: asj_fft_cmult_can-model File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_cmult_can.vhd Line: 65
+    Info (12023): Found entity 1: asj_fft_cmult_can File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_cmult_can.vhd Line: 44
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_cmult_std.vhd
+    Info (12022): Found design unit 1: asj_fft_cmult_std-model File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_cmult_std.vhd Line: 62
+    Info (12023): Found entity 1: asj_fft_cmult_std File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_cmult_std.vhd Line: 43
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_cnt_ctrl.vhd
+    Info (12022): Found design unit 1: asj_fft_cnt_ctrl-cnt_sw File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_cnt_ctrl.vhd Line: 86
+    Info (12023): Found entity 1: asj_fft_cnt_ctrl File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_cnt_ctrl.vhd Line: 35
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_cnt_ctrl_de.vhd
+    Info (12022): Found design unit 1: asj_fft_cnt_ctrl_de-cnt_sw File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_cnt_ctrl_de.vhd Line: 98
+    Info (12023): Found entity 1: asj_fft_cnt_ctrl_de File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_cnt_ctrl_de.vhd Line: 36
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_cxb_addr.vhd
+    Info (12022): Found design unit 1: asj_fft_cxb_addr-syn File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_cxb_addr.vhd Line: 60
+    Info (12023): Found entity 1: asj_fft_cxb_addr File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_cxb_addr.vhd Line: 37
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_cxb_data.vhd
+    Info (12022): Found design unit 1: asj_fft_cxb_data-syn File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_cxb_data.vhd Line: 66
+    Info (12023): Found entity 1: asj_fft_cxb_data File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_cxb_data.vhd Line: 44
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_cxb_data_mram.vhd
+    Info (12022): Found design unit 1: asj_fft_cxb_data_mram-syn File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_cxb_data_mram.vhd Line: 67
+    Info (12023): Found entity 1: asj_fft_cxb_data_mram File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_cxb_data_mram.vhd Line: 38
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_cxb_data_r.vhd
+    Info (12022): Found design unit 1: asj_fft_cxb_data_r-syn File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_cxb_data_r.vhd Line: 66
+    Info (12023): Found entity 1: asj_fft_cxb_data_r File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_cxb_data_r.vhd Line: 44
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_dataadgen.vhd
+    Info (12022): Found design unit 1: asj_fft_dataadgen-gen_all File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_dataadgen.vhd Line: 60
+    Info (12023): Found entity 1: asj_fft_dataadgen File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_dataadgen.vhd Line: 38
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_data_ram.vhd
+    Info (12022): Found design unit 1: asj_fft_data_ram-SYN File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_data_ram.vhd Line: 61
+    Info (12023): Found entity 1: asj_fft_data_ram File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_data_ram.vhd Line: 40
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_data_ram_dp.vhd
+    Info (12022): Found design unit 1: asj_fft_data_ram_dp-SYN File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_data_ram_dp.vhd Line: 63
+    Info (12023): Found entity 1: asj_fft_data_ram_dp File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_data_ram_dp.vhd Line: 40
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_dft_bfp.vhd
+    Info (12022): Found design unit 1: asj_fft_dft_bfp-dft_r4 File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_dft_bfp.vhd Line: 95
+    Info (12023): Found entity 1: asj_fft_dft_bfp File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_dft_bfp.vhd Line: 42
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_dft_bfp_sgl.vhd
+    Info (12022): Found design unit 1: asj_fft_dft_bfp_sgl-dft_r4 File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_dft_bfp_sgl.vhd Line: 80
+    Info (12023): Found entity 1: asj_fft_dft_bfp_sgl File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_dft_bfp_sgl.vhd Line: 42
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_dpi_mram.vhd
+    Info (12022): Found design unit 1: asj_fft_dpi_mram-syn File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_dpi_mram.vhd Line: 98
+    Info (12023): Found entity 1: asj_fft_dpi_mram File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_dpi_mram.vhd Line: 76
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_dp_mram.vhd
+    Info (12022): Found design unit 1: asj_fft_dp_mram-syn File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_dp_mram.vhd Line: 92
+    Info (12023): Found entity 1: asj_fft_dp_mram File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_dp_mram.vhd Line: 73
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_dualstream.vhd
+    Info (12022): Found design unit 1: asj_fft_dualstream-transform File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_dualstream.vhd Line: 88
+    Info (12023): Found entity 1: asj_fft_dualstream File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_dualstream.vhd Line: 40
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_in_write_sgl.vhd
+    Info (12022): Found design unit 1: asj_fft_in_write_sgl-writer File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_in_write_sgl.vhd Line: 66
+    Info (12023): Found entity 1: asj_fft_in_write_sgl File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_in_write_sgl.vhd Line: 35
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_lcm_mult.vhd
+    Info (12022): Found design unit 1: asj_fft_lcm_mult-mult File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_lcm_mult.vhd Line: 62
+    Info (12023): Found entity 1: asj_fft_lcm_mult File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_lcm_mult.vhd Line: 43
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_lcm_mult_2m.vhd
+    Info (12022): Found design unit 1: asj_fft_lcm_mult_2m-mult File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_lcm_mult_2m.vhd Line: 64
+    Info (12023): Found entity 1: asj_fft_lcm_mult_2m File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_lcm_mult_2m.vhd Line: 45
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_lpp.vhd
+    Info (12022): Found design unit 1: asj_fft_lpp-dft File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_lpp.vhd Line: 67
+    Info (12023): Found entity 1: asj_fft_lpp File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_lpp.vhd Line: 36
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_lpprdadgen.vhd
+    Info (12022): Found design unit 1: asj_fft_lpprdadgen-gen_all File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_lpprdadgen.vhd Line: 63
+    Info (12023): Found entity 1: asj_fft_lpprdadgen File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_lpprdadgen.vhd Line: 37
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_lpprdadr2gen.vhd
+    Info (12022): Found design unit 1: asj_fft_lpprdadr2gen-gen_all File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_lpprdadr2gen.vhd Line: 63
+    Info (12023): Found entity 1: asj_fft_lpprdadr2gen File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_lpprdadr2gen.vhd Line: 37
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_lpp_serial.vhd
+    Info (12022): Found design unit 1: asj_fft_lpp_serial-lp File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_lpp_serial.vhd Line: 65
+    Info (12023): Found entity 1: asj_fft_lpp_serial File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_lpp_serial.vhd Line: 37
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_lpp_serial_r2.vhd
+    Info (12022): Found design unit 1: asj_fft_lpp_serial_r2-lp File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_lpp_serial_r2.vhd Line: 63
+    Info (12023): Found entity 1: asj_fft_lpp_serial_r2 File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_lpp_serial_r2.vhd Line: 39
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_mult_add.vhd
+    Info (12022): Found design unit 1: asj_fft_mult_add-syn File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_mult_add.vhd Line: 97
+    Info (12023): Found entity 1: asj_fft_mult_add File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_mult_add.vhd Line: 77
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_m_k_counter.vhd
+    Info (12022): Found design unit 1: asj_fft_m_k_counter-gen_all File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_m_k_counter.vhd Line: 59
+    Info (12023): Found entity 1: asj_fft_m_k_counter File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_m_k_counter.vhd Line: 35
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_pround.vhd
+    Info (12022): Found design unit 1: asj_fft_pround-AROUNDPIPE_SYNTH File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_pround.vhd Line: 57
+    Info (12023): Found entity 1: asj_fft_pround File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_pround.vhd Line: 42
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_sglstream.vhd
+    Info (12022): Found design unit 1: asj_fft_sglstream-transform File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_sglstream.vhd Line: 90
+    Info (12023): Found entity 1: asj_fft_sglstream File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_sglstream.vhd Line: 42
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_si_de_so_b.vhd
+    Info (12022): Found design unit 1: asj_fft_si_de_so_b-transform File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_si_de_so_b.vhd Line: 89
+    Info (12023): Found entity 1: asj_fft_si_de_so_b File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_si_de_so_b.vhd Line: 41
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_si_de_so_bb.vhd
+    Info (12022): Found design unit 1: asj_fft_si_de_so_bb-transform File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_si_de_so_bb.vhd Line: 90
+    Info (12023): Found entity 1: asj_fft_si_de_so_bb File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_si_de_so_bb.vhd Line: 42
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_si_qe_so_b.vhd
+    Info (12022): Found design unit 1: asj_fft_si_qe_so_b-transform File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_si_qe_so_b.vhd Line: 96
+    Info (12023): Found entity 1: asj_fft_si_qe_so_b File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_si_qe_so_b.vhd Line: 39
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_si_qe_so_bb.vhd
+    Info (12022): Found design unit 1: asj_fft_si_qe_so_bb-transform File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_si_qe_so_bb.vhd Line: 97
+    Info (12023): Found entity 1: asj_fft_si_qe_so_bb File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_si_qe_so_bb.vhd Line: 40
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_si_se_so_b.vhd
+    Info (12022): Found design unit 1: asj_fft_si_se_so_b-transform File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_si_se_so_b.vhd Line: 85
+    Info (12023): Found entity 1: asj_fft_si_se_so_b File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_si_se_so_b.vhd Line: 37
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_si_se_so_bb.vhd
+    Info (12022): Found design unit 1: asj_fft_si_se_so_bb-transform File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_si_se_so_bb.vhd Line: 88
+    Info (12023): Found entity 1: asj_fft_si_se_so_bb File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_si_se_so_bb.vhd Line: 40
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_si_sose_so_b.vhd
+    Info (12022): Found design unit 1: asj_fft_si_sose_so_b-transform File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_si_sose_so_b.vhd Line: 85
+    Info (12023): Found entity 1: asj_fft_si_sose_so_b File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_si_sose_so_b.vhd Line: 37
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_tdl.vhd
+    Info (12022): Found design unit 1: asj_fft_tdl-syn File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_tdl.vhd Line: 58
+    Info (12023): Found entity 1: asj_fft_tdl File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_tdl.vhd Line: 42
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_tdl_bit.vhd
+    Info (12022): Found design unit 1: asj_fft_tdl_bit-syn File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_tdl_bit.vhd Line: 51
+    Info (12023): Found entity 1: asj_fft_tdl_bit File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_tdl_bit.vhd Line: 37
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_tdl_bit_rst.vhd
+    Info (12022): Found design unit 1: asj_fft_tdl_bit_rst-syn File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_tdl_bit_rst.vhd Line: 51
+    Info (12023): Found entity 1: asj_fft_tdl_bit_rst File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_tdl_bit_rst.vhd Line: 37
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_tdl_rst.vhd
+    Info (12022): Found design unit 1: asj_fft_tdl_rst-syn File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_tdl_rst.vhd Line: 57
+    Info (12023): Found entity 1: asj_fft_tdl_rst File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_tdl_rst.vhd Line: 42
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_twadgen.vhd
+    Info (12022): Found design unit 1: asj_fft_twadgen-gen_all File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_twadgen.vhd Line: 54
+    Info (12023): Found entity 1: asj_fft_twadgen File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_twadgen.vhd Line: 37
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_twadgen_dual.vhd
+    Info (12022): Found design unit 1: asj_fft_twadgen_dual-gen_all File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_twadgen_dual.vhd Line: 55
+    Info (12023): Found entity 1: asj_fft_twadgen_dual File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_twadgen_dual.vhd Line: 37
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_twadsogen.vhd
+    Info (12022): Found design unit 1: asj_fft_twadsogen-gen_all File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_twadsogen.vhd Line: 54
+    Info (12023): Found entity 1: asj_fft_twadsogen File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_twadsogen.vhd Line: 36
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_twadsogen_q.vhd
+    Info (12022): Found design unit 1: asj_fft_twadsogen_q-gen_all File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_twadsogen_q.vhd Line: 55
+    Info (12023): Found entity 1: asj_fft_twadsogen_q File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_twadsogen_q.vhd Line: 36
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_twiddle_ctrl_qe.vhd
+    Info (12022): Found design unit 1: asj_fft_twiddle_ctrl_qe-cnt_sw File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_twiddle_ctrl_qe.vhd Line: 86
+    Info (12023): Found entity 1: asj_fft_twiddle_ctrl_qe File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_twiddle_ctrl_qe.vhd Line: 37
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_twid_rom_tdp.vhd
+    Info (12022): Found design unit 1: asj_fft_twid_rom_tdp-SYN File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_twid_rom_tdp.vhd Line: 59
+    Info (12023): Found entity 1: asj_fft_twid_rom_tdp File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_twid_rom_tdp.vhd Line: 39
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_unbburst_ctrl.vhd
+    Info (12022): Found design unit 1: asj_fft_unbburst_ctrl-burst_sw File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_unbburst_ctrl.vhd Line: 85
+    Info (12023): Found entity 1: asj_fft_unbburst_ctrl File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_unbburst_ctrl.vhd Line: 34
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_unbburst_ctrl_de.vhd
+    Info (12022): Found design unit 1: asj_fft_unbburst_ctrl_de-cnt_sw File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_unbburst_ctrl_de.vhd Line: 94
+    Info (12023): Found entity 1: asj_fft_unbburst_ctrl_de File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_unbburst_ctrl_de.vhd Line: 34
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_unbburst_ctrl_qe.vhd
+    Info (12022): Found design unit 1: asj_fft_unbburst_ctrl_qe-cnt_sw File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_unbburst_ctrl_qe.vhd Line: 119
+    Info (12023): Found entity 1: asj_fft_unbburst_ctrl_qe File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_unbburst_ctrl_qe.vhd Line: 37
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_unbburst_sose_ctrl.vhd
+    Info (12022): Found design unit 1: asj_fft_unbburst_sose_ctrl-burst_sw File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_unbburst_sose_ctrl.vhd Line: 72
+    Info (12023): Found entity 1: asj_fft_unbburst_sose_ctrl File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_unbburst_sose_ctrl.vhd Line: 41
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_wrengen.vhd
+    Info (12022): Found design unit 1: asj_fft_wrengen-gen_all File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_wrengen.vhd Line: 58
+    Info (12023): Found entity 1: asj_fft_wrengen File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_wrengen.vhd Line: 37
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/asj_fft_wrswgen.vhd
+    Info (12022): Found design unit 1: asj_fft_wrswgen-gen_all File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_wrswgen.vhd Line: 57
+    Info (12023): Found entity 1: asj_fft_wrswgen File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_wrswgen.vhd Line: 37
+Info (12021): Found 2 design units, including 1 entities, in source file fft/synthesis/submodules/twid_rom.vhd
+    Info (12022): Found design unit 1: twid_rom-SYN File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/twid_rom.vhd Line: 77
+    Info (12023): Found entity 1: twid_rom File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/twid_rom.vhd Line: 59
+Info (12021): Found 1 design units, including 1 entities, in source file fft/synthesis/submodules/apn_fft_mult_cpx_1825.v
+    Info (12023): Found entity 1: apn_fft_mult_cpx_1825 File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/apn_fft_mult_cpx_1825.v Line: 19
+Info (12021): Found 1 design units, including 1 entities, in source file fft/synthesis/submodules/fft_fft_ii_0.sv
+    Info (12023): Found entity 1: FFT_fft_ii_0 File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/FFT_fft_ii_0.sv Line: 15
+Info (12021): Found 1 design units, including 1 entities, in source file audiocore.v
+    Info (12023): Found entity 1: audioCore File: C:/intelFPGA_lite/17.1/projects/FFTtest/audioCore.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file simulation/audiocore_tb.v
+    Info (12023): Found entity 1: audioCore_tb File: C:/intelFPGA_lite/17.1/projects/FFTtest/simulation/audioCore_tb.v Line: 6
+Info (12021): Found 1 design units, including 1 entities, in source file simulation/ffttest_tb.v
+    Info (12023): Found entity 1: FFTtest_tb File: C:/intelFPGA_lite/17.1/projects/FFTtest/simulation/FFTtest_tb.v Line: 4
+Info (12127): Elaborating entity "audioCore" for the top level hierarchy
+Warning (10230): Verilog HDL assignment warning at audioCore.v(52): truncated value with size 25 to match size of target (24) File: C:/intelFPGA_lite/17.1/projects/FFTtest/audioCore.v Line: 52
+Warning (10230): Verilog HDL assignment warning at audioCore.v(57): truncated value with size 25 to match size of target (24) File: C:/intelFPGA_lite/17.1/projects/FFTtest/audioCore.v Line: 57
+Warning (20013): Ignored 22 assignments for entity "FFT" -- entity does not exist in design
+    Warning (20014): Assignment for entity set_global_assignment -name IP_TOOL_NAME Qsys -entity FFT -sip FFT/simulation/FFT.sip -library lib_FFT was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name IP_TOOL_VERSION 17.1 -entity FFT -sip FFT/simulation/FFT.sip -library lib_FFT was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name IP_TOOL_ENV Qsys -entity FFT -sip FFT/simulation/FFT.sip -library lib_FFT was ignored
+Warning (20013): Ignored 33 assignments for entity "FFT_fft_ii_0" -- entity does not exist in design
+Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 8 warnings
+    Info: Peak virtual memory: 4908 megabytes
+    Info: Processing ended: Wed Apr 17 00:06:41 2019
+    Info: Elapsed time: 00:00:24
+    Info: Total CPU time (on all processors): 00:00:38
+
+

@@ -1,0 +1,36 @@
+	`timescale 1 ns/100 ps
+
+
+module FFTtest_tb;
+
+	reg clk_in; //variable clock input
+	wire clk_out; //fixed clock out
+	
+	
+	//DUT - servoChannel
+	clockDivider #( 
+
+			.ctr_max		(195) //This is for a 50Mhz input signal 
+
+	) dut (
+			.clk_in		(clk_in),
+			.clk_out		(clk_out)
+			
+	);
+	
+	initial 
+	begin 
+	
+	$display("%d ns\tSimulation Started",$time); 
+	
+		clk_in = 0;	
+	end
+	
+	always 
+		#10 clk_in = ! clk_in; //Flip clock. Simulating 50MHZ input signal
+
+		
+	initial
+	#100000  $stop; 
+
+endmodule

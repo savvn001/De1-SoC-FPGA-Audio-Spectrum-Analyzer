@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at audioCore.v(26): always construct contains both blocking and non-blocking assignments File: C:/intelFPGA_lite/17.1/projects/FFTtest/audioCore.v Line: 26

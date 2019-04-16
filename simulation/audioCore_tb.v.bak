@@ -1,0 +1,51 @@
+// Audio Interface
+
+ 
+
+reg         audio_bclk    = 1'b0;
+
+wire        audio_adclrck;
+
+reg         audio_adcdat  = 1'b0;
+
+wire        audio_daclrck;
+
+wire        audio_dacdat;
+
+ 
+
+always begin
+
+    #162 audio_bclk <= ~audio_bclk;
+
+end
+
+ 
+
+reg [31:0] adcdata = 170;
+
+ 
+
+reg [5:0] adcbitcntr = 6'd0;
+
+reg [5:0] dacbitcntr = 6'd3; //Start out of sync just to verify operation as these don't have to be synchronised
+
+always @ (negedge audio_bclk) begin
+
+    adcbitcntr   = adcbitcntr + 6'd1;
+
+    dacbitcntr   = dacbitcntr + 6'd1;
+
+    audio_adcdat = adcdata[adcbitcntr[4:0]];
+
+    if (&adcbitcntr[4:0]) begin
+
+        adcdata = adcdata * 5;
+
+    end
+
+end
+
+assign audio_adclrck = adcbitcntr[5];
+
+assign audio_daclrck = dacbitcntr[5];
