@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deploy
+ date="2019.04.09.21:42:50"
+ outputDirectory="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/">
+ <perimeter>
+  <parameter
+     name="AUTO_GENERATION_ID"
+     type="Integer"
+     defaultValue="0"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_UNIQUE_ID"
+     type="String"
+     defaultValue=""
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_DEVICE_FAMILY"
+     type="String"
+     defaultValue="Cyclone V"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_DEVICE"
+     type="String"
+     defaultValue="5CSEMA5F31C6"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_DEVICE_SPEEDGRADE"
+     type="String"
+     defaultValue="6"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_CLK_CLOCK_RATE"
+     type="Long"
+     defaultValue="-1"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_CLK_CLOCK_DOMAIN"
+     type="Integer"
+     defaultValue="-1"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_CLK_RESET_DOMAIN"
+     type="Integer"
+     defaultValue="-1"
+     onHdl="0"
+     affectsHdl="1" />
+  <interface name="clk" kind="clock" start="0">
+   <property name="clockRate" value="0" />
+   <property name="externallyDriven" value="false" />
+   <property name="ptfSchematicName" value="" />
+   <port name="clk" direction="input" role="clk" width="1" />
+  </interface>
+  <interface name="rst" kind="reset" start="0">
+   <property name="associatedClock" value="clk" />
+   <property name="synchronousEdges" value="DEASSERT" />
+   <port name="reset_n" direction="input" role="reset_n" width="1" />
+  </interface>
+  <interface name="sink" kind="conduit" start="0">
+   <property name="associatedClock" value="clk" />
+   <property name="associatedReset" value="rst" />
+   <port name="sink_valid" direction="input" role="sink_valid" width="1" />
+   <port name="sink_ready" direction="output" role="sink_ready" width="1" />
+   <port name="sink_error" direction="input" role="sink_error" width="2" />
+   <port name="sink_sop" direction="input" role="sink_sop" width="1" />
+   <port name="sink_eop" direction="input" role="sink_eop" width="1" />
+   <port name="sink_real" direction="input" role="sink_real" width="32" />
+   <port name="sink_imag" direction="input" role="sink_imag" width="32" />
+   <port name="fftpts_in" direction="input" role="fftpts_in" width="11" />
+  </interface>
+  <interface name="source" kind="conduit" start="0">
+   <property name="associatedClock" value="clk" />
+   <property name="associatedReset" value="rst" />
+   <port name="source_valid" direction="output" role="source_valid" width="1" />
+   <port name="source_ready" direction="input" role="source_ready" width="1" />
+   <port name="source_error" direction="output" role="source_error" width="2" />
+   <port name="source_sop" direction="output" role="source_sop" width="1" />
+   <port name="source_eop" direction="output" role="source_eop" width="1" />
+   <port name="source_real" direction="output" role="source_real" width="32" />
+   <port name="source_imag" direction="output" role="source_imag" width="32" />
+   <port name="fftpts_out" direction="output" role="fftpts_out" width="11" />
+  </interface>
+ </perimeter>
+ <entity
+   path=""
+   parameterizationKey="FFT:1.0:AUTO_CLK_CLOCK_DOMAIN=-1,AUTO_CLK_CLOCK_RATE=-1,AUTO_CLK_RESET_DOMAIN=-1,AUTO_DEVICE=5CSEMA5F31C6,AUTO_DEVICE_FAMILY=Cyclone V,AUTO_DEVICE_SPEEDGRADE=6,AUTO_GENERATION_ID=1554842568,AUTO_UNIQUE_ID=(altera_fft_ii:17.1:CALC_LATENCY=1024,THROUGHPUT_LATENCY=1024,data_flow=Variable Streaming,data_rep=Single Floating Point,design_env=NATIVE,direction=Forward,dsp_resource_opt=false,engine_arch=Quad Output,hard_fp=false,hyper_opt=false,in_order=Natural,in_width=18,in_width_derived=32,length=1024,num_engines=1,num_engines_derived=1,out_order=Digit Reverse,out_width=29,out_width_derived=32,selected_device_family=Cyclone V,twid_width=18,twid_width_derived=32)"
+   instancePathKey="FFT"
+   kind="FFT"
+   version="1.0"
+   name="FFT">
+  <parameter name="AUTO_CLK_CLOCK_RATE" value="-1" />
+  <parameter name="AUTO_GENERATION_ID" value="1554842568" />
+  <parameter name="AUTO_DEVICE" value="5CSEMA5F31C6" />
+  <parameter name="AUTO_DEVICE_FAMILY" value="Cyclone V" />
+  <parameter name="AUTO_CLK_RESET_DOMAIN" value="-1" />
+  <parameter name="AUTO_CLK_CLOCK_DOMAIN" value="-1" />
+  <parameter name="AUTO_UNIQUE_ID" value="" />
+  <parameter name="AUTO_DEVICE_SPEEDGRADE" value="6" />
+  <generatedFiles>
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/FFT.v"
+       type="VERILOG" />
+  </generatedFiles>
+  <childGeneratedFiles>
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/FFT_fft_ii_0_twifp1.hex"
+       type="HEX"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/FFT_fft_ii_0_twifp2.hex"
+       type="HEX"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/FFT_fft_ii_0_twrfp1.hex"
+       type="HEX"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/FFT_fft_ii_0_twrfp2.hex"
+       type="HEX"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/FFT_fft_ii_0_twifp3.hex"
+       type="HEX"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/FFT_fft_ii_0_twrfp3.hex"
+       type="HEX"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/FFT_fft_ii_0_twifp4.hex"
+       type="HEX"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/FFT_fft_ii_0_twrfp4.hex"
+       type="HEX"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/FFT_fft_ii_0_twqfp1.hex"
+       type="HEX"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/FFT_fft_ii_0_twqfp2.hex"
+       type="HEX"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/FFT_fft_ii_0_twqfp3.hex"
+       type="HEX"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/FFT_fft_ii_0_twqfp4.hex"
+       type="HEX"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/auk_dspip_text_pkg.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/auk_dspip_math_pkg.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/auk_dspip_lib_pkg.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/auk_dspip_avalon_streaming_block_sink.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/auk_dspip_avalon_streaming_block_source.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/auk_dspip_roundsat.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/auk_dspip_avalon_streaming_block_sink_fftfprvs.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfp_top.ocp"
+       type="OTHER"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfpbdr_top.ocp"
+       type="OTHER"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfprvs_top.ocp"
+       type="OTHER"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/altera_fft_dual_port_ram.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/altera_fft_dual_port_rom.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/altera_fft_mult_add.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/altera_fft_single_port_rom.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/auk_fft_pkg.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/hyper_pipeline_interface.v"
+       type="VERILOG"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/counter_module.sv"
+       type="SYSTEM_VERILOG"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfpbdr_core.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfpbdr_firststage.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfpbdr_laststage.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfpbdr_stage.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfpbdr_top.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfprvs_core.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfprvs_fft4.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfprvs_firststage.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfprvs_laststage.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfprvs_stage.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfprvs_top.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfprvs_twiddle_opt.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfp_add.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfp_cmplxmult.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfp_core.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfp_del.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfp_dft4.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfp_fft4.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfp_laststage.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfp_lsft32.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfp_mul.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfp_mul_2727.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfp_ram.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfp_rsft32.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfp_rvs.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfp_rvsctl.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfp_shift.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfp_snorm.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfp_snorm_mul.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfp_stage.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfp_sub.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfp_top.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfp_twiddle.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfp_twiddle_opt.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfp_unorm.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_hcc_cntsgn32.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_hcc_cntusgn32.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_hcc_sgnpstn.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_hcc_usgnpos.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/FFT_fft_ii_0.sv"
+       type="SYSTEM_VERILOG"
+       attributes="" />
+  </childGeneratedFiles>
+  <sourceFiles>
+   <file path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT.qsys" />
+  </sourceFiles>
+  <childSourceFiles>
+   <file
+       path="C:/intelfpga_lite/17.1/ip/altera/dsp/altera_fft_ii/altera_fft_ii_hw.tcl" />
+   <file
+       path="C:/intelFPGA_lite/17.1/ip/altera/dsp/altera_fft_ii/fft_helper.jar" />
+   <file
+       path="C:/intelFPGA_lite/17.1/quartus/sopc_builder/model/lib/com.altera.entityinterfaces.jar" />
+  </childSourceFiles>
+  <messages>
+   <message level="Debug" culprit="FFT">queue size: 0 starting:FFT "FFT"</message>
+   <message level="Progress" culprit="min"></message>
+   <message level="Progress" culprit="max"></message>
+   <message level="Progress" culprit="current"></message>
+   <message level="Debug">Transform: CustomInstructionTransform</message>
+   <message level="Debug">No custom instruction connections, skipping transform </message>
+   <message level="Debug" culprit="merlin_custom_instruction_transform"><![CDATA[After transform: <b>1</b> modules, <b>0</b> connections]]></message>
+   <message level="Debug">Transform: MMTransform</message>
+   <message level="Debug">Transform: InterruptMapperTransform</message>
+   <message level="Debug">Transform: InterruptSyncTransform</message>
+   <message level="Debug">Transform: InterruptFanoutTransform</message>
+   <message level="Debug">Transform: AvalonStreamingTransform</message>
+   <message level="Debug">Transform: ResetAdaptation</message>
+   <message level="Debug" culprit="FFT"><![CDATA["<b>FFT</b>" reuses <b>altera_fft_ii</b> "<b>submodules/FFT_fft_ii_0</b>"]]></message>
+   <message level="Debug" culprit="FFT">queue size: 0 starting:altera_fft_ii "submodules/FFT_fft_ii_0"</message>
+   <message level="Info" culprit="fft_ii_0">--- add file: FFT_fft_ii_0_twifp1.hex</message>
+   <message level="Info" culprit="fft_ii_0">--- add file: FFT_fft_ii_0_twifp2.hex</message>
+   <message level="Info" culprit="fft_ii_0">--- add file: FFT_fft_ii_0_twrfp1.hex</message>
+   <message level="Info" culprit="fft_ii_0">--- add file: FFT_fft_ii_0_twrfp2.hex</message>
+   <message level="Info" culprit="fft_ii_0">--- add file: FFT_fft_ii_0_twifp3.hex</message>
+   <message level="Info" culprit="fft_ii_0">--- add file: FFT_fft_ii_0_twrfp3.hex</message>
+   <message level="Info" culprit="fft_ii_0">--- add file: FFT_fft_ii_0_twifp4.hex</message>
+   <message level="Info" culprit="fft_ii_0">--- add file: FFT_fft_ii_0_twrfp4.hex</message>
+   <message level="Info" culprit="fft_ii_0">--- add file: FFT_fft_ii_0_twqfp1.hex</message>
+   <message level="Info" culprit="fft_ii_0">--- add file: FFT_fft_ii_0_twqfp2.hex</message>
+   <message level="Info" culprit="fft_ii_0">--- add file: FFT_fft_ii_0_twqfp3.hex</message>
+   <message level="Info" culprit="fft_ii_0">--- add file: FFT_fft_ii_0_twqfp4.hex</message>
+   <message level="Info" culprit="fft_ii_0"><![CDATA["<b>FFT</b>" instantiated <b>altera_fft_ii</b> "<b>fft_ii_0</b>"]]></message>
+  </messages>
+ </entity>
+ <entity
+   path="submodules/"
+   parameterizationKey="altera_fft_ii:17.1:CALC_LATENCY=1024,THROUGHPUT_LATENCY=1024,data_flow=Variable Streaming,data_rep=Single Floating Point,design_env=NATIVE,direction=Forward,dsp_resource_opt=false,engine_arch=Quad Output,hard_fp=false,hyper_opt=false,in_order=Natural,in_width=18,in_width_derived=32,length=1024,num_engines=1,num_engines_derived=1,out_order=Digit Reverse,out_width=29,out_width_derived=32,selected_device_family=Cyclone V,twid_width=18,twid_width_derived=32"
+   instancePathKey="FFT:.:fft_ii_0"
+   kind="altera_fft_ii"
+   version="17.1"
+   name="FFT_fft_ii_0">
+  <parameter name="THROUGHPUT_LATENCY" value="1024" />
+  <parameter name="in_width_derived" value="32" />
+  <parameter name="in_order" value="Natural" />
+  <parameter name="hyper_opt" value="false" />
+  <parameter name="num_engines_derived" value="1" />
+  <parameter name="twid_width_derived" value="32" />
+  <parameter name="length" value="1024" />
+  <parameter name="out_order" value="Digit Reverse" />
+  <parameter name="selected_device_family" value="Cyclone V" />
+  <parameter name="dsp_resource_opt" value="false" />
+  <parameter name="CALC_LATENCY" value="1024" />
+  <parameter name="design_env" value="NATIVE" />
+  <parameter name="data_rep" value="Single Floating Point" />
+  <parameter name="in_width" value="18" />
+  <parameter name="engine_arch" value="Quad Output" />
+  <parameter name="data_flow" value="Variable Streaming" />
+  <parameter name="out_width" value="29" />
+  <parameter name="num_engines" value="1" />
+  <parameter name="out_width_derived" value="32" />
+  <parameter name="hard_fp" value="false" />
+  <parameter name="twid_width" value="18" />
+  <parameter name="direction" value="Forward" />
+  <generatedFiles>
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/FFT_fft_ii_0_twifp1.hex"
+       type="HEX"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/FFT_fft_ii_0_twifp2.hex"
+       type="HEX"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/FFT_fft_ii_0_twrfp1.hex"
+       type="HEX"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/FFT_fft_ii_0_twrfp2.hex"
+       type="HEX"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/FFT_fft_ii_0_twifp3.hex"
+       type="HEX"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/FFT_fft_ii_0_twrfp3.hex"
+       type="HEX"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/FFT_fft_ii_0_twifp4.hex"
+       type="HEX"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/FFT_fft_ii_0_twrfp4.hex"
+       type="HEX"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/FFT_fft_ii_0_twqfp1.hex"
+       type="HEX"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/FFT_fft_ii_0_twqfp2.hex"
+       type="HEX"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/FFT_fft_ii_0_twqfp3.hex"
+       type="HEX"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/FFT_fft_ii_0_twqfp4.hex"
+       type="HEX"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/auk_dspip_text_pkg.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/auk_dspip_math_pkg.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/auk_dspip_lib_pkg.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/auk_dspip_avalon_streaming_block_sink.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/auk_dspip_avalon_streaming_block_source.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/auk_dspip_roundsat.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/auk_dspip_avalon_streaming_block_sink_fftfprvs.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfp_top.ocp"
+       type="OTHER"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfpbdr_top.ocp"
+       type="OTHER"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfprvs_top.ocp"
+       type="OTHER"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/altera_fft_dual_port_ram.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/altera_fft_dual_port_rom.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/altera_fft_mult_add.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/altera_fft_single_port_rom.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/auk_fft_pkg.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/hyper_pipeline_interface.v"
+       type="VERILOG"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/counter_module.sv"
+       type="SYSTEM_VERILOG"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfpbdr_core.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfpbdr_firststage.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfpbdr_laststage.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfpbdr_stage.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfpbdr_top.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfprvs_core.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfprvs_fft4.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfprvs_firststage.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfprvs_laststage.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfprvs_stage.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfprvs_top.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfprvs_twiddle_opt.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfp_add.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfp_cmplxmult.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfp_core.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfp_del.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfp_dft4.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfp_fft4.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfp_laststage.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfp_lsft32.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfp_mul.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfp_mul_2727.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfp_ram.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfp_rsft32.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfp_rvs.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfp_rvsctl.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfp_shift.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfp_snorm.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfp_snorm_mul.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfp_stage.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfp_sub.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfp_top.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfp_twiddle.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfp_twiddle_opt.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_fftfp_unorm.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_hcc_cntsgn32.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_hcc_cntusgn32.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_hcc_sgnpstn.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/apn_hcc_usgnpos.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/db/ip/FFT/submodules/FFT_fft_ii_0.sv"
+       type="SYSTEM_VERILOG"
+       attributes="" />
+  </generatedFiles>
+  <childGeneratedFiles/>
+  <sourceFiles>
+   <file
+       path="C:/intelfpga_lite/17.1/ip/altera/dsp/altera_fft_ii/altera_fft_ii_hw.tcl" />
+   <file
+       path="C:/intelFPGA_lite/17.1/ip/altera/dsp/altera_fft_ii/fft_helper.jar" />
+   <file
+       path="C:/intelFPGA_lite/17.1/quartus/sopc_builder/model/lib/com.altera.entityinterfaces.jar" />
+  </sourceFiles>
+  <childSourceFiles/>
+  <instantiator instantiator="FFT" as="fft_ii_0" />
+  <messages>
+   <message level="Debug" culprit="FFT">queue size: 0 starting:altera_fft_ii "submodules/FFT_fft_ii_0"</message>
+   <message level="Info" culprit="fft_ii_0">--- add file: FFT_fft_ii_0_twifp1.hex</message>
+   <message level="Info" culprit="fft_ii_0">--- add file: FFT_fft_ii_0_twifp2.hex</message>
+   <message level="Info" culprit="fft_ii_0">--- add file: FFT_fft_ii_0_twrfp1.hex</message>
+   <message level="Info" culprit="fft_ii_0">--- add file: FFT_fft_ii_0_twrfp2.hex</message>
+   <message level="Info" culprit="fft_ii_0">--- add file: FFT_fft_ii_0_twifp3.hex</message>
+   <message level="Info" culprit="fft_ii_0">--- add file: FFT_fft_ii_0_twrfp3.hex</message>
+   <message level="Info" culprit="fft_ii_0">--- add file: FFT_fft_ii_0_twifp4.hex</message>
+   <message level="Info" culprit="fft_ii_0">--- add file: FFT_fft_ii_0_twrfp4.hex</message>
+   <message level="Info" culprit="fft_ii_0">--- add file: FFT_fft_ii_0_twqfp1.hex</message>
+   <message level="Info" culprit="fft_ii_0">--- add file: FFT_fft_ii_0_twqfp2.hex</message>
+   <message level="Info" culprit="fft_ii_0">--- add file: FFT_fft_ii_0_twqfp3.hex</message>
+   <message level="Info" culprit="fft_ii_0">--- add file: FFT_fft_ii_0_twqfp4.hex</message>
+   <message level="Info" culprit="fft_ii_0"><![CDATA["<b>FFT</b>" instantiated <b>altera_fft_ii</b> "<b>fft_ii_0</b>"]]></message>
+  </messages>
+ </entity>
+</deploy>

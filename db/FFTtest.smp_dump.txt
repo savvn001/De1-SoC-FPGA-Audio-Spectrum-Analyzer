@@ -1,0 +1,63 @@
+
+State Machine - |FFTtest|FFT:u0|FFT_fft_ii_0:fft_ii_0|asj_fft_dualstream:asj_fft_dualstream_inst|fft_s1_cur
+Name fft_s1_cur.LAST_INPUT fft_s1_cur.CHECK_DAV fft_s1_cur.WRITE_INPUT fft_s1_cur.WAIT_FOR_INPUT fft_s1_cur.IDLE 
+fft_s1_cur.IDLE 0 0 0 0 0 
+fft_s1_cur.WAIT_FOR_INPUT 0 0 0 1 1 
+fft_s1_cur.WRITE_INPUT 0 0 1 0 1 
+fft_s1_cur.CHECK_DAV 0 1 0 0 1 
+fft_s1_cur.LAST_INPUT 1 0 0 0 1 
+
+State Machine - |FFTtest|FFT:u0|FFT_fft_ii_0:fft_ii_0|asj_fft_dualstream:asj_fft_dualstream_inst|auk_dspip_avalon_streaming_source:auk_dsp_atlantic_source_1|\packet_multi:source_state
+Name \packet_multi:source_state.end1 \packet_multi:source_state.st_err \packet_multi:source_state.run1 \packet_multi:source_state.sop \packet_multi:source_state.start 
+\packet_multi:source_state.start 0 0 0 0 0 
+\packet_multi:source_state.sop 0 0 0 1 1 
+\packet_multi:source_state.run1 0 0 1 0 1 
+\packet_multi:source_state.st_err 0 1 0 0 1 
+\packet_multi:source_state.end1 1 0 0 0 1 
+
+State Machine - |FFTtest|FFT:u0|FFT_fft_ii_0:fft_ii_0|asj_fft_dualstream:asj_fft_dualstream_inst|auk_dspip_avalon_streaming_sink:auk_dsp_atlantic_sink_1|sink_state
+Name sink_state.end1 sink_state.st_err sink_state.run1 sink_state.stall sink_state.start 
+sink_state.start 0 0 0 0 0 
+sink_state.stall 0 0 0 1 1 
+sink_state.run1 0 0 1 0 1 
+sink_state.st_err 0 1 0 0 1 
+sink_state.end1 1 0 0 0 1 
+
+State Machine - |FFTtest|FFT:u0|FFT_fft_ii_0:fft_ii_0|asj_fft_dualstream:asj_fft_dualstream_inst|auk_dspip_avalon_streaming_sink:auk_dsp_atlantic_sink_1|sink_out_state
+Name sink_out_state.empty_and_ready sink_out_state.empty_and_not_ready sink_out_state.normal 
+sink_out_state.normal 0 0 0 
+sink_out_state.empty_and_not_ready 0 1 1 
+sink_out_state.empty_and_ready 1 0 1 
+
+State Machine - |FFTtest|FFT:u0|FFT_fft_ii_0:fft_ii_0|asj_fft_dualstream:asj_fft_dualstream_inst|fft_s2_cur
+Name fft_s2_cur.LAST_LPP_C fft_s2_cur.LPP_C_OUTPUT fft_s2_cur.FIRST_LPP_C fft_s2_cur.WAIT_FOR_LPP_INPUT fft_s2_cur.IDLE 
+fft_s2_cur.IDLE 0 0 0 0 0 
+fft_s2_cur.WAIT_FOR_LPP_INPUT 0 0 0 1 1 
+fft_s2_cur.FIRST_LPP_C 0 0 1 0 1 
+fft_s2_cur.LPP_C_OUTPUT 0 1 0 0 1 
+fft_s2_cur.LAST_LPP_C 1 0 0 0 1 
+
+State Machine - |FFTtest|FFT:u0|FFT_fft_ii_0:fft_ii_0|asj_fft_dualstream:asj_fft_dualstream_inst|asj_fft_dft_bfp:bfpdft_y|asj_fft_bfp_o:\gen_disc:bfp_detect|sdetd
+Name sdetd.DISABLE sdetd.SLBI sdetd.GBLK sdetd.ENABLE sdetd.BLOCK_READY sdetd.IDLE 
+sdetd.IDLE 0 0 0 0 0 0 
+sdetd.BLOCK_READY 0 0 0 0 1 1 
+sdetd.ENABLE 0 0 0 1 0 1 
+sdetd.GBLK 0 0 1 0 0 1 
+sdetd.SLBI 0 1 0 0 0 1 
+sdetd.DISABLE 1 0 0 0 0 1 
+
+State Machine - |FFTtest|FFT:u0|FFT_fft_ii_0:fft_ii_0|asj_fft_dualstream:asj_fft_dualstream_inst|asj_fft_dft_bfp:bfpdft_x|asj_fft_bfp_o:\gen_disc:bfp_detect|sdetd
+Name sdetd.DISABLE sdetd.SLBI sdetd.GBLK sdetd.ENABLE sdetd.BLOCK_READY sdetd.IDLE 
+sdetd.IDLE 0 0 0 0 0 0 
+sdetd.BLOCK_READY 0 0 0 0 1 1 
+sdetd.ENABLE 0 0 0 1 0 1 
+sdetd.GBLK 0 0 1 0 0 1 
+sdetd.SLBI 0 1 0 0 0 1 
+sdetd.DISABLE 1 0 0 0 0 1 
+
+State Machine - |FFTtest|FFT:u0|FFT_fft_ii_0:fft_ii_0|asj_fft_dualstream:asj_fft_dualstream_inst|asj_fft_m_k_counter:ctrl|k_state
+Name k_state.HOLD k_state.NEXT_PASS_UPD k_state.RUN_CNT k_state.IDLE 
+k_state.IDLE 0 0 0 0 
+k_state.RUN_CNT 0 0 1 1 
+k_state.NEXT_PASS_UPD 0 1 0 1 
+k_state.HOLD 1 0 0 1 

@@ -1,0 +1,121 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "LRC_OUT",
+					"strict" : false
+				},
+				{
+					"name" : "DATA_OUT[0]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA_OUT[1]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA_OUT[2]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA_OUT[3]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA_OUT[4]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA_OUT[5]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA_OUT[6]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA_OUT[7]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA_OUT[8]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA_OUT[9]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA_OUT[10]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA_OUT[11]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA_OUT[12]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA_OUT[13]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA_OUT[14]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA_OUT[15]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA_OUT[16]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA_OUT[17]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA_OUT[18]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA_OUT[19]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA_OUT[20]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA_OUT[21]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA_OUT[22]",
+					"strict" : false
+				},
+				{
+					"name" : "AUD_LRC",
+					"strict" : false
+				},
+				{
+					"name" : "AUD_BCLK",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "AUD_ADC_DATA",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
