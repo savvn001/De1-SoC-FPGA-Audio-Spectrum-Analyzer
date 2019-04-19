@@ -1,7 +1,7 @@
-Analysis & Elaboration Status : Successful - Wed Apr 17 00:06:41 2019
+Analysis & Elaboration Status : Successful - Fri Apr 19 01:35:19 2019
 Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 Revision Name : FFTtest
-Top-level Entity Name : audioCore
+Top-level Entity Name : aFifo
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A until Partition Merge
 Total registers : N/A until Partition Merge

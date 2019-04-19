@@ -8,52 +8,51 @@ z2
 !i10f 100
 cModel Technology
 Z0 dC:/intelFPGA_lite/17.1/projects/FFTtest/simulation
-vaudioCore
-Z1 !s110 1555456032
+vaFifo
+Z1 !s110 1555634148
 !i10b 1
-!s100 44ammeYg8Da7n0IYn[jAi0
-IIakR5@<H=3g[B<>_>BC8N3
+!s100 n^S3^Y];`86SIEka9z8Sj3
+Ie3L[e]1[UHkX^2jf;zdbD1
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1555455338
-8C:/intelFPGA_lite/17.1/projects/FFTtest/audioCore.v
-FC:/intelFPGA_lite/17.1/projects/FFTtest/audioCore.v
-L0 1
+w1555631555
+8C:/intelFPGA_lite/17.1/projects/FFTtest/aFifo.v
+FC:/intelFPGA_lite/17.1/projects/FFTtest/aFifo.v
+L0 14
 Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1555456032.000000
-!s107 C:/intelFPGA_lite/17.1/projects/FFTtest/audioCore.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/17.1/projects/FFTtest|C:/intelFPGA_lite/17.1/projects/FFTtest/audioCore.v|
+Z4 !s108 1555634148.000000
+!s107 C:/intelFPGA_lite/17.1/projects/FFTtest/aFifo.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/17.1/projects/FFTtest|C:/intelFPGA_lite/17.1/projects/FFTtest/aFifo.v|
 !i113 1
 Z5 o-vlog01compat -work work
-!s92 -vlog01compat -work work +incdir+C:/intelFPGA_lite/17.1/projects/FFTtest
-Z6 tCvgOpt 0
-naudio@core
-vaudioCore_tb
-!s110 1555456033
+Z6 !s92 -vlog01compat -work work +incdir+C:/intelFPGA_lite/17.1/projects/FFTtest
+Z7 tCvgOpt 0
+na@fifo
+vafifo_tb
+R1
 !i10b 1
-!s100 [iK6VhDd0CYDocb0CmCg>0
-ILEJoaLHRQPCdWn=Hc1B953
+!s100 YJKfaLhDHJf8dCJiY3>3b3
+IbBZLXA[D:m5TOdd8ADaXE0
 R2
 R0
-w1555455974
-8C:/intelFPGA_lite/17.1/projects/FFTtest/simulation/audioCore_tb.v
-FC:/intelFPGA_lite/17.1/projects/FFTtest/simulation/audioCore_tb.v
+w1555634092
+8C:/intelFPGA_lite/17.1/projects/FFTtest/simulation/aFifo_tb.v
+FC:/intelFPGA_lite/17.1/projects/FFTtest/simulation/aFifo_tb.v
 L0 6
 R3
 r1
 !s85 0
 31
-!s108 1555456033.000000
-!s107 C:/intelFPGA_lite/17.1/projects/FFTtest/simulation/audioCore_tb.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/17.1/projects/FFTtest/simulation|C:/intelFPGA_lite/17.1/projects/FFTtest/simulation/audioCore_tb.v|
+R4
+!s107 C:/intelFPGA_lite/17.1/projects/FFTtest/simulation/aFifo_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/17.1/projects/FFTtest/simulation|C:/intelFPGA_lite/17.1/projects/FFTtest/simulation/aFifo_tb.v|
 !i113 1
 R5
 !s92 -vlog01compat -work work +incdir+C:/intelFPGA_lite/17.1/projects/FFTtest/simulation
-R6
-naudio@core_tb
+R7
 vFFT
 R1
 !i10b 1
@@ -73,5 +72,28 @@ R4
 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/FFT.v|
 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/FFT.v|
 !i113 1
-R6
+R7
 n@f@f@t
+vGrayCounter
+R1
+!i10b 1
+!s100 <dmnYnFY3NffhflC`J:Zd3
+I0Df1E>L<jokdFImZQz0LD0
+R2
+R0
+w1555597880
+8C:/intelFPGA_lite/17.1/projects/FFTtest/GrayCounter.v
+FC:/intelFPGA_lite/17.1/projects/FFTtest/GrayCounter.v
+L0 9
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/intelFPGA_lite/17.1/projects/FFTtest/GrayCounter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/17.1/projects/FFTtest|C:/intelFPGA_lite/17.1/projects/FFTtest/GrayCounter.v|
+!i113 1
+R5
+R6
+R7
+n@gray@counter

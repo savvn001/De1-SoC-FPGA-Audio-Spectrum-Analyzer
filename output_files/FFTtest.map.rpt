@@ -1,5 +1,5 @@
 Analysis & Elaboration report for FFTtest
-Wed Apr 17 00:06:41 2019
+Fri Apr 19 01:35:19 2019
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -9,8 +9,11 @@ Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
   1. Legal Notice
   2. Analysis & Elaboration Summary
   3. Parallel Compilation
-  4. Analysis & Elaboration Settings
-  5. Analysis & Elaboration Messages
+  4. Parameter Settings for User Entity Instance: Top-level Entity: |aFifo
+  5. Parameter Settings for User Entity Instance: GrayCounter:GrayCounter_pWr
+  6. Parameter Settings for User Entity Instance: GrayCounter:GrayCounter_pRd
+  7. Analysis & Elaboration Settings
+  8. Analysis & Elaboration Messages
 
 
 
@@ -36,10 +39,10 @@ refer to the applicable agreement for further details.
 +-----------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                              ;
 +-------------------------------+---------------------------------------------+
-; Analysis & Elaboration Status ; Successful - Wed Apr 17 00:06:41 2019       ;
+; Analysis & Elaboration Status ; Successful - Fri Apr 19 01:35:19 2019       ;
 ; Quartus Prime Version         ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
 ; Revision Name                 ; FFTtest                                     ;
-; Top-level Entity Name         ; audioCore                                   ;
+; Top-level Entity Name         ; aFifo                                       ;
 ; Family                        ; Cyclone V                                   ;
 ; Logic utilization (in ALMs)   ; N/A until Partition Merge                   ;
 ; Total registers               ; N/A until Partition Merge                   ;
@@ -56,7 +59,7 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 4           ;
+; Number detected on machine ; 6           ;
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
@@ -67,13 +70,45 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 
 
++-----------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Top-level Entity: |aFifo ;
++----------------+-------+----------------------------------------------+
+; Parameter Name ; Value ; Type                                         ;
++----------------+-------+----------------------------------------------+
+; DATA_WIDTH     ; 24    ; Signed Integer                               ;
+; ADDRESS_WIDTH  ; 4     ; Signed Integer                               ;
+; FIFO_DEPTH     ; 16    ; Signed Integer                               ;
++----------------+-------+----------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: GrayCounter:GrayCounter_pWr ;
++----------------+-------+-------------------------------------------------+
+; Parameter Name ; Value ; Type                                            ;
++----------------+-------+-------------------------------------------------+
+; COUNTER_WIDTH  ; 4     ; Signed Integer                                  ;
++----------------+-------+-------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: GrayCounter:GrayCounter_pRd ;
++----------------+-------+-------------------------------------------------+
+; Parameter Name ; Value ; Type                                            ;
++----------------+-------+-------------------------------------------------+
+; COUNTER_WIDTH  ; 4     ; Signed Integer                                  ;
++----------------+-------+-------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
 +---------------------------------------------------------------------------------------------------------------------------+
 ; Analysis & Elaboration Settings                                                                                           ;
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 ; Option                                                                          ; Setting            ; Default Value      ;
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 ; Device                                                                          ; 5CSEMA5F31C6       ;                    ;
-; Top-level entity name                                                           ; audioCore          ; FFTtest            ;
+; Top-level entity name                                                           ; aFifo              ; FFTtest            ;
 ; Family name                                                                     ; Cyclone V          ; Cyclone V          ;
 ; Use smart compilation                                                           ; Off                ; Off                ;
 ; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation      ; On                 ; On                 ;
@@ -160,7 +195,7 @@ refer to the applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
-    Info: Processing started: Wed Apr 17 00:06:17 2019
+    Info: Processing started: Fri Apr 19 01:34:55 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off FFTtest -c FFTtest --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20032): Parallel compilation is enabled and will use up to 4 processors
@@ -438,23 +473,26 @@ Info (12021): Found 1 design units, including 1 entities, in source file fft/syn
     Info (12023): Found entity 1: apn_fft_mult_cpx_1825 File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/apn_fft_mult_cpx_1825.v Line: 19
 Info (12021): Found 1 design units, including 1 entities, in source file fft/synthesis/submodules/fft_fft_ii_0.sv
     Info (12023): Found entity 1: FFT_fft_ii_0 File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/FFT_fft_ii_0.sv Line: 15
-Info (12021): Found 1 design units, including 1 entities, in source file audiocore.v
-    Info (12023): Found entity 1: audioCore File: C:/intelFPGA_lite/17.1/projects/FFTtest/audioCore.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file simulation/audiocore_tb.v
-    Info (12023): Found entity 1: audioCore_tb File: C:/intelFPGA_lite/17.1/projects/FFTtest/simulation/audioCore_tb.v Line: 6
-Info (12021): Found 1 design units, including 1 entities, in source file simulation/ffttest_tb.v
-    Info (12023): Found entity 1: FFTtest_tb File: C:/intelFPGA_lite/17.1/projects/FFTtest/simulation/FFTtest_tb.v Line: 4
-Info (12127): Elaborating entity "audioCore" for the top level hierarchy
-Warning (10230): Verilog HDL assignment warning at audioCore.v(52): truncated value with size 25 to match size of target (24) File: C:/intelFPGA_lite/17.1/projects/FFTtest/audioCore.v Line: 52
-Warning (10230): Verilog HDL assignment warning at audioCore.v(57): truncated value with size 25 to match size of target (24) File: C:/intelFPGA_lite/17.1/projects/FFTtest/audioCore.v Line: 57
+Info (12021): Found 1 design units, including 1 entities, in source file afifo.v
+    Info (12023): Found entity 1: aFifo File: C:/intelFPGA_lite/17.1/projects/FFTtest/aFifo.v Line: 14
+Info (12021): Found 1 design units, including 1 entities, in source file simulation/afifo_tb.v
+    Info (12023): Found entity 1: afifo_tb File: C:/intelFPGA_lite/17.1/projects/FFTtest/simulation/aFifo_tb.v Line: 6
+Info (12021): Found 1 design units, including 1 entities, in source file graycounter.v
+    Info (12023): Found entity 1: GrayCounter File: C:/intelFPGA_lite/17.1/projects/FFTtest/GrayCounter.v Line: 9
+Info (12127): Elaborating entity "aFifo" for the top level hierarchy
+Warning (10240): Verilog HDL Always Construct warning at aFifo.v(87): inferring latch(es) for variable "Status", which holds its previous value in one or more paths through the always construct File: C:/intelFPGA_lite/17.1/projects/FFTtest/aFifo.v Line: 87
+Info (10041): Inferred latch for "Status" at aFifo.v(90) File: C:/intelFPGA_lite/17.1/projects/FFTtest/aFifo.v Line: 90
+Info (12128): Elaborating entity "GrayCounter" for hierarchy "GrayCounter:GrayCounter_pWr" File: C:/intelFPGA_lite/17.1/projects/FFTtest/aFifo.v Line: 66
+Warning (10230): Verilog HDL assignment warning at graycounter.v(26): truncated value with size 32 to match size of target (4) File: C:/intelFPGA_lite/17.1/projects/FFTtest/graycounter.v Line: 26
+Warning (10230): Verilog HDL assignment warning at graycounter.v(30): truncated value with size 32 to match size of target (4) File: C:/intelFPGA_lite/17.1/projects/FFTtest/graycounter.v Line: 30
 Warning (20013): Ignored 22 assignments for entity "FFT" -- entity does not exist in design
     Warning (20014): Assignment for entity set_global_assignment -name IP_TOOL_NAME Qsys -entity FFT -sip FFT/simulation/FFT.sip -library lib_FFT was ignored
     Warning (20014): Assignment for entity set_global_assignment -name IP_TOOL_VERSION 17.1 -entity FFT -sip FFT/simulation/FFT.sip -library lib_FFT was ignored
     Warning (20014): Assignment for entity set_global_assignment -name IP_TOOL_ENV Qsys -entity FFT -sip FFT/simulation/FFT.sip -library lib_FFT was ignored
 Warning (20013): Ignored 33 assignments for entity "FFT_fft_ii_0" -- entity does not exist in design
-Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 8 warnings
-    Info: Peak virtual memory: 4908 megabytes
-    Info: Processing ended: Wed Apr 17 00:06:41 2019
+Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 9 warnings
+    Info: Peak virtual memory: 4906 megabytes
+    Info: Processing ended: Fri Apr 19 01:35:19 2019
     Info: Elapsed time: 00:00:24
     Info: Total CPU time (on all processors): 00:00:38
 

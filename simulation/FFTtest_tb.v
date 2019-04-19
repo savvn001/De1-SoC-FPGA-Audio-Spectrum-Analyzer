@@ -3,7 +3,8 @@
 
 module FFTtest_tb;
 
-	reg clk_sig = 1'b0; 			//Input clock signal					
+	reg MCLK = 1'b0; 			//50MHZ board clock
+	reg LR_CLK = 1'b0;		//48khz input clock
 	reg [23:0] sink_real_sig;	//Input real parts
 	reg [23:0] sink_imag_sig;  //Input imaginary parts
 	reg reset_sig;
@@ -20,7 +21,8 @@ module FFTtest_tb;
 	 
 	 FFTtest FFTtest_inst
 (
-	.clk(clk_sig) ,	// input  clk_sig
+	.CLK_50(MCLK) ,	// input  clk_sig
+	.CLK_48(LR_CLK),
 	.sink_real(sink_real_sig) ,	// input [23:0] sink_real_sig
 	.sink_imag(sink_imag_sig) ,	// input [23:0] sink_imag_sig
 	.reset(reset_sig) ,	// input  reset_sig
@@ -52,7 +54,7 @@ module FFTtest_tb;
 		else begin
 		
 		reset_sig = 0;
-		repeat(10) @(posedge clk_sig); 
+		repeat(10) @(posedge MCLK); 
 		reset_sig = 1;
 		
 		end
@@ -60,7 +62,7 @@ module FFTtest_tb;
 	end
 	
 	initial begin
-		clk_sig = 0;
+		MCLK = 0;
 	end
 
 	
@@ -68,12 +70,20 @@ module FFTtest_tb;
 		
 		//Simulate 48Khz clock signal, from audio codec module since samples will be coming in at 
 		//this rate
-		#10.41666666665 clk_sig <= ~clk_sig; 
+		#10.41666666665 LR_CLK <= ~LR_CLK; 
+		
+	end
+	
+	always begin
+	
+		#0.01041666665 MCLK <= ~MCLK; //50 MHZ 
+
+		
 	end
 	
 
 
-	always @ (posedge clk_sig) begin
+	always @ (posedge MCLK) begin
 	
 		if(reset_sig) begin	
 						

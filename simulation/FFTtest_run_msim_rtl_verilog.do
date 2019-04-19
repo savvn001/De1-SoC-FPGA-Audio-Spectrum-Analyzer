@@ -115,10 +115,11 @@ vlog     "C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/ment
 vlog -sv "C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/FFT_fft_ii_0.sv"                                    -work fft_ii_0
 vlog     "C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/FFT.v"                                                                       
 
-vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/17.1/projects/FFTtest {C:/intelFPGA_lite/17.1/projects/FFTtest/audioCore.v}
+vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/17.1/projects/FFTtest {C:/intelFPGA_lite/17.1/projects/FFTtest/aFifo.v}
+vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/17.1/projects/FFTtest {C:/intelFPGA_lite/17.1/projects/FFTtest/GrayCounter.v}
 
-vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/17.1/projects/FFTtest/simulation {C:/intelFPGA_lite/17.1/projects/FFTtest/simulation/audioCore_tb.v}
+vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/17.1/projects/FFTtest/simulation {C:/intelFPGA_lite/17.1/projects/FFTtest/simulation/aFifo_tb.v}
 
-vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -L fft_ii_0 -voptargs="+acc"  audioCore_tb
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -L fft_ii_0 -voptargs="+acc"  aFifo_tb
 
 do C:/intelFPGA_lite/17.1/projects/FFTtest/simulation/load_sim.tcl

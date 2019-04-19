@@ -7,12 +7,13 @@ module audioCore_tb;
 
 
 	reg         AUD_BCLK_sig;
+	reg 			MCLK_sig;
 	reg         AUD_ADC_DATA_sig;
 	reg 			reset;
 	
 	reg [5:0] 	bclk_counter;
 	reg [4:0]	sample_value_bit_ctr; //Counts to 32
-	reg [23:0] 	sample_value = 24'b0; //Counts to 64
+	reg [23:0] 	sample_value = 24'b0; 
 	
 	wire        AUD_LRC_sig;
 	
@@ -23,6 +24,7 @@ module audioCore_tb;
 		audioCore audioCore_inst
 	(
 		.AUD_BCLK(AUD_BCLK_sig) ,	// input  AUD_BCLK_sig
+		.MCLK(MCLK_sig),
 		.AUD_LRC(AUD_LRC_sig) ,	// input  AUD_LRC_sig
 		.AUD_ADC_DATA(AUD_ADC_DATA_sig) ,	// input  AUD_ADC_DATA_sig
 		.reset(reset),							//input reset
