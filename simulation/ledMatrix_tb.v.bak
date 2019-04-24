@@ -1,0 +1,40 @@
+// Audio Interface
+
+	`timescale 1 us/100 ps
+	
+	
+module ledMatrix_tb;	
+
+
+
+	
+	initial begin
+	
+
+	repeat(5) @(negedge CLK_48_sig);
+	
+	end
+	
+	
+	
+	 
+	always begin
+
+	end
+	
+	always begin
+	
+		#0.01 CLK_50_sig <= ~CLK_50_sig; //50 MHZ 
+
+		
+	end
+
+	 
+
+	always @ (posedge CLK_48_sig) begin
+	
+
+	end
+	
+	
+	endmodule

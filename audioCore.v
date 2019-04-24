@@ -12,7 +12,6 @@ module audioCore(
 
 
 	input AUD_BCLK,		//Bit clock from codec
-	input MCLK,				//50MHZ clock from board 
 	input AUD_LRC,			//Left Right/Word Select/Frame Select Clock signal - 48kHz
 	input AUD_ADC_DATA,	//ADC data from codec L/R interleaved
 	input reset,			//Reset - ACTIVE LOW
@@ -103,7 +102,7 @@ module audioCore(
 		
 	always @(posedge AUD_LRC) begin
 	
-		//if(reset) begin
+		//if(!reset) begin
 		
 			//left_data <= 24'd0;
 			//right_data <= 24'd0;
@@ -119,45 +118,4 @@ module audioCore(
 	end
 	
 	
-	
-	/****************** FIFO ******************/
-	/*
-	//Writing to FIFO
-	always @(posedge AUD_LRC) begin
-	
-	
-		if(!reset)
-		
-			in_wptr <= 0;
-		//Check space in FIFO 
-		else (!in_full)
-		
-			in_wptr <= in_wptr; //Increment write pointer
-			
-			IN_FIFO[in_wptr[11:0]]; <=  sample_mono; //Fill current FIFO element with sample 
-			
-	end
-	
-	
-	//Reading from FIFO
-	always @(posedge MCLK) begin
-	
-		if(!reset)
-		
-			in_rptr <= 0;
-			
-		//Check space in FIFO 
-		else (!in_empty)
-		
-			in_rptr <= in_rptr; //Increment write pointer
-			
-			IN_FIFO[in_wptr[11:0]]; <=  sample_mono; //Fill current FIFO element with sample 
-			
-	
-	
-	
-	end
-	
-*/
-
 endmodule

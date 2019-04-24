@@ -1,16 +1,18 @@
-module FFTtest(
+module FFTcore(
 	
 	input MCLK, 						//50MHZ board clock
-	input LR_CLK,						//48Khz sampling rate clock
 	input [23:0] sink_real,	//Input real parts
 	input [23:0] sink_imag,	//Input imaginary parts
+	input sink_valid,
+	input sink_sop,
+	input sink_eop,
 	input reset,
 	
 	output sink_ready,				//FFT asserts when ready
 	output [1:0] source_error,		//FFT asserts when error occurs
 	output source_valid,				//Asserted by FFT when valid data to output
 	output source_sop,				//FFT start of packet
-	output source_eop,				//FFT end of packet
+	output source_eop,				//FFT 	 of packet
 	output [23:0] source_real,			//FFT real ouput
 	output [23:0] source_imag,			//FFT imaginary output
 	output [5:0] source_exp 		//Exponent 
@@ -18,10 +20,8 @@ module FFTtest(
 	
 	reg [11:0] sample_counter;
 	
-	reg sink_sop; //input start of incoming FFT frame 
-	reg sink_eop; //input end of incoming FFT frame
-//	reg reset;
-	reg sink_valid;
+	//reg sink_sop; //input start of incoming FFT frame 
+	//reg sink_eop; //input 	 of incoming FFT frame
 	reg source_ready;
 	reg inverse;
 	reg [1:0] sink_error;
@@ -33,7 +33,7 @@ module FFTtest(
         .sink_ready   (sink_ready),   //       .sink_ready - outputs from FFT when ready to accept data
         .sink_error   (sink_error),   //       .sink_error - input error, probably won't use 
         .sink_sop     (sink_sop),     //       .sink_sop	  - input start of incoming FFT frame
-        .sink_eop     (sink_eop),     //       .sink_eop   - input end of incoming FFT frame
+        .sink_eop     (sink_eop),     //       .sink_eop   - input 	 of incoming FFT frame
         .sink_real    (sink_real),    //       .sink_real  - input sequence real parts
         .sink_imag    (sink_imag),    //       .sink_imag  - input sequence imaginary parts
         .inverse      (inverse),      //       .inverse
@@ -41,7 +41,7 @@ module FFTtest(
         .source_ready (source_ready), //       .source_ready - input, asserted when ready to accept data(?)
         .source_error (source_error), //       .source_error - FFT core output when error in module
         .source_sop   (source_sop), 			  //       .source_sop - output marks start of outgoing FFT frame
-        .source_eop   (source_eop),  		 //       .source_eop - output marks end of outgoing FFT frame
+        .source_eop   (source_eop),  		 //       .source_eop - output marks 	 of outgoing FFT frame
         .source_real  (source_real),  //       .source_real - output sequence real data
         .source_imag  (source_imag),  //       .source_imag - output sequence imaginary data 
         .source_exp   (source_exp)  			  //       .source_exp - output exponent 
@@ -50,59 +50,34 @@ module FFTtest(
 	initial begin
 		
 		sample_counter = 0;
-		sink_sop = 0;
-		sink_eop = 0;
-	//	reset = 1;
-		sink_valid = 0;
+
+		//sink_valid = 0;
 		source_ready = 1;
 		sink_error = 2'b00;
 		inverse = 0;
 		
+		
 	end
 	
 	
-	/* Assert in_valid for 1 MCLK cycle when data changes */
-
+	wire test = !sink_valid & MCLK;
 	
 	/* Increment sample counter on every LR CLK */
-	always @(posedge LR_CLK) begin
+	always @(posedge MCLK) begin
 	
-		if(reset)	begin
-			
-			sample_counter<=sample_counter+1; //Increment counter	
-			
-		end
+		if(sink_valid) 
 		
-	end
-	
-	/* Assert start of packet signal when first sample sent */
-	always @(posedge LR_CLK) begin
-	
-		if(reset)	begin
-		
-			if(sample_counter == 0) begin
-			sink_sop <= 1;
-			sink_valid = 1;
-			end
-			else
-			sink_sop  <= 0;
-			
-		end
+		sample_counter = sample_counter+1; //Increment counter
+
 	end
 
-	/* Assert end of packet signal when 4096 samples sent */
-	always @(posedge LR_CLK) begin
+	/* Assert sop when first sample sent */
+	//assign sink_sop = sink_valid & sample_counter ==0 ? 1'b1 : 1'b0; 
+	/* Assert eop when first sample sent */
+	//assign sink_eop = sink_valid;
 	
-		if(reset)	begin
-		
-			if(sample_counter == 4095)
-			sink_eop <= 1;
-			else
-			sink_eop <= 0;
-			
-		end
-		
-	end
 
 
-endmodule 
+
+
+endmodule	

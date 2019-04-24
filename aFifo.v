@@ -16,7 +16,7 @@ module aFifo
                  ADDRESS_WIDTH = 4,
                  FIFO_DEPTH    = (1 << ADDRESS_WIDTH))
      //Reading port
-    (output reg  [DATA_WIDTH-1:0]        Data_out, 
+    (output reg  [DATA_WIDTH-1:0]        Data_out,
      output reg                          Empty_out,
      input wire                          ReadEn_in,
      input wire                          RClk,        
@@ -42,9 +42,9 @@ module aFifo
     //(Uses a dual-port RAM).
     //'Data_out' logic:
     always @ (posedge RClk)
-        if (ReadEn_in & !Empty_out)
+        if (ReadEn_in & !Empty_out) begin
             Data_out <= Mem[pNextWordToRead];
-            
+         end 
     //'Data_in' logic:
     always @ (posedge WClk)
         if (WriteEn_in & !Full_out)

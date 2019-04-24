@@ -1,5 +1,5 @@
-Analysis & Elaboration report for FFTtest
-Fri Apr 19 01:35:19 2019
+Analysis & Synthesis report for FFTtest
+Tue Apr 23 15:36:13 2019
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -7,13 +7,18 @@ Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 ; Table of Contents ;
 ---------------------
   1. Legal Notice
-  2. Analysis & Elaboration Summary
-  3. Parallel Compilation
-  4. Parameter Settings for User Entity Instance: Top-level Entity: |aFifo
-  5. Parameter Settings for User Entity Instance: GrayCounter:GrayCounter_pWr
-  6. Parameter Settings for User Entity Instance: GrayCounter:GrayCounter_pRd
-  7. Analysis & Elaboration Settings
-  8. Analysis & Elaboration Messages
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. General Register Statistics
+  9. Parameter Settings for User Entity Instance: Top-level Entity: |ledMatrix
+ 10. Post-Synthesis Netlist Statistics for Top Partition
+ 11. Elapsed Time Per Partition
+ 12. Analysis & Synthesis Messages
+ 13. Analysis & Synthesis Suppressed Messages
 
 
 
@@ -36,79 +41,36 @@ refer to the applicable agreement for further details.
 
 
 
-+-----------------------------------------------------------------------------+
-; Analysis & Elaboration Summary                                              ;
-+-------------------------------+---------------------------------------------+
-; Analysis & Elaboration Status ; Successful - Fri Apr 19 01:35:19 2019       ;
-; Quartus Prime Version         ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
-; Revision Name                 ; FFTtest                                     ;
-; Top-level Entity Name         ; aFifo                                       ;
-; Family                        ; Cyclone V                                   ;
-; Logic utilization (in ALMs)   ; N/A until Partition Merge                   ;
-; Total registers               ; N/A until Partition Merge                   ;
-; Total pins                    ; N/A until Partition Merge                   ;
-; Total virtual pins            ; N/A until Partition Merge                   ;
-; Total block memory bits       ; N/A until Partition Merge                   ;
-; Total PLLs                    ; N/A until Partition Merge                   ;
-; Total DLLs                    ; N/A until Partition Merge                   ;
-+-------------------------------+---------------------------------------------+
-
-
-+------------------------------------------+
-; Parallel Compilation                     ;
-+----------------------------+-------------+
-; Processors                 ; Number      ;
-+----------------------------+-------------+
-; Number detected on machine ; 6           ;
-; Maximum allowed            ; 4           ;
-;                            ;             ;
-; Average used               ; 1.00        ;
-; Maximum used               ; 1           ;
-;                            ;             ;
-; Usage by Processor         ; % Time Used ;
-;     Processor 1            ; 100.0%      ;
-+----------------------------+-------------+
-
-
-+-----------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: Top-level Entity: |aFifo ;
-+----------------+-------+----------------------------------------------+
-; Parameter Name ; Value ; Type                                         ;
-+----------------+-------+----------------------------------------------+
-; DATA_WIDTH     ; 24    ; Signed Integer                               ;
-; ADDRESS_WIDTH  ; 4     ; Signed Integer                               ;
-; FIFO_DEPTH     ; 16    ; Signed Integer                               ;
-+----------------+-------+----------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+--------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: GrayCounter:GrayCounter_pWr ;
-+----------------+-------+-------------------------------------------------+
-; Parameter Name ; Value ; Type                                            ;
-+----------------+-------+-------------------------------------------------+
-; COUNTER_WIDTH  ; 4     ; Signed Integer                                  ;
-+----------------+-------+-------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+--------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: GrayCounter:GrayCounter_pRd ;
-+----------------+-------+-------------------------------------------------+
-; Parameter Name ; Value ; Type                                            ;
-+----------------+-------+-------------------------------------------------+
-; COUNTER_WIDTH  ; 4     ; Signed Integer                                  ;
-+----------------+-------+-------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
++-------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                  ;
++---------------------------------+---------------------------------------------+
+; Analysis & Synthesis Status     ; Successful - Tue Apr 23 15:36:13 2019       ;
+; Quartus Prime Version           ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
+; Revision Name                   ; FFTtest                                     ;
+; Top-level Entity Name           ; ledMatrix                                   ;
+; Family                          ; Cyclone V                                   ;
+; Logic utilization (in ALMs)     ; N/A                                         ;
+; Total registers                 ; 0                                           ;
+; Total pins                      ; 40                                          ;
+; Total virtual pins              ; 0                                           ;
+; Total block memory bits         ; 0                                           ;
+; Total DSP Blocks                ; 0                                           ;
+; Total HSSI RX PCSs              ; 0                                           ;
+; Total HSSI PMA RX Deserializers ; 0                                           ;
+; Total HSSI TX PCSs              ; 0                                           ;
+; Total HSSI PMA TX Serializers   ; 0                                           ;
+; Total PLLs                      ; 0                                           ;
+; Total DLLs                      ; 0                                           ;
++---------------------------------+---------------------------------------------+
 
 
 +---------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Elaboration Settings                                                                                           ;
+; Analysis & Synthesis Settings                                                                                             ;
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 ; Option                                                                          ; Setting            ; Default Value      ;
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 ; Device                                                                          ; 5CSEMA5F31C6       ;                    ;
-; Top-level entity name                                                           ; aFifo              ; FFTtest            ;
+; Top-level entity name                                                           ; ledMatrix          ; FFTtest            ;
 ; Family name                                                                     ; Cyclone V          ; Cyclone V          ;
 ; Use smart compilation                                                           ; Off                ; Off                ;
 ; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation      ; On                 ; On                 ;
@@ -189,14 +151,130 @@ Note: In order to hide this table in the UI and the text report file, please set
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 
 
-+---------------------------------+
-; Analysis & Elaboration Messages ;
-+---------------------------------+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 6           ;
+; Maximum allowed            ; 4           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
++----------------------------+-------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                 ;
++------------------------------------------+-----------------+------------------------------+----------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path         ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                     ; Library ;
++------------------------------------------+-----------------+------------------------------+----------------------------------------------------------------------------------+---------+
+; FFT/synthesis/submodules/FFT_fft_ii_0.sv ; yes             ; User SystemVerilog HDL File  ; C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/FFT_fft_ii_0.sv ; FFT     ;
+; ledMatrix.v                              ; yes             ; User Verilog HDL File        ; C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v                              ;         ;
++------------------------------------------+-----------------+------------------------------+----------------------------------------------------------------------------------+---------+
+
+
++-----------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary         ;
++---------------------------------------------+-------+
+; Resource                                    ; Usage ;
++---------------------------------------------+-------+
+; Estimate of Logic utilization (ALMs needed) ; 0     ;
+;                                             ;       ;
+; Combinational ALUT usage for logic          ; 0     ;
+;     -- 7 input functions                    ; 0     ;
+;     -- 6 input functions                    ; 0     ;
+;     -- 5 input functions                    ; 0     ;
+;     -- 4 input functions                    ; 0     ;
+;     -- <=3 input functions                  ; 0     ;
+;                                             ;       ;
+; Dedicated logic registers                   ; 0     ;
+;                                             ;       ;
+; I/O pins                                    ; 40    ;
+;                                             ;       ;
+; Total DSP Blocks                            ; 0     ;
+;                                             ;       ;
+; Maximum fan-out node                        ; MCLK  ;
+; Maximum fan-out                             ; 1     ;
+; Total fan-out                               ; 40    ;
+; Average fan-out                             ; 0.50  ;
++---------------------------------------------+-------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                    ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+-------------+--------------+
+; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name ; Entity Name ; Library Name ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+-------------+--------------+
+; |ledMatrix                 ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 40   ; 0            ; |ledMatrix          ; ledMatrix   ; work         ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+-------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 0     ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++---------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Top-level Entity: |ledMatrix ;
++----------------+-------+--------------------------------------------------+
+; Parameter Name ; Value ; Type                                             ;
++----------------+-------+--------------------------------------------------+
+; MTRX_HEIGHT    ; 32    ; Signed Integer                                   ;
+; MTRX_LENGTH    ; 64    ; Signed Integer                                   ;
+; BIN_WDITH      ; 24    ; Signed Integer                                   ;
+; BUFFER_WIDTH   ; 8     ; Signed Integer                                   ;
+; BUFFER_SIZE_NO ; 256   ; Signed Integer                                   ;
++----------------+-------+--------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; arriav_lcell_comb     ; 1                           ;
+;     normal            ; 1                           ;
+;         0 data inputs ; 1                           ;
+; boundary_port         ; 40                          ;
+;                       ;                             ;
+; Max LUT depth         ; 0.00                        ;
+; Average LUT depth     ; 0.00                        ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:00     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
 Info: *******************************************************************
-Info: Running Quartus Prime Analysis & Elaboration
+Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
-    Info: Processing started: Fri Apr 19 01:34:55 2019
-Info: Command: quartus_map --read_settings_files=on --write_settings_files=off FFTtest -c FFTtest --analysis_and_elaboration
+    Info: Processing started: Tue Apr 23 15:35:45 2019
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off FFTtest -c FFTtest
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20032): Parallel compilation is enabled and will use up to 4 processors
 Info (12021): Found 1 design units, including 1 entities, in source file fft/synthesis/fft.v
@@ -479,21 +557,123 @@ Info (12021): Found 1 design units, including 1 entities, in source file simulat
     Info (12023): Found entity 1: afifo_tb File: C:/intelFPGA_lite/17.1/projects/FFTtest/simulation/aFifo_tb.v Line: 6
 Info (12021): Found 1 design units, including 1 entities, in source file graycounter.v
     Info (12023): Found entity 1: GrayCounter File: C:/intelFPGA_lite/17.1/projects/FFTtest/GrayCounter.v Line: 9
-Info (12127): Elaborating entity "aFifo" for the top level hierarchy
-Warning (10240): Verilog HDL Always Construct warning at aFifo.v(87): inferring latch(es) for variable "Status", which holds its previous value in one or more paths through the always construct File: C:/intelFPGA_lite/17.1/projects/FFTtest/aFifo.v Line: 87
-Info (10041): Inferred latch for "Status" at aFifo.v(90) File: C:/intelFPGA_lite/17.1/projects/FFTtest/aFifo.v Line: 90
-Info (12128): Elaborating entity "GrayCounter" for hierarchy "GrayCounter:GrayCounter_pWr" File: C:/intelFPGA_lite/17.1/projects/FFTtest/aFifo.v Line: 66
-Warning (10230): Verilog HDL assignment warning at graycounter.v(26): truncated value with size 32 to match size of target (4) File: C:/intelFPGA_lite/17.1/projects/FFTtest/graycounter.v Line: 26
-Warning (10230): Verilog HDL assignment warning at graycounter.v(30): truncated value with size 32 to match size of target (4) File: C:/intelFPGA_lite/17.1/projects/FFTtest/graycounter.v Line: 30
+Info (12021): Found 1 design units, including 1 entities, in source file audiocore.v
+    Info (12023): Found entity 1: audioCore File: C:/intelFPGA_lite/17.1/projects/FFTtest/audioCore.v Line: 11
+Info (12021): Found 1 design units, including 1 entities, in source file fftcore.v
+    Info (12023): Found entity 1: FFTcore File: C:/intelFPGA_lite/17.1/projects/FFTtest/FFTcore.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file toplevel.v
+    Info (12023): Found entity 1: topLevel File: C:/intelFPGA_lite/17.1/projects/FFTtest/topLevel.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file simulation/audiocore_tb.v
+    Info (12023): Found entity 1: audioCore_tb File: C:/intelFPGA_lite/17.1/projects/FFTtest/simulation/audioCore_tb.v Line: 6
+Info (12021): Found 1 design units, including 1 entities, in source file simulation/toplevel_tb.v
+    Info (12023): Found entity 1: topLevel_tb File: C:/intelFPGA_lite/17.1/projects/FFTtest/simulation/topLevel_tb.v Line: 5
+Info (12021): Found 1 design units, including 1 entities, in source file simulation/ffttest_tb.v
+    Info (12023): Found entity 1: FFTtest_tb File: C:/intelFPGA_lite/17.1/projects/FFTtest/simulation/FFTtest_tb.v Line: 4
+Info (12021): Found 1 design units, including 1 entities, in source file ledmatrix.v
+    Info (12023): Found entity 1: ledMatrix File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file simulation/ledmatrix_tb.v
+    Info (12023): Found entity 1: ledMatrix_tb File: C:/intelFPGA_lite/17.1/projects/FFTtest/simulation/ledMatrix_tb.v Line: 5
+Warning (10236): Verilog HDL Implicit Net warning at topLevel_tb.v(29): created implicit net for "b_sig" File: C:/intelFPGA_lite/17.1/projects/FFTtest/simulation/topLevel_tb.v Line: 29
+Warning (10236): Verilog HDL Implicit Net warning at ledMatrix_tb.v(18): created implicit net for "R1_sig" File: C:/intelFPGA_lite/17.1/projects/FFTtest/simulation/ledMatrix_tb.v Line: 18
+Warning (10236): Verilog HDL Implicit Net warning at ledMatrix_tb.v(19): created implicit net for "G1_sig" File: C:/intelFPGA_lite/17.1/projects/FFTtest/simulation/ledMatrix_tb.v Line: 19
+Warning (10236): Verilog HDL Implicit Net warning at ledMatrix_tb.v(20): created implicit net for "B1_sig" File: C:/intelFPGA_lite/17.1/projects/FFTtest/simulation/ledMatrix_tb.v Line: 20
+Warning (10236): Verilog HDL Implicit Net warning at ledMatrix_tb.v(21): created implicit net for "R2_sig" File: C:/intelFPGA_lite/17.1/projects/FFTtest/simulation/ledMatrix_tb.v Line: 21
+Warning (10236): Verilog HDL Implicit Net warning at ledMatrix_tb.v(22): created implicit net for "G2_sig" File: C:/intelFPGA_lite/17.1/projects/FFTtest/simulation/ledMatrix_tb.v Line: 22
+Warning (10236): Verilog HDL Implicit Net warning at ledMatrix_tb.v(23): created implicit net for "B2_sig" File: C:/intelFPGA_lite/17.1/projects/FFTtest/simulation/ledMatrix_tb.v Line: 23
+Warning (10236): Verilog HDL Implicit Net warning at ledMatrix_tb.v(24): created implicit net for "A_sig" File: C:/intelFPGA_lite/17.1/projects/FFTtest/simulation/ledMatrix_tb.v Line: 24
+Warning (10236): Verilog HDL Implicit Net warning at ledMatrix_tb.v(25): created implicit net for "B_sig" File: C:/intelFPGA_lite/17.1/projects/FFTtest/simulation/ledMatrix_tb.v Line: 25
+Warning (10236): Verilog HDL Implicit Net warning at ledMatrix_tb.v(26): created implicit net for "C_sig" File: C:/intelFPGA_lite/17.1/projects/FFTtest/simulation/ledMatrix_tb.v Line: 26
+Warning (10236): Verilog HDL Implicit Net warning at ledMatrix_tb.v(27): created implicit net for "D_sig" File: C:/intelFPGA_lite/17.1/projects/FFTtest/simulation/ledMatrix_tb.v Line: 27
+Warning (10236): Verilog HDL Implicit Net warning at ledMatrix_tb.v(28): created implicit net for "CLK_MATRIX_sig" File: C:/intelFPGA_lite/17.1/projects/FFTtest/simulation/ledMatrix_tb.v Line: 28
+Warning (10236): Verilog HDL Implicit Net warning at ledMatrix_tb.v(29): created implicit net for "LATCH_sig" File: C:/intelFPGA_lite/17.1/projects/FFTtest/simulation/ledMatrix_tb.v Line: 29
+Warning (10236): Verilog HDL Implicit Net warning at ledMatrix_tb.v(30): created implicit net for "OE_sig" File: C:/intelFPGA_lite/17.1/projects/FFTtest/simulation/ledMatrix_tb.v Line: 30
+Info (12127): Elaborating entity "ledMatrix" for the top level hierarchy
+Warning (10036): Verilog HDL or VHDL warning at ledMatrix.v(42): object "column_heights" assigned a value but never read File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 42
+Warning (10036): Verilog HDL or VHDL warning at ledMatrix.v(53): object "buffer_full" assigned a value but never read File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 53
+Warning (10036): Verilog HDL or VHDL warning at ledMatrix.v(58): object "calc_average" assigned a value but never read File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 58
+Warning (10230): Verilog HDL assignment warning at ledMatrix.v(86): truncated value with size 32 to match size of target (8) File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 86
+Warning (10230): Verilog HDL assignment warning at ledMatrix.v(87): truncated value with size 32 to match size of target (2) File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 87
+Warning (10230): Verilog HDL assignment warning at ledMatrix.v(100): truncated value with size 32 to match size of target (6) File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 100
+Warning (10034): Output port "R1" at ledMatrix.v(23) has no driver File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 23
+Warning (10034): Output port "G1" at ledMatrix.v(23) has no driver File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 23
+Warning (10034): Output port "B1" at ledMatrix.v(23) has no driver File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 23
+Warning (10034): Output port "R2" at ledMatrix.v(24) has no driver File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 24
+Warning (10034): Output port "G2" at ledMatrix.v(24) has no driver File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 24
+Warning (10034): Output port "B2" at ledMatrix.v(24) has no driver File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 24
+Warning (10034): Output port "A" at ledMatrix.v(25) has no driver File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 25
+Warning (10034): Output port "B" at ledMatrix.v(25) has no driver File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 25
+Warning (10034): Output port "C" at ledMatrix.v(25) has no driver File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 25
+Warning (10034): Output port "D" at ledMatrix.v(25) has no driver File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 25
+Warning (10034): Output port "CLK_MATRIX" at ledMatrix.v(26) has no driver File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 26
+Warning (10034): Output port "LATCH" at ledMatrix.v(27) has no driver File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 27
+Warning (10034): Output port "OE" at ledMatrix.v(30) has no driver File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 30
+Warning (12158): Entity "ledMatrix" contains only dangling pins
+Warning (12189): Intel FPGA IP Evaluation Mode (Simulation-Only) feature is turned on for all cores in the design
+    Warning (12191): Some cores in this design do not support the Intel FPGA IP Evaluation Mode feature
+        Warning (12192): "FFT/IFFT" does not support the Intel FPGA IP Evaluation Mode feature
+Warning (13024): Output pins are stuck at VCC or GND
+    Warning (13410): Pin "R1" is stuck at GND File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 23
+    Warning (13410): Pin "G1" is stuck at GND File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 23
+    Warning (13410): Pin "B1" is stuck at GND File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 23
+    Warning (13410): Pin "R2" is stuck at GND File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 24
+    Warning (13410): Pin "G2" is stuck at GND File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 24
+    Warning (13410): Pin "B2" is stuck at GND File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 24
+    Warning (13410): Pin "A" is stuck at GND File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 25
+    Warning (13410): Pin "B" is stuck at GND File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 25
+    Warning (13410): Pin "C" is stuck at GND File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 25
+    Warning (13410): Pin "D" is stuck at GND File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 25
+    Warning (13410): Pin "CLK_MATRIX" is stuck at GND File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 26
+    Warning (13410): Pin "LATCH" is stuck at GND File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 27
+    Warning (13410): Pin "OE" is stuck at GND File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 30
 Warning (20013): Ignored 22 assignments for entity "FFT" -- entity does not exist in design
     Warning (20014): Assignment for entity set_global_assignment -name IP_TOOL_NAME Qsys -entity FFT -sip FFT/simulation/FFT.sip -library lib_FFT was ignored
     Warning (20014): Assignment for entity set_global_assignment -name IP_TOOL_VERSION 17.1 -entity FFT -sip FFT/simulation/FFT.sip -library lib_FFT was ignored
     Warning (20014): Assignment for entity set_global_assignment -name IP_TOOL_ENV Qsys -entity FFT -sip FFT/simulation/FFT.sip -library lib_FFT was ignored
 Warning (20013): Ignored 33 assignments for entity "FFT_fft_ii_0" -- entity does not exist in design
-Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 9 warnings
-    Info: Peak virtual memory: 4906 megabytes
-    Info: Processing ended: Fri Apr 19 01:35:19 2019
-    Info: Elapsed time: 00:00:24
-    Info: Total CPU time (on all processors): 00:00:38
+Info (144001): Generated suppressed messages file C:/intelFPGA_lite/17.1/projects/FFTtest/output_files/FFTtest.map.smsg
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Warning (21074): Design contains 27 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "MCLK" File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 16
+    Warning (15610): No output dependent on input pin "source_vaid" File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 17
+    Warning (15610): No output dependent on input pin "F_BIN_IN[0]" File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 18
+    Warning (15610): No output dependent on input pin "F_BIN_IN[1]" File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 18
+    Warning (15610): No output dependent on input pin "F_BIN_IN[2]" File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 18
+    Warning (15610): No output dependent on input pin "F_BIN_IN[3]" File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 18
+    Warning (15610): No output dependent on input pin "F_BIN_IN[4]" File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 18
+    Warning (15610): No output dependent on input pin "F_BIN_IN[5]" File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 18
+    Warning (15610): No output dependent on input pin "F_BIN_IN[6]" File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 18
+    Warning (15610): No output dependent on input pin "F_BIN_IN[7]" File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 18
+    Warning (15610): No output dependent on input pin "F_BIN_IN[8]" File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 18
+    Warning (15610): No output dependent on input pin "F_BIN_IN[9]" File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 18
+    Warning (15610): No output dependent on input pin "F_BIN_IN[10]" File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 18
+    Warning (15610): No output dependent on input pin "F_BIN_IN[11]" File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 18
+    Warning (15610): No output dependent on input pin "F_BIN_IN[12]" File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 18
+    Warning (15610): No output dependent on input pin "F_BIN_IN[13]" File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 18
+    Warning (15610): No output dependent on input pin "F_BIN_IN[14]" File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 18
+    Warning (15610): No output dependent on input pin "F_BIN_IN[15]" File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 18
+    Warning (15610): No output dependent on input pin "F_BIN_IN[16]" File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 18
+    Warning (15610): No output dependent on input pin "F_BIN_IN[17]" File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 18
+    Warning (15610): No output dependent on input pin "F_BIN_IN[18]" File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 18
+    Warning (15610): No output dependent on input pin "F_BIN_IN[19]" File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 18
+    Warning (15610): No output dependent on input pin "F_BIN_IN[20]" File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 18
+    Warning (15610): No output dependent on input pin "F_BIN_IN[21]" File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 18
+    Warning (15610): No output dependent on input pin "F_BIN_IN[22]" File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 18
+    Warning (15610): No output dependent on input pin "F_BIN_IN[23]" File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 18
+    Warning (15610): No output dependent on input pin "RESET" File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 19
+Info (21057): Implemented 40 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 27 input pins
+    Info (21059): Implemented 13 output pins
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 85 warnings
+    Info: Peak virtual memory: 4929 megabytes
+    Info: Processing ended: Tue Apr 23 15:36:13 2019
+    Info: Elapsed time: 00:00:28
+    Info: Total CPU time (on all processors): 00:00:45
+
+
++------------------------------------------+
+; Analysis & Synthesis Suppressed Messages ;
++------------------------------------------+
+The suppressed messages can be found in C:/intelFPGA_lite/17.1/projects/FFTtest/output_files/FFTtest.map.smsg.
 
 

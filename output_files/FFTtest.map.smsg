@@ -1,1 +1,1 @@
-Warning (10268): Verilog HDL information at afifo.v(130): always construct contains both blocking and non-blocking assignments File: C:/intelFPGA_lite/17.1/projects/FFTtest/afifo.v Line: 130
+Warning (10268): Verilog HDL information at ledMatrix.v(80): always construct contains both blocking and non-blocking assignments File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 80

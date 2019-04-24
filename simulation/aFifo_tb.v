@@ -44,7 +44,7 @@ module afifo_tb;
 	repeat(5) @(negedge CLK_48_sig);
 	
 	reset_sig = 1'b1;
-		clear_in_sig = 1'b0;
+	clear_in_sig = 1'b0;
 	writeEn_in_sig = 1'b1;
 	readEn_in_sig = 1'b1;
 	
