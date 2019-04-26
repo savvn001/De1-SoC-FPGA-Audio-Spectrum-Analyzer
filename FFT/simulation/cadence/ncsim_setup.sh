@@ -12,7 +12,7 @@
 # or its authorized distributors. Please refer to the applicable 
 # agreement for further details.
 
-# ACDS 17.1 590 win32 2019.04.09.23:11:25
+# ACDS 17.1 590 win32 2019.04.26.23:49:26
 
 # ----------------------------------------
 # ncsim - auto-generated simulation script
@@ -106,7 +106,7 @@
 # within the Quartus project, and generate a unified
 # script which supports all the Altera IP within the design.
 # ----------------------------------------
-# ACDS 17.1 590 win32 2019.04.09.23:11:25
+# ACDS 17.1 590 win32 2019.04.26.23:49:26
 # ----------------------------------------
 # initialize variables
 TOP_LEVEL_NAME="FFT"
@@ -164,12 +164,12 @@ mkdir -p ./libraries/cyclonev/
 # ----------------------------------------
 # copy RAM/ROM files to simulation directory
 if [ $SKIP_FILE_COPY -eq 0 ]; then
-  cp -f $QSYS_SIMDIR/submodules/FFT_fft_ii_0_1n4096cos.hex ./
-  cp -f $QSYS_SIMDIR/submodules/FFT_fft_ii_0_2n4096cos.hex ./
-  cp -f $QSYS_SIMDIR/submodules/FFT_fft_ii_0_1n4096sin.hex ./
-  cp -f $QSYS_SIMDIR/submodules/FFT_fft_ii_0_2n4096sin.hex ./
-  cp -f $QSYS_SIMDIR/submodules/FFT_fft_ii_0_3n4096cos.hex ./
-  cp -f $QSYS_SIMDIR/submodules/FFT_fft_ii_0_3n4096sin.hex ./
+  cp -f $QSYS_SIMDIR/submodules/FFT_fft_ii_0_1n1024cos.hex ./
+  cp -f $QSYS_SIMDIR/submodules/FFT_fft_ii_0_2n1024cos.hex ./
+  cp -f $QSYS_SIMDIR/submodules/FFT_fft_ii_0_1n1024sin.hex ./
+  cp -f $QSYS_SIMDIR/submodules/FFT_fft_ii_0_2n1024sin.hex ./
+  cp -f $QSYS_SIMDIR/submodules/FFT_fft_ii_0_3n1024cos.hex ./
+  cp -f $QSYS_SIMDIR/submodules/FFT_fft_ii_0_3n1024sin.hex ./
 fi
 
 # ----------------------------------------

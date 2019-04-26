@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <deploy
- date="2019.04.09.23:11:29"
- outputDirectory="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/">
+ date="2019.04.26.23:49:30"
+ outputDirectory="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/">
  <perimeter>
   <parameter
      name="AUTO_GENERATION_ID"
@@ -89,13 +89,13 @@
  </perimeter>
  <entity
    path=""
-   parameterizationKey="FFT:1.0:AUTO_CLK_CLOCK_DOMAIN=-1,AUTO_CLK_CLOCK_RATE=-1,AUTO_CLK_RESET_DOMAIN=-1,AUTO_DEVICE=5CSEMA5F31C6,AUTO_DEVICE_FAMILY=Cyclone V,AUTO_DEVICE_SPEEDGRADE=6,AUTO_GENERATION_ID=1554847887,AUTO_UNIQUE_ID=(altera_fft_ii:17.1:CALC_LATENCY=4096,THROUGHPUT_LATENCY=4096,data_flow=Streaming,data_rep=Block Floating Point,design_env=NATIVE,direction=Bi-directional,dsp_resource_opt=false,engine_arch=Quad Output,hard_fp=false,hyper_opt=false,in_order=Natural,in_width=24,in_width_derived=24,length=4096,num_engines=1,num_engines_derived=2,out_order=Natural,out_width=29,out_width_derived=24,selected_device_family=Cyclone V,twid_width=24,twid_width_derived=24)"
+   parameterizationKey="FFT:1.0:AUTO_CLK_CLOCK_DOMAIN=-1,AUTO_CLK_CLOCK_RATE=-1,AUTO_CLK_RESET_DOMAIN=-1,AUTO_DEVICE=5CSEMA5F31C6,AUTO_DEVICE_FAMILY=Cyclone V,AUTO_DEVICE_SPEEDGRADE=6,AUTO_GENERATION_ID=1556318969,AUTO_UNIQUE_ID=(altera_fft_ii:17.1:CALC_LATENCY=1024,THROUGHPUT_LATENCY=1024,data_flow=Streaming,data_rep=Block Floating Point,design_env=NATIVE,direction=Bi-directional,dsp_resource_opt=false,engine_arch=Quad Output,hard_fp=false,hyper_opt=false,in_order=Natural,in_width=24,in_width_derived=24,length=1024,num_engines=1,num_engines_derived=1,out_order=Natural,out_width=29,out_width_derived=24,selected_device_family=Cyclone V,twid_width=24,twid_width_derived=24)"
    instancePathKey="FFT"
    kind="FFT"
    version="1.0"
    name="FFT">
   <parameter name="AUTO_CLK_CLOCK_RATE" value="-1" />
-  <parameter name="AUTO_GENERATION_ID" value="1554847887" />
+  <parameter name="AUTO_GENERATION_ID" value="1556318969" />
   <parameter name="AUTO_DEVICE" value="5CSEMA5F31C6" />
   <parameter name="AUTO_DEVICE_FAMILY" value="Cyclone V" />
   <parameter name="AUTO_CLK_RESET_DOMAIN" value="-1" />
@@ -104,436 +104,436 @@
   <parameter name="AUTO_DEVICE_SPEEDGRADE" value="6" />
   <generatedFiles>
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/FFT.v"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/FFT.v"
        type="VERILOG" />
   </generatedFiles>
   <childGeneratedFiles>
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/FFT_fft_ii_0_1n4096cos.hex"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/FFT_fft_ii_0_1n1024cos.hex"
        type="HEX"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/FFT_fft_ii_0_2n4096cos.hex"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/FFT_fft_ii_0_2n1024cos.hex"
        type="HEX"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/FFT_fft_ii_0_1n4096sin.hex"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/FFT_fft_ii_0_1n1024sin.hex"
        type="HEX"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/FFT_fft_ii_0_2n4096sin.hex"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/FFT_fft_ii_0_2n1024sin.hex"
        type="HEX"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/FFT_fft_ii_0_3n4096cos.hex"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/FFT_fft_ii_0_3n1024cos.hex"
        type="HEX"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/FFT_fft_ii_0_3n4096sin.hex"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/FFT_fft_ii_0_3n1024sin.hex"
        type="HEX"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/auk_dspip_text_pkg.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/auk_dspip_text_pkg.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/auk_dspip_math_pkg.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/auk_dspip_math_pkg.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/auk_dspip_lib_pkg.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/auk_dspip_lib_pkg.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/auk_dspip_avalon_streaming_block_sink.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/auk_dspip_avalon_streaming_block_sink.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/auk_dspip_avalon_streaming_block_source.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/auk_dspip_avalon_streaming_block_source.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/auk_dspip_roundsat.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/auk_dspip_roundsat.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/auk_dspip_avalon_streaming_sink.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/auk_dspip_avalon_streaming_sink.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/auk_dspip_avalon_streaming_source.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/auk_dspip_avalon_streaming_source.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/auk_dspip_avalon_streaming_controller.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/auk_dspip_avalon_streaming_controller.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_sglstream.ocp"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_sglstream.ocp"
        type="OTHER"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_dualstream.ocp"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_dualstream.ocp"
        type="OTHER"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_si_de_so_b.ocp"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_si_de_so_b.ocp"
        type="OTHER"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_si_de_so_bb.ocp"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_si_de_so_bb.ocp"
        type="OTHER"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_si_qe_so_b.ocp"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_si_qe_so_b.ocp"
        type="OTHER"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_si_qe_so_bb.ocp"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_si_qe_so_bb.ocp"
        type="OTHER"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_si_se_so_b.ocp"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_si_se_so_b.ocp"
        type="OTHER"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_si_se_so_bb.ocp"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_si_se_so_bb.ocp"
        type="OTHER"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_si_so_se_so_b.ocp"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_si_so_se_so_b.ocp"
        type="OTHER"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_si_sose_so_b.ocp"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_si_sose_so_b.ocp"
        type="OTHER"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/altera_fft_dual_port_ram.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/altera_fft_dual_port_ram.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/altera_fft_dual_port_rom.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/altera_fft_dual_port_rom.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/altera_fft_mult_add.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/altera_fft_mult_add.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/altera_fft_single_port_rom.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/altera_fft_single_port_rom.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/auk_fft_pkg.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/auk_fft_pkg.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/hyper_pipeline_interface.v"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/hyper_pipeline_interface.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/counter_module.sv"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/counter_module.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/fft_pack.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/fft_pack.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/apn_fft_cmult_cpx.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/apn_fft_cmult_cpx.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/apn_fft_cmult_cpx2.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/apn_fft_cmult_cpx2.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/apn_fft_mult_can.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/apn_fft_mult_can.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/apn_fft_mult_cpx.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/apn_fft_mult_cpx.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_1dp_ram.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_1dp_ram.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_1tdp_rom.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_1tdp_rom.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_3dp_rom.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_3dp_rom.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_3pi_mram.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_3pi_mram.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_3tdp_rom.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_3tdp_rom.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_4dp_ram.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_4dp_ram.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_6tdp_rom.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_6tdp_rom.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_alt_shift_tdl.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_alt_shift_tdl.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_bfp_ctrl.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_bfp_ctrl.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_bfp_i.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_bfp_i.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_bfp_i_1pt.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_bfp_i_1pt.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_bfp_o.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_bfp_o.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_bfp_o_1pt.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_bfp_o_1pt.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_burst_ctrl.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_burst_ctrl.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_burst_ctrl_de.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_burst_ctrl_de.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_burst_ctrl_qe.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_burst_ctrl_qe.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_cmult_can.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_cmult_can.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_cmult_std.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_cmult_std.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_cnt_ctrl.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_cnt_ctrl.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_cnt_ctrl_de.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_cnt_ctrl_de.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_cxb_addr.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_cxb_addr.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_cxb_data.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_cxb_data.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_cxb_data_mram.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_cxb_data_mram.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_cxb_data_r.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_cxb_data_r.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_dataadgen.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_dataadgen.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_data_ram.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_data_ram.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_data_ram_dp.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_data_ram_dp.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_dft_bfp.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_dft_bfp.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_dft_bfp_sgl.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_dft_bfp_sgl.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_dpi_mram.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_dpi_mram.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_dp_mram.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_dp_mram.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_dualstream.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_dualstream.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_in_write_sgl.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_in_write_sgl.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_lcm_mult.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_lcm_mult.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_lcm_mult_2m.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_lcm_mult_2m.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_lpp.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_lpp.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_lpprdadgen.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_lpprdadgen.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_lpprdadr2gen.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_lpprdadr2gen.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_lpp_serial.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_lpp_serial.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_lpp_serial_r2.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_lpp_serial_r2.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_mult_add.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_mult_add.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_m_k_counter.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_m_k_counter.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_pround.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_pround.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_sglstream.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_sglstream.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_si_de_so_b.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_si_de_so_b.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_si_de_so_bb.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_si_de_so_bb.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_si_qe_so_b.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_si_qe_so_b.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_si_qe_so_bb.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_si_qe_so_bb.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_si_se_so_b.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_si_se_so_b.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_si_se_so_bb.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_si_se_so_bb.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_si_sose_so_b.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_si_sose_so_b.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_tdl.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_tdl.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_tdl_bit.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_tdl_bit.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_tdl_bit_rst.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_tdl_bit_rst.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_tdl_rst.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_tdl_rst.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_twadgen.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_twadgen.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_twadgen_dual.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_twadgen_dual.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_twadsogen.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_twadsogen.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_twadsogen_q.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_twadsogen_q.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_twiddle_ctrl_qe.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_twiddle_ctrl_qe.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_twid_rom_tdp.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_twid_rom_tdp.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_unbburst_ctrl.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_unbburst_ctrl.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_unbburst_ctrl_de.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_unbburst_ctrl_de.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_unbburst_ctrl_qe.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_unbburst_ctrl_qe.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_unbburst_sose_ctrl.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_unbburst_sose_ctrl.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_wrengen.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_wrengen.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_wrswgen.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_wrswgen.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/twid_rom.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/twid_rom.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/apn_fft_mult_cpx_1825.v"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/apn_fft_mult_cpx_1825.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/FFT_fft_ii_0.sv"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/FFT_fft_ii_0.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
   </childGeneratedFiles>
@@ -564,33 +564,33 @@
    <message level="Debug">Transform: ResetAdaptation</message>
    <message level="Debug" culprit="FFT"><![CDATA["<b>FFT</b>" reuses <b>altera_fft_ii</b> "<b>submodules/FFT_fft_ii_0</b>"]]></message>
    <message level="Debug" culprit="FFT">queue size: 0 starting:altera_fft_ii "submodules/FFT_fft_ii_0"</message>
-   <message level="Info" culprit="fft_ii_0">--- add file: FFT_fft_ii_0_1n4096cos.hex</message>
-   <message level="Info" culprit="fft_ii_0">--- add file: FFT_fft_ii_0_2n4096cos.hex</message>
-   <message level="Info" culprit="fft_ii_0">--- add file: FFT_fft_ii_0_1n4096sin.hex</message>
-   <message level="Info" culprit="fft_ii_0">--- add file: FFT_fft_ii_0_2n4096sin.hex</message>
-   <message level="Info" culprit="fft_ii_0">--- add file: FFT_fft_ii_0_3n4096cos.hex</message>
-   <message level="Info" culprit="fft_ii_0">--- add file: FFT_fft_ii_0_3n4096sin.hex</message>
+   <message level="Info" culprit="fft_ii_0">--- add file: FFT_fft_ii_0_1n1024cos.hex</message>
+   <message level="Info" culprit="fft_ii_0">--- add file: FFT_fft_ii_0_2n1024cos.hex</message>
+   <message level="Info" culprit="fft_ii_0">--- add file: FFT_fft_ii_0_1n1024sin.hex</message>
+   <message level="Info" culprit="fft_ii_0">--- add file: FFT_fft_ii_0_2n1024sin.hex</message>
+   <message level="Info" culprit="fft_ii_0">--- add file: FFT_fft_ii_0_3n1024cos.hex</message>
+   <message level="Info" culprit="fft_ii_0">--- add file: FFT_fft_ii_0_3n1024sin.hex</message>
    <message level="Info" culprit="fft_ii_0"><![CDATA["<b>FFT</b>" instantiated <b>altera_fft_ii</b> "<b>fft_ii_0</b>"]]></message>
   </messages>
  </entity>
  <entity
    path="submodules/"
-   parameterizationKey="altera_fft_ii:17.1:CALC_LATENCY=4096,THROUGHPUT_LATENCY=4096,data_flow=Streaming,data_rep=Block Floating Point,design_env=NATIVE,direction=Bi-directional,dsp_resource_opt=false,engine_arch=Quad Output,hard_fp=false,hyper_opt=false,in_order=Natural,in_width=24,in_width_derived=24,length=4096,num_engines=1,num_engines_derived=2,out_order=Natural,out_width=29,out_width_derived=24,selected_device_family=Cyclone V,twid_width=24,twid_width_derived=24"
+   parameterizationKey="altera_fft_ii:17.1:CALC_LATENCY=1024,THROUGHPUT_LATENCY=1024,data_flow=Streaming,data_rep=Block Floating Point,design_env=NATIVE,direction=Bi-directional,dsp_resource_opt=false,engine_arch=Quad Output,hard_fp=false,hyper_opt=false,in_order=Natural,in_width=24,in_width_derived=24,length=1024,num_engines=1,num_engines_derived=1,out_order=Natural,out_width=29,out_width_derived=24,selected_device_family=Cyclone V,twid_width=24,twid_width_derived=24"
    instancePathKey="FFT:.:fft_ii_0"
    kind="altera_fft_ii"
    version="17.1"
    name="FFT_fft_ii_0">
-  <parameter name="THROUGHPUT_LATENCY" value="4096" />
+  <parameter name="THROUGHPUT_LATENCY" value="1024" />
   <parameter name="in_width_derived" value="24" />
   <parameter name="in_order" value="Natural" />
   <parameter name="hyper_opt" value="false" />
-  <parameter name="num_engines_derived" value="2" />
+  <parameter name="num_engines_derived" value="1" />
   <parameter name="twid_width_derived" value="24" />
-  <parameter name="length" value="4096" />
+  <parameter name="length" value="1024" />
   <parameter name="out_order" value="Natural" />
   <parameter name="selected_device_family" value="Cyclone V" />
   <parameter name="dsp_resource_opt" value="false" />
-  <parameter name="CALC_LATENCY" value="4096" />
+  <parameter name="CALC_LATENCY" value="1024" />
   <parameter name="design_env" value="NATIVE" />
   <parameter name="data_rep" value="Block Floating Point" />
   <parameter name="in_width" value="24" />
@@ -604,431 +604,431 @@
   <parameter name="direction" value="Bi-directional" />
   <generatedFiles>
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/FFT_fft_ii_0_1n4096cos.hex"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/FFT_fft_ii_0_1n1024cos.hex"
        type="HEX"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/FFT_fft_ii_0_2n4096cos.hex"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/FFT_fft_ii_0_2n1024cos.hex"
        type="HEX"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/FFT_fft_ii_0_1n4096sin.hex"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/FFT_fft_ii_0_1n1024sin.hex"
        type="HEX"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/FFT_fft_ii_0_2n4096sin.hex"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/FFT_fft_ii_0_2n1024sin.hex"
        type="HEX"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/FFT_fft_ii_0_3n4096cos.hex"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/FFT_fft_ii_0_3n1024cos.hex"
        type="HEX"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/FFT_fft_ii_0_3n4096sin.hex"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/FFT_fft_ii_0_3n1024sin.hex"
        type="HEX"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/auk_dspip_text_pkg.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/auk_dspip_text_pkg.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/auk_dspip_math_pkg.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/auk_dspip_math_pkg.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/auk_dspip_lib_pkg.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/auk_dspip_lib_pkg.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/auk_dspip_avalon_streaming_block_sink.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/auk_dspip_avalon_streaming_block_sink.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/auk_dspip_avalon_streaming_block_source.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/auk_dspip_avalon_streaming_block_source.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/auk_dspip_roundsat.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/auk_dspip_roundsat.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/auk_dspip_avalon_streaming_sink.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/auk_dspip_avalon_streaming_sink.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/auk_dspip_avalon_streaming_source.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/auk_dspip_avalon_streaming_source.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/auk_dspip_avalon_streaming_controller.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/auk_dspip_avalon_streaming_controller.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_sglstream.ocp"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_sglstream.ocp"
        type="OTHER"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_dualstream.ocp"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_dualstream.ocp"
        type="OTHER"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_si_de_so_b.ocp"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_si_de_so_b.ocp"
        type="OTHER"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_si_de_so_bb.ocp"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_si_de_so_bb.ocp"
        type="OTHER"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_si_qe_so_b.ocp"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_si_qe_so_b.ocp"
        type="OTHER"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_si_qe_so_bb.ocp"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_si_qe_so_bb.ocp"
        type="OTHER"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_si_se_so_b.ocp"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_si_se_so_b.ocp"
        type="OTHER"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_si_se_so_bb.ocp"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_si_se_so_bb.ocp"
        type="OTHER"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_si_so_se_so_b.ocp"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_si_so_se_so_b.ocp"
        type="OTHER"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_si_sose_so_b.ocp"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_si_sose_so_b.ocp"
        type="OTHER"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/altera_fft_dual_port_ram.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/altera_fft_dual_port_ram.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/altera_fft_dual_port_rom.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/altera_fft_dual_port_rom.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/altera_fft_mult_add.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/altera_fft_mult_add.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/altera_fft_single_port_rom.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/altera_fft_single_port_rom.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/auk_fft_pkg.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/auk_fft_pkg.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/hyper_pipeline_interface.v"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/hyper_pipeline_interface.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/counter_module.sv"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/counter_module.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/fft_pack.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/fft_pack.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/apn_fft_cmult_cpx.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/apn_fft_cmult_cpx.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/apn_fft_cmult_cpx2.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/apn_fft_cmult_cpx2.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/apn_fft_mult_can.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/apn_fft_mult_can.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/apn_fft_mult_cpx.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/apn_fft_mult_cpx.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_1dp_ram.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_1dp_ram.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_1tdp_rom.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_1tdp_rom.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_3dp_rom.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_3dp_rom.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_3pi_mram.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_3pi_mram.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_3tdp_rom.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_3tdp_rom.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_4dp_ram.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_4dp_ram.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_6tdp_rom.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_6tdp_rom.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_alt_shift_tdl.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_alt_shift_tdl.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_bfp_ctrl.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_bfp_ctrl.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_bfp_i.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_bfp_i.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_bfp_i_1pt.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_bfp_i_1pt.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_bfp_o.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_bfp_o.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_bfp_o_1pt.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_bfp_o_1pt.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_burst_ctrl.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_burst_ctrl.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_burst_ctrl_de.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_burst_ctrl_de.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_burst_ctrl_qe.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_burst_ctrl_qe.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_cmult_can.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_cmult_can.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_cmult_std.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_cmult_std.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_cnt_ctrl.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_cnt_ctrl.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_cnt_ctrl_de.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_cnt_ctrl_de.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_cxb_addr.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_cxb_addr.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_cxb_data.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_cxb_data.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_cxb_data_mram.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_cxb_data_mram.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_cxb_data_r.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_cxb_data_r.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_dataadgen.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_dataadgen.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_data_ram.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_data_ram.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_data_ram_dp.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_data_ram_dp.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_dft_bfp.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_dft_bfp.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_dft_bfp_sgl.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_dft_bfp_sgl.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_dpi_mram.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_dpi_mram.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_dp_mram.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_dp_mram.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_dualstream.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_dualstream.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_in_write_sgl.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_in_write_sgl.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_lcm_mult.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_lcm_mult.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_lcm_mult_2m.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_lcm_mult_2m.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_lpp.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_lpp.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_lpprdadgen.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_lpprdadgen.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_lpprdadr2gen.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_lpprdadr2gen.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_lpp_serial.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_lpp_serial.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_lpp_serial_r2.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_lpp_serial_r2.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_mult_add.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_mult_add.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_m_k_counter.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_m_k_counter.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_pround.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_pround.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_sglstream.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_sglstream.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_si_de_so_b.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_si_de_so_b.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_si_de_so_bb.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_si_de_so_bb.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_si_qe_so_b.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_si_qe_so_b.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_si_qe_so_bb.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_si_qe_so_bb.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_si_se_so_b.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_si_se_so_b.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_si_se_so_bb.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_si_se_so_bb.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_si_sose_so_b.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_si_sose_so_b.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_tdl.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_tdl.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_tdl_bit.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_tdl_bit.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_tdl_bit_rst.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_tdl_bit_rst.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_tdl_rst.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_tdl_rst.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_twadgen.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_twadgen.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_twadgen_dual.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_twadgen_dual.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_twadsogen.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_twadsogen.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_twadsogen_q.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_twadsogen_q.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_twiddle_ctrl_qe.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_twiddle_ctrl_qe.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_twid_rom_tdp.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_twid_rom_tdp.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_unbburst_ctrl.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_unbburst_ctrl.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_unbburst_ctrl_de.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_unbburst_ctrl_de.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_unbburst_ctrl_qe.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_unbburst_ctrl_qe.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_unbburst_sose_ctrl.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_unbburst_sose_ctrl.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_wrengen.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_wrengen.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/asj_fft_wrswgen.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/asj_fft_wrswgen.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/twid_rom.vhd"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/twid_rom.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/apn_fft_mult_cpx_1825.v"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/apn_fft_mult_cpx_1825.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/synthesis/submodules/FFT_fft_ii_0.sv"
+       path="C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/synthesis/submodules/FFT_fft_ii_0.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
   </generatedFiles>
@@ -1045,12 +1045,12 @@
   <instantiator instantiator="FFT" as="fft_ii_0" />
   <messages>
    <message level="Debug" culprit="FFT">queue size: 0 starting:altera_fft_ii "submodules/FFT_fft_ii_0"</message>
-   <message level="Info" culprit="fft_ii_0">--- add file: FFT_fft_ii_0_1n4096cos.hex</message>
-   <message level="Info" culprit="fft_ii_0">--- add file: FFT_fft_ii_0_2n4096cos.hex</message>
-   <message level="Info" culprit="fft_ii_0">--- add file: FFT_fft_ii_0_1n4096sin.hex</message>
-   <message level="Info" culprit="fft_ii_0">--- add file: FFT_fft_ii_0_2n4096sin.hex</message>
-   <message level="Info" culprit="fft_ii_0">--- add file: FFT_fft_ii_0_3n4096cos.hex</message>
-   <message level="Info" culprit="fft_ii_0">--- add file: FFT_fft_ii_0_3n4096sin.hex</message>
+   <message level="Info" culprit="fft_ii_0">--- add file: FFT_fft_ii_0_1n1024cos.hex</message>
+   <message level="Info" culprit="fft_ii_0">--- add file: FFT_fft_ii_0_2n1024cos.hex</message>
+   <message level="Info" culprit="fft_ii_0">--- add file: FFT_fft_ii_0_1n1024sin.hex</message>
+   <message level="Info" culprit="fft_ii_0">--- add file: FFT_fft_ii_0_2n1024sin.hex</message>
+   <message level="Info" culprit="fft_ii_0">--- add file: FFT_fft_ii_0_3n1024cos.hex</message>
+   <message level="Info" culprit="fft_ii_0">--- add file: FFT_fft_ii_0_3n1024sin.hex</message>
    <message level="Info" culprit="fft_ii_0"><![CDATA["<b>FFT</b>" instantiated <b>altera_fft_ii</b> "<b>fft_ii_0</b>"]]></message>
   </messages>
  </entity>

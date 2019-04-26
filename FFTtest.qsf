@@ -38,7 +38,7 @@
 
 set_global_assignment -name FAMILY "Cyclone V"
 set_global_assignment -name DEVICE 5CSEMA5F31C6
-set_global_assignment -name TOP_LEVEL_ENTITY ledMatrix
+set_global_assignment -name TOP_LEVEL_ENTITY FFTcore
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 17.1.0
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "15:40:17  APRIL 08, 2019"
 set_global_assignment -name LAST_QUARTUS_VERSION "17.1.0 Lite Edition"
@@ -52,10 +52,7 @@ set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
 set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
 set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
 set_global_assignment -name EDA_TEST_BENCH_ENABLE_STATUS TEST_BENCH_MODE -section_id eda_simulation
-set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH ledMatrix_tb -section_id eda_simulation
-set_global_assignment -name EDA_TEST_BENCH_NAME FFTtest_tb -section_id eda_simulation
-set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id FFTtest_tb
-set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME FFTtest_tb -section_id FFTtest_tb
+set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH FFTcore_tb -section_id eda_simulation
 set_global_assignment -name EDA_MAP_ILLEGAL_CHARACTERS ON -section_id eda_simulation
 set_global_assignment -name EDA_ENABLE_GLITCH_FILTERING ON -section_id eda_simulation
 set_global_assignment -name EDA_WRITE_NODES_FOR_POWER_ESTIMATION OFF -section_id eda_simulation
@@ -83,7 +80,6 @@ set_global_assignment -name VERILOG_FILE simulation/topLevel_tb.v
 set_global_assignment -name EDA_TEST_BENCH_NAME topLevel_tb -section_id eda_simulation
 set_global_assignment -name EDA_DESIGN_INSTANCE_NAME fft_vcddump -section_id topLevel_tb
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME topLevel_tb -section_id topLevel_tb
-set_global_assignment -name VERILOG_FILE simulation/FFTtest_tb.v
 set_global_assignment -name VERILOG_FILE ledMatrix.v
 set_global_assignment -name VERILOG_FILE simulation/ledMatrix_tb.v
 set_global_assignment -name EDA_TEST_BENCH_NAME ledMatrix_tb -section_id eda_simulation
@@ -93,7 +89,11 @@ set_global_assignment -name EDA_TEST_BENCH_RUN_SIM_FOR "400 us" -section_id ledM
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
-set_global_assignment -name EDA_TEST_BENCH_FILE simulation/FFTtest_tb.v -section_id FFTtest_tb
+set_global_assignment -name VERILOG_FILE simulation/FFTcore_tb.v
+set_global_assignment -name EDA_TEST_BENCH_NAME FFTcore_tb -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME fft_vcddump -section_id FFTcore_tb
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME FFTcore_tb -section_id FFTcore_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE simulation/FFTcore_tb.v -section_id FFTcore_tb
 set_global_assignment -name EDA_TEST_BENCH_FILE simulation/audioCore_tb.v -section_id audioCore_tb
 set_global_assignment -name EDA_TEST_BENCH_FILE simulation/aFifo_tb.v -section_id aFifo_tb
 set_global_assignment -name EDA_TEST_BENCH_FILE simulation/topLevel_tb.v -section_id topLevel_tb

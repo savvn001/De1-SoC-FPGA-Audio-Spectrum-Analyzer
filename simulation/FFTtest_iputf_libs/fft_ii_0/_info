@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dC:/intelFPGA_lite/17.1/projects/FFTtest/simulation
 Ealtera_fft_dual_port_ram
-Z1 w1554847882
+Z1 w1556318964
 Z2 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 dfin^_@l97Ngz6cK0kjS62
 Z3 DPx9 altera_mf 20 altera_mf_components 0 22 Sn8Ol<dGSW99iM6NfOU>g1
 Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
@@ -23,9 +23,9 @@ Vj6@H@VIQ1MYbEnh8cjHUz1
 !s100 BdH<Ejoz0S=ZH<o>;hXEU3
 Z8 OV;C;10.5b;63
 32
-Z9 !s110 1556030259
+Z9 !s110 1556319653
 !i10b 1
-Z10 !s108 1556030259.000000
+Z10 !s108 1556319652.000000
 Z11 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/altera_fft_dual_port_ram.vhd|-work|fft_ii_0|
 Z12 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/altera_fft_dual_port_ram.vhd|
 !i113 1
@@ -66,11 +66,11 @@ Vk^iZF[f1FUAA9UfR9z5<l2
 !s100 H@bfF4k1@3>K]G7b8V1o31
 R8
 32
-Z17 !s110 1556030260
+R9
 !i10b 1
-Z18 !s108 1556030260.000000
-Z19 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/altera_fft_dual_port_rom.vhd|-work|fft_ii_0|
-Z20 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/altera_fft_dual_port_rom.vhd|
+Z17 !s108 1556319653.000000
+Z18 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/altera_fft_dual_port_rom.vhd|-work|fft_ii_0|
+Z19 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/altera_fft_dual_port_rom.vhd|
 !i113 1
 R13
 R14
@@ -86,40 +86,40 @@ V2FN;`zc;d^[Bb9nRPg_X62
 !s100 ;GaRoKFCibl2c^@<T9i<e3
 R8
 32
-R17
+R9
 !i10b 1
+R17
 R18
 R19
-R20
 !i113 1
 R13
 R14
 Ealtera_fft_mult_add
 R1
-Z21 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
-Z22 DPx4 ieee 16 std_logic_signed 0 22 C<aanc0R`<LWPSe[JYRP^3
+Z20 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z21 DPx4 ieee 16 std_logic_signed 0 22 C<aanc0R`<LWPSe[JYRP^3
 R4
 R5
 R0
-Z23 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/altera_fft_mult_add.vhd
-Z24 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/altera_fft_mult_add.vhd
+Z22 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/altera_fft_mult_add.vhd
+Z23 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/altera_fft_mult_add.vhd
 l0
 L23
 VC`Md>XXgeMW4aFaTY3@jP3
 !s100 H3ijk[GZk;X8zc0o_;TmB2
 R8
 32
-R17
+R9
 !i10b 1
-R18
-Z25 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/altera_fft_mult_add.vhd|-work|fft_ii_0|
-Z26 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/altera_fft_mult_add.vhd|
+R17
+Z24 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/altera_fft_mult_add.vhd|-work|fft_ii_0|
+Z25 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/altera_fft_mult_add.vhd|
 !i113 1
 R13
 R14
 Artl
+R20
 R21
-R22
 R4
 R5
 DEx4 work 19 altera_fft_mult_add 0 22 C`Md>XXgeMW4aFaTY3@jP3
@@ -129,42 +129,42 @@ VD@UQ1he;gmI^[k00IoeLX3
 !s100 XM<X`BMJP<j_BQ5P>ITka0
 R8
 32
-R17
+R9
 !i10b 1
-R18
+R17
+R24
 R25
-R26
 !i113 1
 R13
 R14
 Ealtera_fft_mult_add_new
 R1
 R2
+R20
 R21
-R22
 R4
 R5
 R0
+R22
 R23
-R24
 l0
 L140
 V4dOdIlfzC=8UYVLURT:_?1
 !s100 c]NbY]7F0z4IKmBL3546X3
 R8
 32
-R17
+R9
 !i10b 1
-R18
+R17
+R24
 R25
-R26
 !i113 1
 R13
 R14
 Artl
 R2
+R20
 R21
-R22
 R4
 R5
 DEx4 work 23 altera_fft_mult_add_new 0 22 4dOdIlfzC=8UYVLURT:_?1
@@ -174,42 +174,42 @@ Vz:PZI@lPMb9RdzULbE8JS2
 !s100 UlgY90<;2FLH1=;EO>Cz?0
 R8
 32
-R17
+R9
 !i10b 1
-R18
+R17
+R24
 R25
-R26
 !i113 1
 R13
 R14
 Ealtera_fft_mult_add_old
 R1
 R3
+R20
 R21
-R22
 R4
 R5
 R0
+R22
 R23
-R24
 l0
 L396
 V;KF^jSSGL713`3m]?I6FB0
 !s100 aF?UYhC@k_k9hUB@4LdAJ0
 R8
 32
-R17
+R9
 !i10b 1
-R18
+R17
+R24
 R25
-R26
 !i113 1
 R13
 R14
 Artl
 R3
+R20
 R21
-R22
 R4
 R5
 DEx4 work 23 altera_fft_mult_add_old 0 22 ;KF^jSSGL713`3m]?I6FB0
@@ -219,11 +219,11 @@ V3U8R]lCIHMTd_S<=R@YUZ0
 !s100 `9=3M8iUc?d1YHYUJ4[A:0
 R8
 32
-R17
+R9
 !i10b 1
-R18
+R17
+R24
 R25
-R26
 !i113 1
 R13
 R14
@@ -234,19 +234,19 @@ R3
 R4
 R5
 R0
-Z27 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/altera_fft_single_port_rom.vhd
-Z28 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/altera_fft_single_port_rom.vhd
+Z26 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/altera_fft_single_port_rom.vhd
+Z27 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/altera_fft_single_port_rom.vhd
 l0
 L23
 V57:TM2d^J?@^bI5`Z^=G<3
 !s100 G6:9o[WFbD2oWH;=8]nNE0
 R8
 32
-R17
+Z28 !s110 1556319654
 !i10b 1
-R18
-Z29 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/altera_fft_single_port_rom.vhd|-work|fft_ii_0|
-Z30 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/altera_fft_single_port_rom.vhd|
+Z29 !s108 1556319654.000000
+Z30 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/altera_fft_single_port_rom.vhd|-work|fft_ii_0|
+Z31 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/altera_fft_single_port_rom.vhd|
 !i113 1
 R13
 R14
@@ -262,44 +262,44 @@ VgnlhmKRj@ePWT@nf[lala1
 !s100 3eQFGiX^SoLO=2e[F@R1U1
 R8
 32
-R17
+R28
 !i10b 1
-R18
 R29
 R30
+R31
 !i113 1
 R13
 R14
 Eapn_fft_cmult_cpx
 R1
 R3
-Z31 DPx4 work 8 fft_pack 0 22 8cmehlU<iKfVa62GQ3MT@0
-Z32 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
-R21
+Z32 DPx4 work 8 fft_pack 0 22 8cmehlU<iKfVa62GQ3MT@0
+Z33 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R20
 R4
 R5
 R0
-Z33 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/apn_fft_cmult_cpx.vhd
-Z34 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/apn_fft_cmult_cpx.vhd
+Z34 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/apn_fft_cmult_cpx.vhd
+Z35 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/apn_fft_cmult_cpx.vhd
 l0
 L38
 Vb1Fmnjm8fMf`NB3W9b`Ie2
 !s100 Kg]P?d<bZ42R^j;AFO5D@0
 R8
 32
-Z35 !s110 1556030262
+Z36 !s110 1556319655
 !i10b 1
-Z36 !s108 1556030261.000000
-Z37 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/apn_fft_cmult_cpx.vhd|-work|fft_ii_0|
-Z38 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/apn_fft_cmult_cpx.vhd|
+Z37 !s108 1556319655.000000
+Z38 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/apn_fft_cmult_cpx.vhd|-work|fft_ii_0|
+Z39 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/apn_fft_cmult_cpx.vhd|
 !i113 1
 R13
 R14
 Amodel
 R3
-R31
 R32
-R21
+R33
+R20
 R4
 R5
 DEx4 work 17 apn_fft_cmult_cpx 0 22 b1Fmnjm8fMf`NB3W9b`Ie2
@@ -309,44 +309,44 @@ VmZ<cOlECm`D20Fb1FSOWj1
 !s100 F:81:fzHN^QIzEb6EPGVC3
 R8
 32
-R35
-!i10b 1
 R36
+!i10b 1
 R37
 R38
+R39
 !i113 1
 R13
 R14
 Eapn_fft_cmult_cpx2
 R1
 R3
-R31
 R32
-R21
+R33
+R20
 R4
 R5
 R0
-Z39 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/apn_fft_cmult_cpx2.vhd
-Z40 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/apn_fft_cmult_cpx2.vhd
+Z40 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/apn_fft_cmult_cpx2.vhd
+Z41 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/apn_fft_cmult_cpx2.vhd
 l0
 L38
 V;Af6X``6nfM[YGE]fCC=51
 !s100 ]AV:G_G7>7RTgN8nmOnYP0
 R8
 32
-R35
+Z42 !s110 1556319656
 !i10b 1
-Z41 !s108 1556030262.000000
-Z42 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/apn_fft_cmult_cpx2.vhd|-work|fft_ii_0|
-Z43 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/apn_fft_cmult_cpx2.vhd|
+Z43 !s108 1556319656.000000
+Z44 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/apn_fft_cmult_cpx2.vhd|-work|fft_ii_0|
+Z45 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/apn_fft_cmult_cpx2.vhd|
 !i113 1
 R13
 R14
 Amodel
 R3
-R31
 R32
-R21
+R33
+R20
 R4
 R5
 DEx4 work 18 apn_fft_cmult_cpx2 0 22 ;Af6X``6nfM[YGE]fCC=51
@@ -356,38 +356,38 @@ VI3NdzETE2kESeXlceg<Xn3
 !s100 <`leZDnb@NP<@ODVn=Ef73
 R8
 32
-R35
-!i10b 1
-R41
 R42
+!i10b 1
 R43
+R44
+R45
 !i113 1
 R13
 R14
 Eapn_fft_mult_can
 R1
-Z44 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z46 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
 R4
 R5
 R0
-Z45 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/apn_fft_mult_can.vhd
-Z46 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/apn_fft_mult_can.vhd
+Z47 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/apn_fft_mult_can.vhd
+Z48 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/apn_fft_mult_can.vhd
 l0
 L21
 V<C`Yo3D1NSm06iW1<1>m13
 !s100 lEcolbV>2PX_DQRI[@?C42
 R8
 32
-R35
+R42
 !i10b 1
-R41
-Z47 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/apn_fft_mult_can.vhd|-work|fft_ii_0|
-Z48 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/apn_fft_mult_can.vhd|
+R43
+Z49 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/apn_fft_mult_can.vhd|-work|fft_ii_0|
+Z50 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/apn_fft_mult_can.vhd|
 !i113 1
 R13
 R14
 Artl
-R44
+R46
 R4
 R5
 DEx4 work 16 apn_fft_mult_can 0 22 <C`Yo3D1NSm06iW1<1>m13
@@ -397,38 +397,38 @@ V;FNa@M7R9knXQ4WB;oRke1
 !s100 [O7jgRH:4l_8HkZSQVEIK2
 R8
 32
-R35
+R42
 !i10b 1
-R41
-R47
-R48
+R43
+R49
+R50
 !i113 1
 R13
 R14
 Eapn_fft_mult_cpx
 R1
-R44
+R46
 R4
 R5
 R0
-Z49 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/apn_fft_mult_cpx.vhd
-Z50 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/apn_fft_mult_cpx.vhd
+Z51 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/apn_fft_mult_cpx.vhd
+Z52 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/apn_fft_mult_cpx.vhd
 l0
 L21
 VGeh@g:m?k@zhm1;::6QV^0
 !s100 PekPO659JaXM;L7Z6KC@M3
 R8
 32
-R35
+Z53 !s110 1556319657
 !i10b 1
-R41
-Z51 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/apn_fft_mult_cpx.vhd|-work|fft_ii_0|
-Z52 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/apn_fft_mult_cpx.vhd|
+R43
+Z54 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/apn_fft_mult_cpx.vhd|-work|fft_ii_0|
+Z55 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/apn_fft_mult_cpx.vhd|
 !i113 1
 R13
 R14
 Artl
-R44
+R46
 R4
 R5
 DEx4 work 16 apn_fft_mult_cpx 0 22 Geh@g:m?k@zhm1;::6QV^0
@@ -438,69 +438,69 @@ VgS9^f9COG`EK<5:hgL@Sa2
 !s100 74f@jkKkhZ8@nLZ=>Z1LG1
 R8
 32
-R35
+R53
 !i10b 1
-R41
-R51
-R52
+R43
+R54
+R55
 !i113 1
 R13
 R14
-v1otnKSKcJl8A/Yvb474nTd2o64LgFXo0cF1x1rGhivQ=
-Z53 !s110 1556030275
+vAYcIO+tonTAM4NPJnNDlyoc1r8FB87jKtQGi4RY3068=
+Z56 !s110 1556319672
 !i10b 0
 !s100 ROe`QZ`_O8;YRM=fJ1[]X0
 Id84^>o3lC7YQ6?3li:1XV1
-Z54 VDg1SIo80bB@j0V0VzS_@n1
-!i8a 1839804944
+Z57 VDg1SIo80bB@j0V0VzS_@n1
+!i8a 500969552
 R0
-w1556030275
+w1556319672
 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/apn_fft_mult_cpx_1825.v
 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/apn_fft_mult_cpx_1825.v
-Z55 L0 38
-Z56 OV;L;10.5b;63
+Z58 L0 38
+Z59 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z57 !s108 1556030275.000000
+Z60 !s108 1556319672.000000
 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/apn_fft_mult_cpx_1825.v|
 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/apn_fft_mult_cpx_1825.v|-work|fft_ii_0|
 !i113 1
 R13
-Z58 tCvgOpt 0
+Z61 tCvgOpt 0
 n73d7cc5
 Easj_fft_1dp_ram
 R1
 R3
-Z59 DPx3 lpm 14 lpm_components 0 22 LL[@dD@lm0N5G7N5gC9bn1
-R31
-R21
+Z62 DPx3 lpm 14 lpm_components 0 22 LL[@dD@lm0N5G7N5gC9bn1
 R32
+R20
+R33
 R4
 R5
 R0
-Z60 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_1dp_ram.vhd
-Z61 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_1dp_ram.vhd
+Z63 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_1dp_ram.vhd
+Z64 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_1dp_ram.vhd
 l0
 L45
 V_[TmXC`V_dzVhQ[aU=f_S1
 !s100 S`C:DNImQjmZ6dT1A34iW1
 R8
 32
-R35
+R53
 !i10b 1
-R41
-Z62 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_1dp_ram.vhd|-work|fft_ii_0|
-Z63 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_1dp_ram.vhd|
+Z65 !s108 1556319657.000000
+Z66 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_1dp_ram.vhd|-work|fft_ii_0|
+Z67 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_1dp_ram.vhd|
 !i113 1
 R13
 R14
 Asyn
 R3
-R59
-R31
-R21
+R62
 R32
+R20
+R33
 R4
 R5
 DEx4 work 15 asj_fft_1dp_ram 0 22 _[TmXC`V_dzVhQ[aU=f_S1
@@ -510,46 +510,46 @@ V7GaRUd744P:UJNzX7UU2Q3
 !s100 CEPg3e2;gQ`b5>TND^Z8f1
 R8
 32
-R35
+R53
 !i10b 1
-R41
-R62
-R63
+R65
+R66
+R67
 !i113 1
 R13
 R14
 Easj_fft_1tdp_rom
 R1
 R3
-R59
-R31
-R21
+R62
 R32
+R20
+R33
 R4
 R5
 R0
-Z64 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_1tdp_rom.vhd
-Z65 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_1tdp_rom.vhd
+Z68 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_1tdp_rom.vhd
+Z69 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_1tdp_rom.vhd
 l0
 L47
 Vg3nSjYanXOC^<jGFHnf6d3
 !s100 5RR[1aA_`VT=bYoSPiobN2
 R8
 32
-R35
+R53
 !i10b 1
-R41
-Z66 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_1tdp_rom.vhd|-work|fft_ii_0|
-Z67 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_1tdp_rom.vhd|
+R65
+Z70 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_1tdp_rom.vhd|-work|fft_ii_0|
+Z71 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_1tdp_rom.vhd|
 !i113 1
 R13
 R14
 Asyn
 R3
-R59
-R31
-R21
+R62
 R32
+R20
+R33
 R4
 R5
 DEx4 work 16 asj_fft_1tdp_rom 0 22 g3nSjYanXOC^<jGFHnf6d3
@@ -559,46 +559,46 @@ Va6ll[VI^ii^k:K:P=cPz:2
 !s100 QWHJ5amCk5m0FGDP5Cm[N3
 R8
 32
-R35
+R53
 !i10b 1
-R41
-R66
-R67
+R65
+R70
+R71
 !i113 1
 R13
 R14
 Easj_fft_3dp_rom
 R1
 R3
-R59
-R31
-R21
+R62
 R32
+R20
+R33
 R4
 R5
 R0
-Z68 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_3dp_rom.vhd
-Z69 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_3dp_rom.vhd
+Z72 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_3dp_rom.vhd
+Z73 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_3dp_rom.vhd
 l0
 L48
 VH[BfL929n^I7nCHJGIWEj0
 !s100 NJZB;Z3]GoDRBm7fORh@C1
 R8
 32
-Z70 !s110 1556030263
+R53
 !i10b 1
-R41
-Z71 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_3dp_rom.vhd|-work|fft_ii_0|
-Z72 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_3dp_rom.vhd|
+R65
+Z74 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_3dp_rom.vhd|-work|fft_ii_0|
+Z75 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_3dp_rom.vhd|
 !i113 1
 R13
 R14
 Asyn
 R3
-R59
-R31
-R21
+R62
 R32
+R20
+R33
 R4
 R5
 DEx4 work 15 asj_fft_3dp_rom 0 22 H[BfL929n^I7nCHJGIWEj0
@@ -608,46 +608,46 @@ VDY7D^bUV6T;8i=J?ZTc4m2
 !s100 :mE79a9_38cG`XNmB5ANP3
 R8
 32
-R70
+R53
 !i10b 1
-R41
-R71
-R72
+R65
+R74
+R75
 !i113 1
 R13
 R14
 Easj_fft_3pi_mram
 R1
 R3
-R59
+R62
+R33
+R20
 R32
-R21
-R31
 R4
 R5
 R0
-Z73 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_3pi_mram.vhd
-Z74 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_3pi_mram.vhd
+Z76 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_3pi_mram.vhd
+Z77 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_3pi_mram.vhd
 l0
 L75
 VQPb0SS4^Cz?E<0k_f[YMS3
 !s100 J;dbifL4akUIgYk4UE2_J3
 R8
 32
-R70
+R53
 !i10b 1
-Z75 !s108 1556030263.000000
-Z76 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_3pi_mram.vhd|-work|fft_ii_0|
-Z77 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_3pi_mram.vhd|
+R65
+Z78 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_3pi_mram.vhd|-work|fft_ii_0|
+Z79 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_3pi_mram.vhd|
 !i113 1
 R13
 R14
 Asyn
 R3
-R59
+R62
+R33
+R20
 R32
-R21
-R31
 R4
 R5
 DEx4 work 16 asj_fft_3pi_mram 0 22 QPb0SS4^Cz?E<0k_f[YMS3
@@ -657,46 +657,46 @@ Vl2R>Ro4cL=8R<SXAd6jl21
 !s100 c22UP0>F=1@;3VhOa7Xhh2
 R8
 32
-R70
+R53
 !i10b 1
-R75
-R76
-R77
+R65
+R78
+R79
 !i113 1
 R13
 R14
 Easj_fft_3tdp_rom
 R1
 R3
-R59
-R31
-R21
+R62
 R32
+R20
+R33
 R4
 R5
 R0
-Z78 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_3tdp_rom.vhd
-Z79 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_3tdp_rom.vhd
+Z80 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_3tdp_rom.vhd
+Z81 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_3tdp_rom.vhd
 l0
 L55
 VzWd=Z@T;^bJBOD`l_KGRc0
 !s100 4Dga_zNgbY[HGJmf<5XGF0
 R8
 32
-R70
+Z82 !s110 1556319658
 !i10b 1
-R75
-Z80 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_3tdp_rom.vhd|-work|fft_ii_0|
-Z81 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_3tdp_rom.vhd|
+R65
+Z83 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_3tdp_rom.vhd|-work|fft_ii_0|
+Z84 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_3tdp_rom.vhd|
 !i113 1
 R13
 R14
 Asyn
 R3
-R59
-R31
-R21
+R62
 R32
+R20
+R33
 R4
 R5
 DEx4 work 16 asj_fft_3tdp_rom 0 22 zWd=Z@T;^bJBOD`l_KGRc0
@@ -706,46 +706,46 @@ V@RokXg<OY2`1X?HCUn?9Y3
 !s100 [:FgeoBUPf>UiGOziT]h@1
 R8
 32
-R70
+R82
 !i10b 1
-R75
-R80
-R81
+R65
+R83
+R84
 !i113 1
 R13
 R14
 Easj_fft_4dp_ram
 R1
 R3
-R59
-R31
-R21
+R62
 R32
+R20
+R33
 R4
 R5
 R0
-Z82 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_4dp_ram.vhd
-Z83 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_4dp_ram.vhd
+Z85 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_4dp_ram.vhd
+Z86 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_4dp_ram.vhd
 l0
 L47
 V7<DFB>7eX@z7Y1G1Y7?OI2
 !s100 FMefJHTCDWSLad;YlGzdB2
 R8
 32
-R70
+R82
 !i10b 1
-R75
-Z84 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_4dp_ram.vhd|-work|fft_ii_0|
-Z85 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_4dp_ram.vhd|
+Z87 !s108 1556319658.000000
+Z88 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_4dp_ram.vhd|-work|fft_ii_0|
+Z89 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_4dp_ram.vhd|
 !i113 1
 R13
 R14
 Asyn
 R3
-R59
-R31
-R21
+R62
 R32
+R20
+R33
 R4
 R5
 DEx4 work 15 asj_fft_4dp_ram 0 22 7<DFB>7eX@z7Y1G1Y7?OI2
@@ -755,46 +755,46 @@ V5Po:7F2_:hRNeEfeo^3U@1
 !s100 ^[=FQRD_[ZKROzjC2]niI1
 R8
 32
-R70
+R82
 !i10b 1
-R75
-R84
-R85
+R87
+R88
+R89
 !i113 1
 R13
 R14
 Easj_fft_6tdp_rom
 R1
 R3
-R59
-R31
-R21
+R62
 R32
+R20
+R33
 R4
 R5
 R0
-Z86 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_6tdp_rom.vhd
-Z87 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_6tdp_rom.vhd
+Z90 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_6tdp_rom.vhd
+Z91 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_6tdp_rom.vhd
 l0
 L56
 Vz]Z<]=aOmAViZ5;]POzjD2
 !s100 Y2NFOIVDDn2Wnmfi^jAZ:1
 R8
 32
-R70
+R82
 !i10b 1
-R75
-Z88 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_6tdp_rom.vhd|-work|fft_ii_0|
-Z89 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_6tdp_rom.vhd|
+R87
+Z92 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_6tdp_rom.vhd|-work|fft_ii_0|
+Z93 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_6tdp_rom.vhd|
 !i113 1
 R13
 R14
 Asyn
 R3
-R59
-R31
-R21
+R62
 R32
+R20
+R33
 R4
 R5
 DEx4 work 16 asj_fft_6tdp_rom 0 22 z]Z<]=aOmAViZ5;]POzjD2
@@ -804,46 +804,46 @@ VWOVgYiS>BZ9z[2L9i>P492
 !s100 RK54B]AaV2l9N4X71jEO>1
 R8
 32
-R70
+R82
 !i10b 1
-R75
-R88
-R89
+R87
+R92
+R93
 !i113 1
 R13
 R14
 Easj_fft_alt_shift_tdl
 R1
 R3
-R59
+R62
+R33
+R20
 R32
-R21
-R31
 R4
 R5
 R0
-Z90 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_alt_shift_tdl.vhd
-Z91 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_alt_shift_tdl.vhd
+Z94 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_alt_shift_tdl.vhd
+Z95 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_alt_shift_tdl.vhd
 l0
 L82
 Vn5RG2SO_8^KDOIT^^fB@23
 !s100 hU6COj6k<=HjI9[4C^[5F1
 R8
 32
-R70
+R82
 !i10b 1
-R75
-Z92 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_alt_shift_tdl.vhd|-work|fft_ii_0|
-Z93 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_alt_shift_tdl.vhd|
+R87
+Z96 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_alt_shift_tdl.vhd|-work|fft_ii_0|
+Z97 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_alt_shift_tdl.vhd|
 !i113 1
 R13
 R14
 Asyn
 R3
-R59
+R62
+R33
+R20
 R32
-R21
-R31
 R4
 R5
 DEx4 work 21 asj_fft_alt_shift_tdl 0 22 n5RG2SO_8^KDOIT^^fB@23
@@ -853,42 +853,42 @@ V3@g[zfbb@lUK>X_Gdc?nh2
 !s100 fnIC2e<[>I`T_<nf^IITd3
 R8
 32
-R70
+R82
 !i10b 1
-R75
-R92
-R93
+R87
+R96
+R97
 !i113 1
 R13
 R14
 Easj_fft_bfp_ctrl
 R1
-R31
-R21
 R32
+R20
+R33
 R4
 R5
 R0
-Z94 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_bfp_ctrl.vhd
-Z95 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_bfp_ctrl.vhd
+Z98 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_bfp_ctrl.vhd
+Z99 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_bfp_ctrl.vhd
 l0
 L40
 VDLmhR?kl[b5HCj>HFak8I0
 !s100 MXG^BRXFAERV:RH8a];z33
 R8
 32
-Z96 !s110 1556030264
+R82
 !i10b 1
-Z97 !s108 1556030264.000000
-Z98 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_bfp_ctrl.vhd|-work|fft_ii_0|
-Z99 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_bfp_ctrl.vhd|
+R87
+Z100 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_bfp_ctrl.vhd|-work|fft_ii_0|
+Z101 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_bfp_ctrl.vhd|
 !i113 1
 R13
 R14
 Asyn
-R31
-R21
 R32
+R20
+R33
 R4
 R5
 DEx4 work 16 asj_fft_bfp_ctrl 0 22 DLmhR?kl[b5HCj>HFak8I0
@@ -898,44 +898,44 @@ VlNn><EA50`HNzl:?=QaE@0
 !s100 DLB7z_f_PWAzk:YjYHo@82
 R8
 32
-R96
+R82
 !i10b 1
-R97
-R98
-R99
+R87
+R100
+R101
 !i113 1
 R13
 R14
 Easj_fft_bfp_i
 R1
+R33
 R32
-R31
+R20
 R21
-R22
 R4
 R5
 R0
-Z100 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_bfp_i.vhd
-Z101 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_bfp_i.vhd
+Z102 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_bfp_i.vhd
+Z103 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_bfp_i.vhd
 l0
 L39
 V59z[iAkTH13Q9cBjPf<0z3
 !s100 GkjUV]eEK>lJ=bP37G<o_2
 R8
 32
-R96
+R82
 !i10b 1
-R97
-Z102 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_bfp_i.vhd|-work|fft_ii_0|
-Z103 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_bfp_i.vhd|
+R87
+Z104 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_bfp_i.vhd|-work|fft_ii_0|
+Z105 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_bfp_i.vhd|
 !i113 1
 R13
 R14
 Ainput_bfp
+R33
 R32
-R31
+R20
 R21
-R22
 R4
 R5
 DEx4 work 13 asj_fft_bfp_i 0 22 59z[iAkTH13Q9cBjPf<0z3
@@ -945,44 +945,44 @@ VX1=mf9cO]KCCMOE2V5>`01
 !s100 IGAajG2N;@^@I@[4E^nWg3
 R8
 32
-R96
+R82
 !i10b 1
-R97
-R102
-R103
+R87
+R104
+R105
 !i113 1
 R13
 R14
 Easj_fft_bfp_i_1pt
 R1
+R33
 R32
-R31
+R20
 R21
-R22
 R4
 R5
 R0
-Z104 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_bfp_i_1pt.vhd
-Z105 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_bfp_i_1pt.vhd
+Z106 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_bfp_i_1pt.vhd
+Z107 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_bfp_i_1pt.vhd
 l0
 L39
 VCTjbALm;2O9Q>4HK>bPl]1
 !s100 eAC76RJozS:FLKQH<dd_@0
 R8
 32
-R96
+Z108 !s110 1556319659
 !i10b 1
-R97
-Z106 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_bfp_i_1pt.vhd|-work|fft_ii_0|
-Z107 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_bfp_i_1pt.vhd|
+Z109 !s108 1556319659.000000
+Z110 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_bfp_i_1pt.vhd|-work|fft_ii_0|
+Z111 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_bfp_i_1pt.vhd|
 !i113 1
 R13
 R14
 Ainput_bfp
+R33
 R32
-R31
+R20
 R21
-R22
 R4
 R5
 DEx4 work 17 asj_fft_bfp_i_1pt 0 22 CTjbALm;2O9Q>4HK>bPl]1
@@ -992,42 +992,42 @@ VeQZ=CC^NE3dU3STWDfXK30
 !s100 0_SJ6AMMKT98ABB13WhW22
 R8
 32
-R96
+R108
 !i10b 1
-R97
-R106
-R107
+R109
+R110
+R111
 !i113 1
 R13
 R14
 Easj_fft_bfp_o
 R1
-R31
-R21
 R32
+R20
+R33
 R4
 R5
 R0
-Z108 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_bfp_o.vhd
-Z109 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_bfp_o.vhd
+Z112 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_bfp_o.vhd
+Z113 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_bfp_o.vhd
 l0
 L45
 VYAAnEjc7bf8iR7:zPBG>e1
 !s100 Z:G>Gl>g6hFS4oJlDegk02
 R8
 32
-R96
+R108
 !i10b 1
-R97
-Z110 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_bfp_o.vhd|-work|fft_ii_0|
-Z111 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_bfp_o.vhd|
+R109
+Z114 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_bfp_o.vhd|-work|fft_ii_0|
+Z115 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_bfp_o.vhd|
 !i113 1
 R13
 R14
 Aoutput_bfp
-R31
-R21
 R32
+R20
+R33
 R4
 R5
 DEx4 work 13 asj_fft_bfp_o 0 22 YAAnEjc7bf8iR7:zPBG>e1
@@ -1037,44 +1037,44 @@ VnAI>5Llm1fQ6c>Pz;z]k81
 !s100 0BNX>C]bTo7^nE<PH?3GX1
 R8
 32
-R96
+R108
 !i10b 1
-R97
-R110
-R111
+R109
+R114
+R115
 !i113 1
 R13
 R14
 Easj_fft_bfp_o_1pt
 R1
+R33
 R32
-R31
+R20
 R21
-R22
 R4
 R5
 R0
-Z112 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_bfp_o_1pt.vhd
-Z113 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_bfp_o_1pt.vhd
+Z116 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_bfp_o_1pt.vhd
+Z117 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_bfp_o_1pt.vhd
 l0
 L35
 V[fNLE?:WTAnbZ;jWmOFM@2
 !s100 CDnnU<;9dYM3C_>9O6_SQ3
 R8
 32
-R96
+R108
 !i10b 1
-R97
-Z114 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_bfp_o_1pt.vhd|-work|fft_ii_0|
-Z115 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_bfp_o_1pt.vhd|
+R109
+Z118 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_bfp_o_1pt.vhd|-work|fft_ii_0|
+Z119 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_bfp_o_1pt.vhd|
 !i113 1
 R13
 R14
 Aoutput_bfp
+R33
 R32
-R31
+R20
 R21
-R22
 R4
 R5
 DEx4 work 17 asj_fft_bfp_o_1pt 0 22 [fNLE?:WTAnbZ;jWmOFM@2
@@ -1084,42 +1084,42 @@ Vo5[zXmgRM`76E3;c6<]P92
 !s100 ]NJ1PBD_0DbW:JlWVk44b3
 R8
 32
-R96
+R108
 !i10b 1
-R97
-R114
-R115
+R109
+R118
+R119
 !i113 1
 R13
 R14
 Easj_fft_burst_ctrl
 R1
-R31
-R21
 R32
+R20
+R33
 R4
 R5
 R0
-Z116 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_burst_ctrl.vhd
-Z117 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_burst_ctrl.vhd
+Z120 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_burst_ctrl.vhd
+Z121 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_burst_ctrl.vhd
 l0
 L41
 VK[e05H[aQk;AdKQERX]a83
 !s100 n201E]1Mo`W3TGDRnn=lz0
 R8
 32
-R96
+R108
 !i10b 1
-R97
-Z118 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_burst_ctrl.vhd|-work|fft_ii_0|
-Z119 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_burst_ctrl.vhd|
+R109
+Z122 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_burst_ctrl.vhd|-work|fft_ii_0|
+Z123 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_burst_ctrl.vhd|
 !i113 1
 R13
 R14
 Aburst_sw
-R31
-R21
 R32
+R20
+R33
 R4
 R5
 DEx4 work 18 asj_fft_burst_ctrl 0 22 K[e05H[aQk;AdKQERX]a83
@@ -1129,42 +1129,42 @@ Vc:?2gijl?=<jLOZLA=oN93
 !s100 edzQk^L5SGOdYGmIN4zQa2
 R8
 32
-R96
+R108
 !i10b 1
-R97
-R118
-R119
+R109
+R122
+R123
 !i113 1
 R13
 R14
 Easj_fft_burst_ctrl_de
 R1
-R31
-R21
 R32
+R20
+R33
 R4
 R5
 R0
-Z120 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_burst_ctrl_de.vhd
-Z121 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_burst_ctrl_de.vhd
+Z124 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_burst_ctrl_de.vhd
+Z125 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_burst_ctrl_de.vhd
 l0
 L39
 V1A8RAn2PonN3Ad?J;Chnk0
 !s100 HXCje19Qe6_c?QU?W6b0:3
 R8
 32
-Z122 !s110 1556030265
+R108
 !i10b 1
-R97
-Z123 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_burst_ctrl_de.vhd|-work|fft_ii_0|
-Z124 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_burst_ctrl_de.vhd|
+R109
+Z126 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_burst_ctrl_de.vhd|-work|fft_ii_0|
+Z127 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_burst_ctrl_de.vhd|
 !i113 1
 R13
 R14
 Acnt_sw
-R31
-R21
 R32
+R20
+R33
 R4
 R5
 DEx4 work 21 asj_fft_burst_ctrl_de 0 22 1A8RAn2PonN3Ad?J;Chnk0
@@ -1174,42 +1174,42 @@ VTECh05[jZD0la4<kH5<W@0
 !s100 _<hOBYF[C324i?MQ1mCHk2
 R8
 32
-R122
+R108
 !i10b 1
-R97
-R123
-R124
+R109
+R126
+R127
 !i113 1
 R13
 R14
 Easj_fft_burst_ctrl_qe
 R1
-R31
-R21
 R32
+R20
+R33
 R4
 R5
 R0
-Z125 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_burst_ctrl_qe.vhd
-Z126 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_burst_ctrl_qe.vhd
+Z128 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_burst_ctrl_qe.vhd
+Z129 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_burst_ctrl_qe.vhd
 l0
 L39
 VSgNnXZ^4KaGn3Djzbloo<1
 !s100 @UjYbGlz>k_m?]JW1E]^z1
 R8
 32
-R122
+Z130 !s110 1556319660
 !i10b 1
-Z127 !s108 1556030265.000000
-Z128 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_burst_ctrl_qe.vhd|-work|fft_ii_0|
-Z129 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_burst_ctrl_qe.vhd|
+Z131 !s108 1556319660.000000
+Z132 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_burst_ctrl_qe.vhd|-work|fft_ii_0|
+Z133 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_burst_ctrl_qe.vhd|
 !i113 1
 R13
 R14
 Acnt_sw
-R31
-R21
 R32
+R20
+R33
 R4
 R5
 DEx4 work 21 asj_fft_burst_ctrl_qe 0 22 SgNnXZ^4KaGn3Djzbloo<1
@@ -1219,46 +1219,46 @@ VkboA^WY[3QDFaAfnO55@]0
 !s100 9PIJf2XKD?VakKHA7Cj`C0
 R8
 32
-R122
+R130
 !i10b 1
-R127
-R128
-R129
+R131
+R132
+R133
 !i113 1
 R13
 R14
 Easj_fft_cmult_can
 R1
 R3
-R59
-R31
+R62
 R32
-R21
+R33
+R20
 R4
 R5
 R0
-Z130 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_cmult_can.vhd
-Z131 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_cmult_can.vhd
+Z134 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_cmult_can.vhd
+Z135 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_cmult_can.vhd
 l0
 L44
 VcQcUbRJfG^fADGJMXZ5FY0
 !s100 AmBPC<JfaWhW3;=F0EkjG0
 R8
 32
-R122
+R130
 !i10b 1
-R127
-Z132 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_cmult_can.vhd|-work|fft_ii_0|
-Z133 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_cmult_can.vhd|
+R131
+Z136 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_cmult_can.vhd|-work|fft_ii_0|
+Z137 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_cmult_can.vhd|
 !i113 1
 R13
 R14
 Amodel
 R3
-R59
-R31
+R62
 R32
-R21
+R33
+R20
 R4
 R5
 DEx4 work 17 asj_fft_cmult_can 0 22 cQcUbRJfG^fADGJMXZ5FY0
@@ -1268,46 +1268,46 @@ VYD^@C]_BjiC>^?@naMPfc0
 !s100 ci]1FO9HSokhCBzC4<iSG1
 R8
 32
-R122
+R130
 !i10b 1
-R127
-R132
-R133
+R131
+R136
+R137
 !i113 1
 R13
 R14
 Easj_fft_cmult_std
 R1
 R3
-R59
-R31
+R62
 R32
-R21
+R33
+R20
 R4
 R5
 R0
-Z134 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_cmult_std.vhd
-Z135 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_cmult_std.vhd
+Z138 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_cmult_std.vhd
+Z139 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_cmult_std.vhd
 l0
 L43
 V_PO_0Md:3f?f1[PZL^9VF3
 !s100 62oXVBY8=8hD8;jUWFVXe3
 R8
 32
-R122
+R130
 !i10b 1
-R127
-Z136 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_cmult_std.vhd|-work|fft_ii_0|
-Z137 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_cmult_std.vhd|
+R131
+Z140 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_cmult_std.vhd|-work|fft_ii_0|
+Z141 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_cmult_std.vhd|
 !i113 1
 R13
 R14
 Amodel
 R3
-R59
-R31
+R62
 R32
-R21
+R33
+R20
 R4
 R5
 DEx4 work 17 asj_fft_cmult_std 0 22 _PO_0Md:3f?f1[PZL^9VF3
@@ -1317,42 +1317,42 @@ VG1ZZNH>^^zHKK0gfe?hEH2
 !s100 iigQ:5Tcm@]<BU?^7?5LV2
 R8
 32
-R122
+R130
 !i10b 1
-R127
-R136
-R137
+R131
+R140
+R141
 !i113 1
 R13
 R14
 Easj_fft_cnt_ctrl
 R1
-R31
-R21
 R32
+R20
+R33
 R4
 R5
 R0
-Z138 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_cnt_ctrl.vhd
-Z139 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_cnt_ctrl.vhd
+Z142 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_cnt_ctrl.vhd
+Z143 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_cnt_ctrl.vhd
 l0
 L35
 VbYKLl:lXdHRTio6EdV<6Z1
 !s100 H1NYcXm3G[J3WXE^>c<1e3
 R8
 32
-R122
+R130
 !i10b 1
-R127
-Z140 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_cnt_ctrl.vhd|-work|fft_ii_0|
-Z141 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_cnt_ctrl.vhd|
+R131
+Z144 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_cnt_ctrl.vhd|-work|fft_ii_0|
+Z145 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_cnt_ctrl.vhd|
 !i113 1
 R13
 R14
 Acnt_sw
-R31
-R21
 R32
+R20
+R33
 R4
 R5
 DEx4 work 16 asj_fft_cnt_ctrl 0 22 bYKLl:lXdHRTio6EdV<6Z1
@@ -1362,42 +1362,42 @@ VhlX3BYPT]]>Q0]dUFmRb;1
 !s100 M2G?D=>6E<nF9JECQZZl[0
 R8
 32
-R122
+R130
 !i10b 1
-R127
-R140
-R141
+R131
+R144
+R145
 !i113 1
 R13
 R14
 Easj_fft_cnt_ctrl_de
 R1
-R31
-R21
 R32
+R20
+R33
 R4
 R5
 R0
-Z142 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_cnt_ctrl_de.vhd
-Z143 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_cnt_ctrl_de.vhd
+Z146 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_cnt_ctrl_de.vhd
+Z147 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_cnt_ctrl_de.vhd
 l0
 L36
 V4_k=e6T56IIlDNQ]6Z2I`1
 !s100 jAMR67S=5[L=QLSk3@Efa2
 R8
 32
-Z144 !s110 1556030266
+Z148 !s110 1556319661
 !i10b 1
-R127
-Z145 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_cnt_ctrl_de.vhd|-work|fft_ii_0|
-Z146 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_cnt_ctrl_de.vhd|
+R131
+Z149 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_cnt_ctrl_de.vhd|-work|fft_ii_0|
+Z150 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_cnt_ctrl_de.vhd|
 !i113 1
 R13
 R14
 Acnt_sw
-R31
-R21
 R32
+R20
+R33
 R4
 R5
 DEx4 work 19 asj_fft_cnt_ctrl_de 0 22 4_k=e6T56IIlDNQ]6Z2I`1
@@ -1407,42 +1407,42 @@ VO3bciGcNdEB`>=gK?hgIS2
 !s100 37j1<25^>M>Om9fQDZXlN1
 R8
 32
-R144
+R148
 !i10b 1
-R127
-R145
-R146
+R131
+R149
+R150
 !i113 1
 R13
 R14
 Easj_fft_cxb_addr
 R1
-R31
 R32
-R21
+R33
+R20
 R4
 R5
 R0
-Z147 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_cxb_addr.vhd
-Z148 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_cxb_addr.vhd
+Z151 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_cxb_addr.vhd
+Z152 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_cxb_addr.vhd
 l0
 L37
 Vd`:5YSiPBRbC^NPPBNi950
 !s100 ]EbUbcnAU;8^P]RYMhMb=1
 R8
 32
-R144
+R148
 !i10b 1
-Z149 !s108 1556030266.000000
-Z150 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_cxb_addr.vhd|-work|fft_ii_0|
-Z151 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_cxb_addr.vhd|
+Z153 !s108 1556319661.000000
+Z154 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_cxb_addr.vhd|-work|fft_ii_0|
+Z155 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_cxb_addr.vhd|
 !i113 1
 R13
 R14
 Asyn
-R31
 R32
-R21
+R33
+R20
 R4
 R5
 DEx4 work 16 asj_fft_cxb_addr 0 22 d`:5YSiPBRbC^NPPBNi950
@@ -1452,42 +1452,42 @@ VZ`cQnMI7f4PO3DDPQH3_J0
 !s100 Z9QUE8e_mX_]1=bVd]UJl0
 R8
 32
-R144
+R148
 !i10b 1
-R149
-R150
-R151
+R153
+R154
+R155
 !i113 1
 R13
 R14
 Easj_fft_cxb_data
 R1
-R31
 R32
-R21
+R33
+R20
 R4
 R5
 R0
-Z152 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_cxb_data.vhd
-Z153 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_cxb_data.vhd
+Z156 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_cxb_data.vhd
+Z157 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_cxb_data.vhd
 l0
 L44
 Vo^>R8N=olek62@W2iXoS41
 !s100 9BmcUX1@48i?H^6>5lHz:1
 R8
 32
-R144
+R148
 !i10b 1
-R149
-Z154 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_cxb_data.vhd|-work|fft_ii_0|
-Z155 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_cxb_data.vhd|
+R153
+Z158 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_cxb_data.vhd|-work|fft_ii_0|
+Z159 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_cxb_data.vhd|
 !i113 1
 R13
 R14
 Asyn
-R31
 R32
-R21
+R33
+R20
 R4
 R5
 DEx4 work 16 asj_fft_cxb_data 0 22 o^>R8N=olek62@W2iXoS41
@@ -1497,42 +1497,42 @@ Vm=jklg_ORScQVVE7[idl13
 !s100 PaA`k;Tc[@he^3E=;QP0T1
 R8
 32
-R144
+R148
 !i10b 1
-R149
-R154
-R155
+R153
+R158
+R159
 !i113 1
 R13
 R14
 Easj_fft_cxb_data_mram
 R1
-R31
 R32
-R21
+R33
+R20
 R4
 R5
 R0
-Z156 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_cxb_data_mram.vhd
-Z157 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_cxb_data_mram.vhd
+Z160 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_cxb_data_mram.vhd
+Z161 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_cxb_data_mram.vhd
 l0
 L38
 VQ:KUXA0I8l0=FbTK5<ciZ1
 !s100 onieUML0dLSFP2D7h6RaJ2
 R8
 32
-R144
+R148
 !i10b 1
-R149
-Z158 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_cxb_data_mram.vhd|-work|fft_ii_0|
-Z159 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_cxb_data_mram.vhd|
+R153
+Z162 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_cxb_data_mram.vhd|-work|fft_ii_0|
+Z163 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_cxb_data_mram.vhd|
 !i113 1
 R13
 R14
 Asyn
-R31
 R32
-R21
+R33
+R20
 R4
 R5
 DEx4 work 21 asj_fft_cxb_data_mram 0 22 Q:KUXA0I8l0=FbTK5<ciZ1
@@ -1542,42 +1542,42 @@ VODC:VIFD>^m9VIVTYJllQ0
 !s100 mMf1VhSVGMGQJA1V^Pa9c0
 R8
 32
-R144
+R148
 !i10b 1
-R149
-R158
-R159
+R153
+R162
+R163
 !i113 1
 R13
 R14
 Easj_fft_cxb_data_r
 R1
-R31
 R32
-R21
+R33
+R20
 R4
 R5
 R0
-Z160 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_cxb_data_r.vhd
-Z161 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_cxb_data_r.vhd
+Z164 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_cxb_data_r.vhd
+Z165 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_cxb_data_r.vhd
 l0
 L44
 V9G_Z7STSK>KEiZBFak:ne2
 !s100 88[6[P_CbR`zR@k=Hil[O3
 R8
 32
-R144
+R148
 !i10b 1
-R149
-Z162 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_cxb_data_r.vhd|-work|fft_ii_0|
-Z163 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_cxb_data_r.vhd|
+R153
+Z166 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_cxb_data_r.vhd|-work|fft_ii_0|
+Z167 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_cxb_data_r.vhd|
 !i113 1
 R13
 R14
 Asyn
-R31
 R32
-R21
+R33
+R20
 R4
 R5
 DEx4 work 18 asj_fft_cxb_data_r 0 22 9G_Z7STSK>KEiZBFak:ne2
@@ -1587,46 +1587,46 @@ VbNgo8HA`49[0X2:k`z<nC2
 !s100 nb5D1G]on99GLdlEfOWH93
 R8
 32
-R144
+R148
 !i10b 1
-R149
-R162
-R163
+R153
+R166
+R167
 !i113 1
 R13
 R14
 Easj_fft_data_ram
-R1
+Z168 w1556318965
 R3
-R59
+R62
+R33
+R20
 R32
-R21
-R31
 R4
 R5
 R0
-Z164 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_data_ram.vhd
-Z165 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_data_ram.vhd
+Z169 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_data_ram.vhd
+Z170 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_data_ram.vhd
 l0
 L40
 VgmkWQ2o@[UQJYCcRn7PFX2
 !s100 I^eDnMIjK1^JHPT3D59oY1
 R8
 32
-Z166 !s110 1556030267
+Z171 !s110 1556319662
 !i10b 1
-R149
-Z167 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_data_ram.vhd|-work|fft_ii_0|
-Z168 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_data_ram.vhd|
+Z172 !s108 1556319662.000000
+Z173 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_data_ram.vhd|-work|fft_ii_0|
+Z174 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_data_ram.vhd|
 !i113 1
 R13
 R14
 Asyn
 R3
-R59
+R62
+R33
+R20
 R32
-R21
-R31
 R4
 R5
 DEx4 work 16 asj_fft_data_ram 0 22 gmkWQ2o@[UQJYCcRn7PFX2
@@ -1636,46 +1636,46 @@ VP?fVTF:_5oh7SoZ7]UKK@3
 !s100 BQj[TVeh1koVS^oaFWONX1
 R8
 32
-R166
+R171
 !i10b 1
-R149
-R167
-R168
+R172
+R173
+R174
 !i113 1
 R13
 R14
 Easj_fft_data_ram_dp
-R1
+R168
 R3
-R59
+R62
+R33
+R20
 R32
-R21
-R31
 R4
 R5
 R0
-Z169 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_data_ram_dp.vhd
-Z170 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_data_ram_dp.vhd
+Z175 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_data_ram_dp.vhd
+Z176 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_data_ram_dp.vhd
 l0
 L40
 VBVl_eN8iDYBL2mPOUb];13
 !s100 :TB8`[7Z<`32T`F4fQdU^0
 R8
 32
-R166
+R171
 !i10b 1
-Z171 !s108 1556030267.000000
-Z172 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_data_ram_dp.vhd|-work|fft_ii_0|
-Z173 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_data_ram_dp.vhd|
+R172
+Z177 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_data_ram_dp.vhd|-work|fft_ii_0|
+Z178 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_data_ram_dp.vhd|
 !i113 1
 R13
 R14
 Asyn
 R3
-R59
+R62
+R33
+R20
 R32
-R21
-R31
 R4
 R5
 DEx4 work 19 asj_fft_data_ram_dp 0 22 BVl_eN8iDYBL2mPOUb];13
@@ -1685,42 +1685,42 @@ VKQIbc:S9a9KI8nHm>8dzT3
 !s100 @8Dhao@;9NCl0^j?09F<B3
 R8
 32
-R166
-!i10b 1
 R171
+!i10b 1
 R172
-R173
+R177
+R178
 !i113 1
 R13
 R14
 Easj_fft_dataadgen
 R1
-R31
-R21
 R32
+R20
+R33
 R4
 R5
 R0
-Z174 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_dataadgen.vhd
-Z175 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_dataadgen.vhd
+Z179 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_dataadgen.vhd
+Z180 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_dataadgen.vhd
 l0
 L38
 VUi=PTIlU<]a8HbJnZ?Ie=0
 !s100 Ug8k9CU[2L5>d5NMAO_Qi3
 R8
 32
-R144
+R148
 !i10b 1
-R149
-Z176 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_dataadgen.vhd|-work|fft_ii_0|
-Z177 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_dataadgen.vhd|
+R153
+Z181 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_dataadgen.vhd|-work|fft_ii_0|
+Z182 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_dataadgen.vhd|
 !i113 1
 R13
 R14
 Agen_all
-R31
-R21
 R32
+R20
+R33
 R4
 R5
 DEx4 work 17 asj_fft_dataadgen 0 22 Ui=PTIlU<]a8HbJnZ?Ie=0
@@ -1730,48 +1730,48 @@ V7Kf?TLSJ?1o7J8S^ZM`Cn1
 !s100 9:OWM<]]1<UkGAehf<[=Z3
 R8
 32
-R144
+R148
 !i10b 1
-R149
-R176
-R177
+R153
+R181
+R182
 !i113 1
 R13
 R14
 Easj_fft_dft_bfp
-R1
+R168
 R3
-R59
+R62
+R33
 R32
-R31
+R20
 R21
-R22
 R4
 R5
 R0
-Z178 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_dft_bfp.vhd
-Z179 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_dft_bfp.vhd
+Z183 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_dft_bfp.vhd
+Z184 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_dft_bfp.vhd
 l0
 L42
 V`6:]QlcMO`UiLWVh[aQfM3
 !s100 J=UEPN]iZ]`kRA1G5K2gV2
 R8
 32
-R166
-!i10b 1
 R171
-Z180 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_dft_bfp.vhd|-work|fft_ii_0|
-Z181 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_dft_bfp.vhd|
+!i10b 1
+R172
+Z185 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_dft_bfp.vhd|-work|fft_ii_0|
+Z186 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_dft_bfp.vhd|
 !i113 1
 R13
 R14
 Adft_r4
 R3
-R59
+R62
+R33
 R32
-R31
+R20
 R21
-R22
 R4
 R5
 DEx4 work 15 asj_fft_dft_bfp 0 22 `6:]QlcMO`UiLWVh[aQfM3
@@ -1781,48 +1781,48 @@ VkKzTYlehNNBW2IB5aO=mU3
 !s100 2T>m5=^BAVzdOK=k[Zb`>2
 R8
 32
-R166
-!i10b 1
 R171
-R180
-R181
+!i10b 1
+R172
+R185
+R186
 !i113 1
 R13
 R14
 Easj_fft_dft_bfp_sgl
-R1
+R168
 R3
-R59
+R62
+R33
 R32
-R31
+R20
 R21
-R22
 R4
 R5
 R0
-Z182 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_dft_bfp_sgl.vhd
-Z183 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_dft_bfp_sgl.vhd
+Z187 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_dft_bfp_sgl.vhd
+Z188 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_dft_bfp_sgl.vhd
 l0
 L42
 V@:5ODIZA96d3mLkV2@^Oo1
 !s100 RRkR9;IEeOlYehI3]_`2M1
 R8
 32
-R166
-!i10b 1
 R171
-Z184 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_dft_bfp_sgl.vhd|-work|fft_ii_0|
-Z185 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_dft_bfp_sgl.vhd|
+!i10b 1
+R172
+Z189 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_dft_bfp_sgl.vhd|-work|fft_ii_0|
+Z190 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_dft_bfp_sgl.vhd|
 !i113 1
 R13
 R14
 Adft_r4
 R3
-R59
+R62
+R33
 R32
-R31
+R20
 R21
-R22
 R4
 R5
 DEx4 work 19 asj_fft_dft_bfp_sgl 0 22 @:5ODIZA96d3mLkV2@^Oo1
@@ -1832,46 +1832,46 @@ V6jM;mSe9kllVdAPCV__>40
 !s100 P8WaoQRKAhoMNg[;4;L7]0
 R8
 32
-R166
-!i10b 1
 R171
-R184
-R185
+!i10b 1
+R172
+R189
+R190
 !i113 1
 R13
 R14
 Easj_fft_dp_mram
-R1
+R168
 R3
-R59
+R62
+R33
+R20
 R32
-R21
-R31
 R4
 R5
 R0
-Z186 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_dp_mram.vhd
-Z187 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_dp_mram.vhd
+Z191 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_dp_mram.vhd
+Z192 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_dp_mram.vhd
 l0
 L73
 VceGZQ[5<dY?AKk7GWgd^f0
 !s100 ^B`6KnJhDLINDo36m78Pg0
 R8
 32
-R166
+Z193 !s110 1556319663
 !i10b 1
-R171
-Z188 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_dp_mram.vhd|-work|fft_ii_0|
-Z189 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_dp_mram.vhd|
+Z194 !s108 1556319663.000000
+Z195 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_dp_mram.vhd|-work|fft_ii_0|
+Z196 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_dp_mram.vhd|
 !i113 1
 R13
 R14
 Asyn
 R3
-R59
+R62
+R33
+R20
 R32
-R21
-R31
 R4
 R5
 DEx4 work 15 asj_fft_dp_mram 0 22 ceGZQ[5<dY?AKk7GWgd^f0
@@ -1881,46 +1881,46 @@ VmjSFPJk0Xc:eP<TdTMhOc0
 !s100 YQSQ4nAKdfeiEkmH>37<T3
 R8
 32
-R166
+R193
 !i10b 1
-R171
-R188
-R189
+R194
+R195
+R196
 !i113 1
 R13
 R14
 Easj_fft_dpi_mram
-R1
+R168
 R3
-R59
+R62
+R33
+R20
 R32
-R21
-R31
 R4
 R5
 R0
-Z190 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_dpi_mram.vhd
-Z191 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_dpi_mram.vhd
+Z197 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_dpi_mram.vhd
+Z198 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_dpi_mram.vhd
 l0
 L76
 V@M_`GdTDl`@?:JLRO^]B81
 !s100 ooTiZK]TFWTV2gohaHLGd1
 R8
 32
-R166
-!i10b 1
 R171
-Z192 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_dpi_mram.vhd|-work|fft_ii_0|
-Z193 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_dpi_mram.vhd|
+!i10b 1
+R172
+Z199 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_dpi_mram.vhd|-work|fft_ii_0|
+Z200 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_dpi_mram.vhd|
 !i113 1
 R13
 R14
 Asyn
 R3
-R59
+R62
+R33
+R20
 R32
-R21
-R31
 R4
 R5
 DEx4 work 16 asj_fft_dpi_mram 0 22 @M_`GdTDl`@?:JLRO^]B81
@@ -1930,48 +1930,48 @@ V?k`9[Im[fC[cafOG>YNEM1
 !s100 _OeS_n[3ff5A@Xdk1k;gS3
 R8
 32
-R166
-!i10b 1
 R171
-R192
-R193
+!i10b 1
+R172
+R199
+R200
 !i113 1
 R13
 R14
 Easj_fft_dualstream
-R1
-Z194 DPx4 work 18 auk_dspip_math_pkg 0 22 n?1X_^XLl;O4a:8M64kRS0
-Z195 DPx4 work 17 auk_dspip_lib_pkg 0 22 [Lag;Z:I^H?=5^_LMn`Zl2
-R31
-R44
-R21
+R168
+Z201 DPx4 work 18 auk_dspip_math_pkg 0 22 n?1X_^XLl;O4a:8M64kRS0
+Z202 DPx4 work 17 auk_dspip_lib_pkg 0 22 [Lag;Z:I^H?=5^_LMn`Zl2
 R32
+R46
+R20
+R33
 R4
 R5
 R0
-Z196 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_dualstream.vhd
-Z197 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_dualstream.vhd
+Z203 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_dualstream.vhd
+Z204 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_dualstream.vhd
 l0
 L40
 V2KRYQIKVC_QN[X2fGY=DH3
 !s100 6<]H0jW7[WNngKbWe1nPC3
 R8
 32
-Z198 !s110 1556030268
+R193
 !i10b 1
-Z199 !s108 1556030268.000000
-Z200 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_dualstream.vhd|-work|fft_ii_0|
-Z201 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_dualstream.vhd|
+R194
+Z205 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_dualstream.vhd|-work|fft_ii_0|
+Z206 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_dualstream.vhd|
 !i113 1
 R13
 R14
 Atransform
-R194
-R195
-R31
-R44
-R21
+R201
+R202
 R32
+R46
+R20
+R33
 R4
 R5
 DEx4 work 18 asj_fft_dualstream 0 22 2KRYQIKVC_QN[X2fGY=DH3
@@ -1981,44 +1981,44 @@ V6iN2fn;fMCSenHjPH9CzC2
 !s100 jZ=H0K`_>hM=WRQRC9`CH3
 R8
 32
-R198
+R193
 !i10b 1
-R199
-R200
-R201
+R194
+R205
+R206
 !i113 1
 R13
 R14
 Easj_fft_in_write_sgl
-R1
+R168
+R33
 R32
-R31
+R20
 R21
-R22
 R4
 R5
 R0
-Z202 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_in_write_sgl.vhd
-Z203 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_in_write_sgl.vhd
+Z207 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_in_write_sgl.vhd
+Z208 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_in_write_sgl.vhd
 l0
 L35
 V8U?`:nbFoMWWOcdI21z9k0
 !s100 >DV<V8:jlmf@]0f5d2n]52
 R8
 32
-R198
+R193
 !i10b 1
-R199
-Z204 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_in_write_sgl.vhd|-work|fft_ii_0|
-Z205 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_in_write_sgl.vhd|
+R194
+Z209 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_in_write_sgl.vhd|-work|fft_ii_0|
+Z210 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_in_write_sgl.vhd|
 !i113 1
 R13
 R14
 Awriter
+R33
 R32
-R31
+R20
 R21
-R22
 R4
 R5
 DEx4 work 20 asj_fft_in_write_sgl 0 22 8U?`:nbFoMWWOcdI21z9k0
@@ -2028,48 +2028,48 @@ VR>DfoUMX7U?UnIfifFS;61
 !s100 bneePTh<lfR;GR`^nEPho3
 R8
 32
-R198
+R193
 !i10b 1
-R199
-R204
-R205
+R194
+R209
+R210
 !i113 1
 R13
 R14
 Easj_fft_lcm_mult
-R1
+R168
 R3
-R59
+R62
+R33
 R32
-R31
+R20
 R21
-R22
 R4
 R5
 R0
-Z206 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_lcm_mult.vhd
-Z207 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_lcm_mult.vhd
+Z211 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_lcm_mult.vhd
+Z212 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_lcm_mult.vhd
 l0
 L43
 VS6TY5cMO`^Jk34`Q8_B@A2
 !s100 FCo0LzEgC`di7c?04e35G0
 R8
 32
-R198
+R193
 !i10b 1
-R199
-Z208 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_lcm_mult.vhd|-work|fft_ii_0|
-Z209 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_lcm_mult.vhd|
+R194
+Z213 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_lcm_mult.vhd|-work|fft_ii_0|
+Z214 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_lcm_mult.vhd|
 !i113 1
 R13
 R14
 Amult
 R3
-R59
+R62
+R33
 R32
-R31
+R20
 R21
-R22
 R4
 R5
 DEx4 work 16 asj_fft_lcm_mult 0 22 S6TY5cMO`^Jk34`Q8_B@A2
@@ -2079,48 +2079,48 @@ VM;EoJiOL;S9k7TR6QCHlm2
 !s100 2ZW1zz^GN8lLVhWgPbTWI3
 R8
 32
-R198
+R193
 !i10b 1
-R199
-R208
-R209
+R194
+R213
+R214
 !i113 1
 R13
 R14
 Easj_fft_lcm_mult_2m
-R1
+R168
 R3
-R59
+R62
+R33
 R32
-R31
+R20
 R21
-R22
 R4
 R5
 R0
-Z210 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_lcm_mult_2m.vhd
-Z211 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_lcm_mult_2m.vhd
+Z215 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_lcm_mult_2m.vhd
+Z216 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_lcm_mult_2m.vhd
 l0
 L45
 V_Gf@^I6L=^`5WV4BMcX;72
 !s100 _a4cA=A@<=hUeVMd_AKcc0
 R8
 32
-R198
+R193
 !i10b 1
-R199
-Z212 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_lcm_mult_2m.vhd|-work|fft_ii_0|
-Z213 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_lcm_mult_2m.vhd|
+R194
+Z217 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_lcm_mult_2m.vhd|-work|fft_ii_0|
+Z218 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_lcm_mult_2m.vhd|
 !i113 1
 R13
 R14
 Amult
 R3
-R59
+R62
+R33
 R32
-R31
+R20
 R21
-R22
 R4
 R5
 DEx4 work 19 asj_fft_lcm_mult_2m 0 22 _Gf@^I6L=^`5WV4BMcX;72
@@ -2130,44 +2130,44 @@ VE1[=R@;dB3FGLccdDze490
 !s100 K;VCo_UM9z>EIIVjh>Kom3
 R8
 32
-R198
+R193
 !i10b 1
-R199
-R212
-R213
+R194
+R217
+R218
 !i113 1
 R13
 R14
 Easj_fft_lpp
-R1
+R168
+R33
 R32
-R31
+R20
 R21
-R22
 R4
 R5
 R0
-Z214 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_lpp.vhd
-Z215 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_lpp.vhd
+Z219 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_lpp.vhd
+Z220 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_lpp.vhd
 l0
 L36
 Vj6FEz?U`3PjSz>3?zIAhe3
 !s100 1]niQl[DHBCb20jN]WePk3
 R8
 32
-R198
+Z221 !s110 1556319664
 !i10b 1
-R199
-Z216 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_lpp.vhd|-work|fft_ii_0|
-Z217 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_lpp.vhd|
+Z222 !s108 1556319664.000000
+Z223 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_lpp.vhd|-work|fft_ii_0|
+Z224 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_lpp.vhd|
 !i113 1
 R13
 R14
 Adft
+R33
 R32
-R31
+R20
 R21
-R22
 R4
 R5
 DEx4 work 11 asj_fft_lpp 0 22 j6FEz?U`3PjSz>3?zIAhe3
@@ -2177,44 +2177,44 @@ VAiT[m4ELmI12DaVLOkRN[3
 !s100 ^QDhk_i9Z[DZ_TSd?EQiM1
 R8
 32
-R198
+R221
 !i10b 1
-R199
-R216
-R217
+R222
+R223
+R224
 !i113 1
 R13
 R14
 Easj_fft_lpp_serial
-R1
+R168
+R33
 R32
-R31
+R20
 R21
-R22
 R4
 R5
 R0
-Z218 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_lpp_serial.vhd
-Z219 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_lpp_serial.vhd
+Z225 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_lpp_serial.vhd
+Z226 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_lpp_serial.vhd
 l0
 L37
 V0@l9?moTVMBHHiZkXn`RC2
 !s100 B=?D5FRCcNz@?8kU_0B^c0
 R8
 32
-Z220 !s110 1556030269
+R221
 !i10b 1
-Z221 !s108 1556030269.000000
-Z222 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_lpp_serial.vhd|-work|fft_ii_0|
-Z223 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_lpp_serial.vhd|
+R222
+Z227 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_lpp_serial.vhd|-work|fft_ii_0|
+Z228 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_lpp_serial.vhd|
 !i113 1
 R13
 R14
 Alp
+R33
 R32
-R31
+R20
 R21
-R22
 R4
 R5
 DEx4 work 18 asj_fft_lpp_serial 0 22 0@l9?moTVMBHHiZkXn`RC2
@@ -2224,44 +2224,44 @@ VO]g431<jB_L7n6ON<>f`93
 !s100 zfJ5C>M7bO:f:Z4;gY;^D2
 R8
 32
-R220
-!i10b 1
 R221
+!i10b 1
 R222
-R223
+R227
+R228
 !i113 1
 R13
 R14
 Easj_fft_lpp_serial_r2
-R1
+R168
+R33
 R32
-R31
+R20
 R21
-R22
 R4
 R5
 R0
-Z224 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_lpp_serial_r2.vhd
-Z225 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_lpp_serial_r2.vhd
+Z229 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_lpp_serial_r2.vhd
+Z230 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_lpp_serial_r2.vhd
 l0
 L39
 V]7jB]aeP6L3nJ:6GOF^ZL0
 !s100 ]I@TX`5aaLZDcLG`X=:OZ2
 R8
 32
-R220
-!i10b 1
 R221
-Z226 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_lpp_serial_r2.vhd|-work|fft_ii_0|
-Z227 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_lpp_serial_r2.vhd|
+!i10b 1
+R222
+Z231 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_lpp_serial_r2.vhd|-work|fft_ii_0|
+Z232 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_lpp_serial_r2.vhd|
 !i113 1
 R13
 R14
 Alp
+R33
 R32
-R31
+R20
 R21
-R22
 R4
 R5
 DEx4 work 21 asj_fft_lpp_serial_r2 0 22 ]7jB]aeP6L3nJ:6GOF^ZL0
@@ -2271,42 +2271,42 @@ VBeB?@Q1Ok0Qa6aRXKf`BK1
 !s100 W`ZGz@QXFTjPFlmBliI[d0
 R8
 32
-R220
-!i10b 1
 R221
-R226
-R227
+!i10b 1
+R222
+R231
+R232
 !i113 1
 R13
 R14
 Easj_fft_lpprdadgen
-R1
-R31
-R21
+R168
 R32
+R20
+R33
 R4
 R5
 R0
-Z228 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_lpprdadgen.vhd
-Z229 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_lpprdadgen.vhd
+Z233 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_lpprdadgen.vhd
+Z234 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_lpprdadgen.vhd
 l0
 L37
 VATinm^WWTS<J=2AmN4HCZ1
 !s100 Em:j@MALK3J`?G6UC5JZW2
 R8
 32
-R220
-!i10b 1
 R221
-Z230 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_lpprdadgen.vhd|-work|fft_ii_0|
-Z231 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_lpprdadgen.vhd|
+!i10b 1
+R222
+Z235 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_lpprdadgen.vhd|-work|fft_ii_0|
+Z236 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_lpprdadgen.vhd|
 !i113 1
 R13
 R14
 Agen_all
-R31
-R21
 R32
+R20
+R33
 R4
 R5
 DEx4 work 18 asj_fft_lpprdadgen 0 22 ATinm^WWTS<J=2AmN4HCZ1
@@ -2316,42 +2316,42 @@ VQR5_?CFhP61[Y9bbELJ3>3
 !s100 =DP>4ohjH:9497I]iVV052
 R8
 32
-R220
-!i10b 1
 R221
-R230
-R231
+!i10b 1
+R222
+R235
+R236
 !i113 1
 R13
 R14
 Easj_fft_lpprdadr2gen
-R1
-R31
-R21
+R168
 R32
+R20
+R33
 R4
 R5
 R0
-Z232 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_lpprdadr2gen.vhd
-Z233 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_lpprdadr2gen.vhd
+Z237 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_lpprdadr2gen.vhd
+Z238 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_lpprdadr2gen.vhd
 l0
 L37
 V2b2IONaK[;BJFJJT9O6hB2
 !s100 5[laMM4E_RY:E6;3<;BSS0
 R8
 32
-R220
-!i10b 1
 R221
-Z234 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_lpprdadr2gen.vhd|-work|fft_ii_0|
-Z235 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_lpprdadr2gen.vhd|
+!i10b 1
+R222
+Z239 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_lpprdadr2gen.vhd|-work|fft_ii_0|
+Z240 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_lpprdadr2gen.vhd|
 !i113 1
 R13
 R14
 Agen_all
-R31
-R21
 R32
+R20
+R33
 R4
 R5
 DEx4 work 20 asj_fft_lpprdadr2gen 0 22 2b2IONaK[;BJFJJT9O6hB2
@@ -2361,42 +2361,42 @@ VLU0V;CVRURZ2EQMJ88N=c2
 !s100 UZaCNnIgY74@EDi=^kD7C1
 R8
 32
-R220
-!i10b 1
 R221
-R234
-R235
+!i10b 1
+R222
+R239
+R240
 !i113 1
 R13
 R14
 Easj_fft_m_k_counter
-Z236 w1554847883
-R31
-R21
+R168
 R32
+R20
+R33
 R4
 R5
 R0
-Z237 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_m_k_counter.vhd
-Z238 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_m_k_counter.vhd
+Z241 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_m_k_counter.vhd
+Z242 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_m_k_counter.vhd
 l0
 L35
 VfSch35c3e@i?UREY`VlES3
 !s100 Ym?GN?[U;c^><Q5E9Kf@_3
 R8
 32
-R220
+Z243 !s110 1556319665
 !i10b 1
-R221
-Z239 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_m_k_counter.vhd|-work|fft_ii_0|
-Z240 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_m_k_counter.vhd|
+Z244 !s108 1556319665.000000
+Z245 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_m_k_counter.vhd|-work|fft_ii_0|
+Z246 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_m_k_counter.vhd|
 !i113 1
 R13
 R14
 Agen_all
-R31
-R21
 R32
+R20
+R33
 R4
 R5
 DEx4 work 19 asj_fft_m_k_counter 0 22 fSch35c3e@i?UREY`VlES3
@@ -2406,46 +2406,46 @@ V6;CJ^lELCbX8_hz6Q>[jc3
 !s100 mc4LmeJVmTY^SWd[Iz1XE1
 R8
 32
-R220
+R243
 !i10b 1
-R221
-R239
-R240
+R244
+R245
+R246
 !i113 1
 R13
 R14
 Easj_fft_mult_add
-R236
+R168
 R3
-R59
-R31
-R21
+R62
 R32
+R20
+R33
 R4
 R5
 R0
-Z241 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_mult_add.vhd
-Z242 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_mult_add.vhd
+Z247 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_mult_add.vhd
+Z248 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_mult_add.vhd
 l0
 L77
 VKQJKCZ?UGB_l75^SaiVSX2
 !s100 6DBz[P1ELZN_W2e<]Joi]1
 R8
 32
-R220
+R243
 !i10b 1
-R221
-Z243 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_mult_add.vhd|-work|fft_ii_0|
-Z244 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_mult_add.vhd|
+R222
+Z249 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_mult_add.vhd|-work|fft_ii_0|
+Z250 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_mult_add.vhd|
 !i113 1
 R13
 R14
 Asyn
 R3
-R59
-R31
-R21
+R62
 R32
+R20
+R33
 R4
 R5
 DEx4 work 16 asj_fft_mult_add 0 22 KQJKCZ?UGB_l75^SaiVSX2
@@ -2455,46 +2455,46 @@ V2Z35bC;XI6:B;mj>OcHn?3
 !s100 RQDOSgnLJB@?`d5f:RZMb1
 R8
 32
-R220
-!i10b 1
-R221
 R243
-R244
+!i10b 1
+R222
+R249
+R250
 !i113 1
 R13
 R14
 Easj_fft_pround
-R236
+R168
 R3
-R59
-R31
-R21
+R62
 R32
+R20
+R33
 R4
 R5
 R0
-Z245 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_pround.vhd
-Z246 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_pround.vhd
+Z251 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_pround.vhd
+Z252 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_pround.vhd
 l0
 L42
 Vac:z:AANOV?4@njlzFdT<3
 !s100 mf==S>JTfgX^R3h9EHVBB0
 R8
 32
-Z247 !s110 1556030270
+R243
 !i10b 1
-Z248 !s108 1556030270.000000
-Z249 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_pround.vhd|-work|fft_ii_0|
-Z250 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_pround.vhd|
+R244
+Z253 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_pround.vhd|-work|fft_ii_0|
+Z254 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_pround.vhd|
 !i113 1
 R13
 R14
 Aaroundpipe_synth
 R3
-R59
-R31
-R21
+R62
 R32
+R20
+R33
 R4
 R5
 DEx4 work 14 asj_fft_pround 0 22 ac:z:AANOV?4@njlzFdT<3
@@ -2504,48 +2504,48 @@ VQV:fJ[^bAK[nL^mN4K>UT1
 !s100 Kb:KoKJlZPD7C8Q[2YeHQ2
 R8
 32
-R247
+R243
 !i10b 1
-R248
-R249
-R250
+R244
+R253
+R254
 !i113 1
 R13
 R14
 Easj_fft_sglstream
-R236
-R194
-R195
-R31
-R44
-R21
+R168
+R201
+R202
 R32
+R46
+R20
+R33
 R4
 R5
 R0
-Z251 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_sglstream.vhd
-Z252 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_sglstream.vhd
+Z255 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_sglstream.vhd
+Z256 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_sglstream.vhd
 l0
 L42
 Vj6zc2MUbMmVQ?PVPGmem92
 !s100 RID6F5iaSHVJJca[2CHVm3
 R8
 32
-R247
+R243
 !i10b 1
-R248
-Z253 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_sglstream.vhd|-work|fft_ii_0|
-Z254 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_sglstream.vhd|
+R244
+Z257 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_sglstream.vhd|-work|fft_ii_0|
+Z258 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_sglstream.vhd|
 !i113 1
 R13
 R14
 Atransform
-R194
-R195
-R31
-R44
-R21
+R201
+R202
 R32
+R46
+R20
+R33
 R4
 R5
 DEx4 work 17 asj_fft_sglstream 0 22 j6zc2MUbMmVQ?PVPGmem92
@@ -2555,48 +2555,48 @@ VFU9Yz^XW@c;^[@MUo::CO2
 !s100 ;OKP4`:?W0^Kz>HCh5H410
 R8
 32
-R247
+R243
 !i10b 1
-R248
-R253
-R254
+R244
+R257
+R258
 !i113 1
 R13
 R14
 Easj_fft_si_de_so_b
-R236
-R194
-R195
-R31
-R44
-R21
+R168
+R201
+R202
 R32
+R46
+R20
+R33
 R4
 R5
 R0
-Z255 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_si_de_so_b.vhd
-Z256 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_si_de_so_b.vhd
+Z259 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_si_de_so_b.vhd
+Z260 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_si_de_so_b.vhd
 l0
 L41
 Vdd@TQ6KIUemhgHRPV`oKj0
 !s100 N88fh906fJSFXU?8?ZR<S0
 R8
 32
-R247
+Z261 !s110 1556319666
 !i10b 1
-R248
-Z257 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_si_de_so_b.vhd|-work|fft_ii_0|
-Z258 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_si_de_so_b.vhd|
+Z262 !s108 1556319666.000000
+Z263 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_si_de_so_b.vhd|-work|fft_ii_0|
+Z264 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_si_de_so_b.vhd|
 !i113 1
 R13
 R14
 Atransform
-R194
-R195
-R31
-R44
-R21
+R201
+R202
 R32
+R46
+R20
+R33
 R4
 R5
 DEx4 work 18 asj_fft_si_de_so_b 0 22 dd@TQ6KIUemhgHRPV`oKj0
@@ -2606,48 +2606,48 @@ V_=G1eWJVZ_BWe5f=a>;S=2
 !s100 WKOzR]3;99c=Y:n6N2eFk2
 R8
 32
-R247
+R261
 !i10b 1
-R248
-R257
-R258
+R262
+R263
+R264
 !i113 1
 R13
 R14
 Easj_fft_si_de_so_bb
-R236
-R194
-R195
-R31
-R44
-R21
+R168
+R201
+R202
 R32
+R46
+R20
+R33
 R4
 R5
 R0
-Z259 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_si_de_so_bb.vhd
-Z260 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_si_de_so_bb.vhd
+Z265 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_si_de_so_bb.vhd
+Z266 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_si_de_so_bb.vhd
 l0
 L42
 V0OnzPC6ZQSETWJBc]hZWA1
 !s100 Y@fFCn^m_K67NmmWdf[ni2
 R8
 32
-R247
+R261
 !i10b 1
-R248
-Z261 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_si_de_so_bb.vhd|-work|fft_ii_0|
-Z262 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_si_de_so_bb.vhd|
+R262
+Z267 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_si_de_so_bb.vhd|-work|fft_ii_0|
+Z268 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_si_de_so_bb.vhd|
 !i113 1
 R13
 R14
 Atransform
-R194
-R195
-R31
-R44
-R21
+R201
+R202
 R32
+R46
+R20
+R33
 R4
 R5
 DEx4 work 19 asj_fft_si_de_so_bb 0 22 0OnzPC6ZQSETWJBc]hZWA1
@@ -2657,48 +2657,48 @@ VZ1<e59kjENH1LoFOYIcWh2
 !s100 no_Ik6?<[5[20e[l[gWNh2
 R8
 32
-R247
-!i10b 1
-R248
 R261
+!i10b 1
 R262
+R267
+R268
 !i113 1
 R13
 R14
 Easj_fft_si_qe_so_b
-R236
-R194
-R195
-R31
-R44
-R21
+R168
+R201
+R202
 R32
+R46
+R20
+R33
 R4
 R5
 R0
-Z263 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_si_qe_so_b.vhd
-Z264 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_si_qe_so_b.vhd
+Z269 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_si_qe_so_b.vhd
+Z270 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_si_qe_so_b.vhd
 l0
 L39
 VRRh`jOS5FC=U[S11U;kd31
 !s100 dz?<0SXAT@Z`>l@fkaWJY0
 R8
 32
-R247
+R261
 !i10b 1
-R248
-Z265 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_si_qe_so_b.vhd|-work|fft_ii_0|
-Z266 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_si_qe_so_b.vhd|
+R262
+Z271 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_si_qe_so_b.vhd|-work|fft_ii_0|
+Z272 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_si_qe_so_b.vhd|
 !i113 1
 R13
 R14
 Atransform
-R194
-R195
-R31
-R44
-R21
+R201
+R202
 R32
+R46
+R20
+R33
 R4
 R5
 DEx4 work 18 asj_fft_si_qe_so_b 0 22 RRh`jOS5FC=U[S11U;kd31
@@ -2708,48 +2708,48 @@ VkgC:COegS8d<SDUbTO9ZB3
 !s100 5H6zo^?LHYnGYMRfI:WHo1
 R8
 32
-R247
+R261
 !i10b 1
-R248
-R265
-R266
+R262
+R271
+R272
 !i113 1
 R13
 R14
 Easj_fft_si_qe_so_bb
-R236
-R194
-R195
-R31
-R44
-R21
+R168
+R201
+R202
 R32
+R46
+R20
+R33
 R4
 R5
 R0
-Z267 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_si_qe_so_bb.vhd
-Z268 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_si_qe_so_bb.vhd
+Z273 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_si_qe_so_bb.vhd
+Z274 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_si_qe_so_bb.vhd
 l0
 L40
 VWNW<[Femo30l_jD9<^VB62
 !s100 T:N<WUQjE]N5nELm?BI0>1
 R8
 32
-Z269 !s110 1556030271
+Z275 !s110 1556319667
 !i10b 1
-Z270 !s108 1556030271.000000
-Z271 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_si_qe_so_bb.vhd|-work|fft_ii_0|
-Z272 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_si_qe_so_bb.vhd|
+Z276 !s108 1556319667.000000
+Z277 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_si_qe_so_bb.vhd|-work|fft_ii_0|
+Z278 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_si_qe_so_bb.vhd|
 !i113 1
 R13
 R14
 Atransform
-R194
-R195
-R31
-R44
-R21
+R201
+R202
 R32
+R46
+R20
+R33
 R4
 R5
 DEx4 work 19 asj_fft_si_qe_so_bb 0 22 WNW<[Femo30l_jD9<^VB62
@@ -2759,48 +2759,48 @@ V1`Sn97m>?Q8=GLWKG:GeQ0
 !s100 fE;?;Bj^IoA_c9hT=RmD_3
 R8
 32
-R269
+R275
 !i10b 1
-R270
-R271
-R272
+R276
+R277
+R278
 !i113 1
 R13
 R14
 Easj_fft_si_se_so_b
-R236
-R194
-R195
-R31
-R44
-R21
+R168
+R201
+R202
 R32
+R46
+R20
+R33
 R4
 R5
 R0
-Z273 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_si_se_so_b.vhd
-Z274 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_si_se_so_b.vhd
+Z279 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_si_se_so_b.vhd
+Z280 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_si_se_so_b.vhd
 l0
 L37
 VFjEfA7h:TVaYL;G`znL`80
 !s100 4^QQKOh6:jnC_gO017ED23
 R8
 32
-R269
+R275
 !i10b 1
-R270
-Z275 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_si_se_so_b.vhd|-work|fft_ii_0|
-Z276 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_si_se_so_b.vhd|
+R276
+Z281 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_si_se_so_b.vhd|-work|fft_ii_0|
+Z282 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_si_se_so_b.vhd|
 !i113 1
 R13
 R14
 Atransform
-R194
-R195
-R31
-R44
-R21
+R201
+R202
 R32
+R46
+R20
+R33
 R4
 R5
 DEx4 work 18 asj_fft_si_se_so_b 0 22 FjEfA7h:TVaYL;G`znL`80
@@ -2810,48 +2810,48 @@ V>Zd^chYb^cZzT;R3_XGf;0
 !s100 Bc:eIRHZi3l9iee8dYJS@3
 R8
 32
-R269
-!i10b 1
-R270
 R275
+!i10b 1
 R276
+R281
+R282
 !i113 1
 R13
 R14
 Easj_fft_si_se_so_bb
-R236
-R194
-R195
-R31
-R44
-R21
+R168
+R201
+R202
 R32
+R46
+R20
+R33
 R4
 R5
 R0
-Z277 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_si_se_so_bb.vhd
-Z278 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_si_se_so_bb.vhd
+Z283 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_si_se_so_bb.vhd
+Z284 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_si_se_so_bb.vhd
 l0
 L40
 V=R:JbOz;e:K9<0GzY@@110
 !s100 ^]X8WH6S?T0`O0]D<YEd;2
 R8
 32
-R269
+R275
 !i10b 1
-R270
-Z279 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_si_se_so_bb.vhd|-work|fft_ii_0|
-Z280 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_si_se_so_bb.vhd|
+R276
+Z285 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_si_se_so_bb.vhd|-work|fft_ii_0|
+Z286 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_si_se_so_bb.vhd|
 !i113 1
 R13
 R14
 Atransform
-R194
-R195
-R31
-R44
-R21
+R201
+R202
 R32
+R46
+R20
+R33
 R4
 R5
 DEx4 work 19 asj_fft_si_se_so_bb 0 22 =R:JbOz;e:K9<0GzY@@110
@@ -2861,48 +2861,48 @@ V_J8Il>EIJKUeF>_Z<V4HY2
 !s100 1@iB@3lKgQ0GX5zj8;V272
 R8
 32
-R269
+R275
 !i10b 1
-R270
-R279
-R280
+R276
+R285
+R286
 !i113 1
 R13
 R14
 Easj_fft_si_sose_so_b
-R236
-R194
-R195
-R31
-R44
-R21
+R168
+R201
+R202
 R32
+R46
+R20
+R33
 R4
 R5
 R0
-Z281 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_si_sose_so_b.vhd
-Z282 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_si_sose_so_b.vhd
+Z287 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_si_sose_so_b.vhd
+Z288 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_si_sose_so_b.vhd
 l0
 L37
 VJle]8gzig2<hl775QI1>I3
 !s100 V`5NJOZZQdkJjSSDc^J<N3
 R8
 32
-R269
+R275
 !i10b 1
-R270
-Z283 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_si_sose_so_b.vhd|-work|fft_ii_0|
-Z284 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_si_sose_so_b.vhd|
+R276
+Z289 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_si_sose_so_b.vhd|-work|fft_ii_0|
+Z290 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_si_sose_so_b.vhd|
 !i113 1
 R13
 R14
 Atransform
-R194
-R195
-R31
-R44
-R21
+R201
+R202
 R32
+R46
+R20
+R33
 R4
 R5
 DEx4 work 20 asj_fft_si_sose_so_b 0 22 Jle]8gzig2<hl775QI1>I3
@@ -2912,46 +2912,46 @@ VA0LR5XO=z_HVzTF:]o6jc1
 !s100 P9=<znJjY8aoGHiJ>HNbD3
 R8
 32
-R269
+Z291 !s110 1556319668
 !i10b 1
-R270
-R283
-R284
+R276
+R289
+R290
 !i113 1
 R13
 R14
 Easj_fft_tdl
-R236
+R168
 R3
-R59
-R31
+R62
 R32
-R21
+R33
+R20
 R4
 R5
 R0
-Z285 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_tdl.vhd
-Z286 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_tdl.vhd
+Z292 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_tdl.vhd
+Z293 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_tdl.vhd
 l0
 L42
 VnC9MfefeQQD5^PWE7dNih2
 !s100 47l0dn8[P9hmTPdG?zBGm2
 R8
 32
-R269
+R291
 !i10b 1
-R270
-Z287 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_tdl.vhd|-work|fft_ii_0|
-Z288 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_tdl.vhd|
+Z294 !s108 1556319668.000000
+Z295 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_tdl.vhd|-work|fft_ii_0|
+Z296 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_tdl.vhd|
 !i113 1
 R13
 R14
 Asyn
 R3
-R59
-R31
+R62
 R32
-R21
+R33
+R20
 R4
 R5
 DEx4 work 11 asj_fft_tdl 0 22 nC9MfefeQQD5^PWE7dNih2
@@ -2961,42 +2961,42 @@ V3lcIY9KzfACczc]BH6Dmd2
 !s100 @GNQ`@@4d>7V>=5SC68ng3
 R8
 32
-R269
+R291
 !i10b 1
-R270
-R287
-R288
+R294
+R295
+R296
 !i113 1
 R13
 R14
 Easj_fft_tdl_bit
-R236
-R31
+R168
 R32
-R21
+R33
+R20
 R4
 R5
 R0
-Z289 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_tdl_bit.vhd
-Z290 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_tdl_bit.vhd
+Z297 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_tdl_bit.vhd
+Z298 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_tdl_bit.vhd
 l0
 L37
 V2ALej[ENUOAB;MZS04URW2
 !s100 NFFBJMSmk?=:Za]@=EH]n0
 R8
 32
-Z291 !s110 1556030272
+R291
 !i10b 1
-Z292 !s108 1556030272.000000
-Z293 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_tdl_bit.vhd|-work|fft_ii_0|
-Z294 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_tdl_bit.vhd|
+R294
+Z299 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_tdl_bit.vhd|-work|fft_ii_0|
+Z300 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_tdl_bit.vhd|
 !i113 1
 R13
 R14
 Asyn
-R31
 R32
-R21
+R33
+R20
 R4
 R5
 DEx4 work 15 asj_fft_tdl_bit 0 22 2ALej[ENUOAB;MZS04URW2
@@ -3008,22 +3008,22 @@ R8
 32
 R291
 !i10b 1
-R292
-R293
 R294
+R299
+R300
 !i113 1
 R13
 R14
 Easj_fft_tdl_bit_rst
-R236
-R31
+R168
 R32
-R21
+R33
+R20
 R4
 R5
 R0
-Z295 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_tdl_bit_rst.vhd
-Z296 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_tdl_bit_rst.vhd
+Z301 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_tdl_bit_rst.vhd
+Z302 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_tdl_bit_rst.vhd
 l0
 L37
 VZhEoeGnVlbg=n0Ae;;44?0
@@ -3032,16 +3032,16 @@ R8
 32
 R291
 !i10b 1
-R292
-Z297 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_tdl_bit_rst.vhd|-work|fft_ii_0|
-Z298 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_tdl_bit_rst.vhd|
+R294
+Z303 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_tdl_bit_rst.vhd|-work|fft_ii_0|
+Z304 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_tdl_bit_rst.vhd|
 !i113 1
 R13
 R14
 Asyn
-R31
 R32
-R21
+R33
+R20
 R4
 R5
 DEx4 work 19 asj_fft_tdl_bit_rst 0 22 ZhEoeGnVlbg=n0Ae;;44?0
@@ -3053,24 +3053,24 @@ R8
 32
 R291
 !i10b 1
-R292
-R297
-R298
+R294
+R303
+R304
 !i113 1
 R13
 R14
 Easj_fft_tdl_rst
-R236
+R168
 R3
-R59
-R31
+R62
 R32
-R21
+R33
+R20
 R4
 R5
 R0
-Z299 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_tdl_rst.vhd
-Z300 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_tdl_rst.vhd
+Z305 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_tdl_rst.vhd
+Z306 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_tdl_rst.vhd
 l0
 L42
 Vggz<b:[]YHibiI[;K6c@O1
@@ -3079,18 +3079,18 @@ R8
 32
 R291
 !i10b 1
-R292
-Z301 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_tdl_rst.vhd|-work|fft_ii_0|
-Z302 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_tdl_rst.vhd|
+R294
+Z307 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_tdl_rst.vhd|-work|fft_ii_0|
+Z308 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_tdl_rst.vhd|
 !i113 1
 R13
 R14
 Asyn
 R3
-R59
-R31
+R62
 R32
-R21
+R33
+R20
 R4
 R5
 DEx4 work 15 asj_fft_tdl_rst 0 22 ggz<b:[]YHibiI[;K6c@O1
@@ -3102,40 +3102,40 @@ R8
 32
 R291
 !i10b 1
-R292
-R301
-R302
+R294
+R307
+R308
 !i113 1
 R13
 R14
 Easj_fft_twadgen
-R236
-R31
-R21
+R168
 R32
+R20
+R33
 R4
 R5
 R0
-Z303 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_twadgen.vhd
-Z304 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_twadgen.vhd
+Z309 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_twadgen.vhd
+Z310 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_twadgen.vhd
 l0
 L37
 V3h2z`FPPDC@:Z@XIQ?Uno1
 !s100 n1@1]NG6L7mdzPN4TkYPH1
 R8
 32
-R291
+Z311 !s110 1556319669
 !i10b 1
-R292
-Z305 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_twadgen.vhd|-work|fft_ii_0|
-Z306 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_twadgen.vhd|
+Z312 !s108 1556319669.000000
+Z313 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_twadgen.vhd|-work|fft_ii_0|
+Z314 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_twadgen.vhd|
 !i113 1
 R13
 R14
 Agen_all
-R31
-R21
 R32
+R20
+R33
 R4
 R5
 DEx4 work 15 asj_fft_twadgen 0 22 3h2z`FPPDC@:Z@XIQ?Uno1
@@ -3145,42 +3145,42 @@ Vlh<;@Bz>of?F1NndWUJ^@2
 !s100 G4IR1Gc>0;T2Ff@5ld_OJ0
 R8
 32
-R291
+R311
 !i10b 1
-R292
-R305
-R306
+R312
+R313
+R314
 !i113 1
 R13
 R14
 Easj_fft_twadgen_dual
-R236
-R31
-R21
+R168
 R32
+R20
+R33
 R4
 R5
 R0
-Z307 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_twadgen_dual.vhd
-Z308 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_twadgen_dual.vhd
+Z315 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_twadgen_dual.vhd
+Z316 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_twadgen_dual.vhd
 l0
 L37
 Vm;;Ygde36Od27]ceKm`_]1
 !s100 So;fA7Ph[dDiB:o`23dAz1
 R8
 32
-R291
+R311
 !i10b 1
-R292
-Z309 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_twadgen_dual.vhd|-work|fft_ii_0|
-Z310 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_twadgen_dual.vhd|
+R312
+Z317 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_twadgen_dual.vhd|-work|fft_ii_0|
+Z318 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_twadgen_dual.vhd|
 !i113 1
 R13
 R14
 Agen_all
-R31
-R21
 R32
+R20
+R33
 R4
 R5
 DEx4 work 20 asj_fft_twadgen_dual 0 22 m;;Ygde36Od27]ceKm`_]1
@@ -3190,42 +3190,42 @@ V`aO8lVUAe::`BH4<HWGOD1
 !s100 92c0a05<m<1732BBJJ_S<2
 R8
 32
-R291
+R311
 !i10b 1
-R292
-R309
-R310
+R312
+R317
+R318
 !i113 1
 R13
 R14
 Easj_fft_twadsogen
-R236
-R31
-R21
+R168
 R32
+R20
+R33
 R4
 R5
 R0
-Z311 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_twadsogen.vhd
-Z312 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_twadsogen.vhd
+Z319 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_twadsogen.vhd
+Z320 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_twadsogen.vhd
 l0
 L36
 Vk9O=_`Zj[1DN@6d8n=B@f0
 !s100 ?GICnPkObH8ageFcehOGQ0
 R8
 32
-R291
+R311
 !i10b 1
-R292
-Z313 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_twadsogen.vhd|-work|fft_ii_0|
-Z314 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_twadsogen.vhd|
+R312
+Z321 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_twadsogen.vhd|-work|fft_ii_0|
+Z322 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_twadsogen.vhd|
 !i113 1
 R13
 R14
 Agen_all
-R31
-R21
 R32
+R20
+R33
 R4
 R5
 DEx4 work 17 asj_fft_twadsogen 0 22 k9O=_`Zj[1DN@6d8n=B@f0
@@ -3235,42 +3235,42 @@ VR6h_]ZS2HA=VQl>Y4jC`D1
 !s100 V5NoLgjgN=fLO;_G:6bY70
 R8
 32
-R291
+R311
 !i10b 1
-R292
-R313
-R314
+R312
+R321
+R322
 !i113 1
 R13
 R14
 Easj_fft_twadsogen_q
-R236
-R31
-R21
+R168
 R32
+R20
+R33
 R4
 R5
 R0
-Z315 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_twadsogen_q.vhd
-Z316 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_twadsogen_q.vhd
+Z323 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_twadsogen_q.vhd
+Z324 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_twadsogen_q.vhd
 l0
 L36
 V8IfJTH7izJe;`_M0JX6YK1
 !s100 7LU>WL61jz1^i[h^;7E=^1
 R8
 32
-Z317 !s110 1556030273
+R311
 !i10b 1
-R292
-Z318 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_twadsogen_q.vhd|-work|fft_ii_0|
-Z319 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_twadsogen_q.vhd|
+R312
+Z325 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_twadsogen_q.vhd|-work|fft_ii_0|
+Z326 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_twadsogen_q.vhd|
 !i113 1
 R13
 R14
 Agen_all
-R31
-R21
 R32
+R20
+R33
 R4
 R5
 DEx4 work 19 asj_fft_twadsogen_q 0 22 8IfJTH7izJe;`_M0JX6YK1
@@ -3280,46 +3280,46 @@ VmCDU`b6Zna:]W_Jl<hjP^1
 !s100 Q7Gz3g_cFA4Q6:d6gOA361
 R8
 32
-R317
+R311
 !i10b 1
-R292
-R318
-R319
+R312
+R325
+R326
 !i113 1
 R13
 R14
 Easj_fft_twid_rom_tdp
-R236
+R168
 R3
-R59
+R62
+R33
+R20
 R32
-R21
-R31
 R4
 R5
 R0
-Z320 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_twid_rom_tdp.vhd
-Z321 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_twid_rom_tdp.vhd
+Z327 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_twid_rom_tdp.vhd
+Z328 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_twid_rom_tdp.vhd
 l0
 L39
 V3mLm0MN=2JiQXME6K:GZV2
 !s100 oB:8aiD`AIIUUiMial:gC3
 R8
 32
-Z322 !s110 1556030274
+Z329 !s110 1556319670
 !i10b 1
-Z323 !s108 1556030274.000000
-Z324 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_twid_rom_tdp.vhd|-work|fft_ii_0|
-Z325 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_twid_rom_tdp.vhd|
+Z330 !s108 1556319670.000000
+Z331 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_twid_rom_tdp.vhd|-work|fft_ii_0|
+Z332 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_twid_rom_tdp.vhd|
 !i113 1
 R13
 R14
 Asyn
 R3
-R59
+R62
+R33
+R20
 R32
-R21
-R31
 R4
 R5
 DEx4 work 20 asj_fft_twid_rom_tdp 0 22 3mLm0MN=2JiQXME6K:GZV2
@@ -3329,42 +3329,42 @@ V@d>;H9<iCe36:a5[ABSBN3
 !s100 7VWl<[mWRONhoZ[ngW6:J3
 R8
 32
-R322
+R329
 !i10b 1
-R323
-R324
-R325
+R330
+R331
+R332
 !i113 1
 R13
 R14
 Easj_fft_twiddle_ctrl_qe
-R236
-R31
-R21
+R168
 R32
+R20
+R33
 R4
 R5
 R0
-Z326 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_twiddle_ctrl_qe.vhd
-Z327 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_twiddle_ctrl_qe.vhd
+Z333 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_twiddle_ctrl_qe.vhd
+Z334 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_twiddle_ctrl_qe.vhd
 l0
 L37
 Voi;TYn8<0C?JizaK]d@bl0
 !s100 Pde]`DF;ARE`]D5ToQ4zY3
 R8
 32
-R317
+R329
 !i10b 1
-Z328 !s108 1556030273.000000
-Z329 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_twiddle_ctrl_qe.vhd|-work|fft_ii_0|
-Z330 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_twiddle_ctrl_qe.vhd|
+R312
+Z335 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_twiddle_ctrl_qe.vhd|-work|fft_ii_0|
+Z336 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_twiddle_ctrl_qe.vhd|
 !i113 1
 R13
 R14
 Acnt_sw
-R31
-R21
 R32
+R20
+R33
 R4
 R5
 DEx4 work 23 asj_fft_twiddle_ctrl_qe 0 22 oi;TYn8<0C?JizaK]d@bl0
@@ -3374,42 +3374,42 @@ V?X_eOO^oj8b6^B7:C7YSZ0
 !s100 4;No;XT7MER9oCgeSFL]=1
 R8
 32
-R317
-!i10b 1
-R328
 R329
-R330
+!i10b 1
+R312
+R335
+R336
 !i113 1
 R13
 R14
 Easj_fft_unbburst_ctrl
-R236
-R31
-R21
+R168
 R32
+R20
+R33
 R4
 R5
 R0
-Z331 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_unbburst_ctrl.vhd
-Z332 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_unbburst_ctrl.vhd
+Z337 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_unbburst_ctrl.vhd
+Z338 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_unbburst_ctrl.vhd
 l0
 L34
 VY[4A20CHO6bf8z];8CRFL3
 !s100 deGOL;Z1bGEJj2LNIJ@c@0
 R8
 32
-R322
+R329
 !i10b 1
-R323
-Z333 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_unbburst_ctrl.vhd|-work|fft_ii_0|
-Z334 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_unbburst_ctrl.vhd|
+R330
+Z339 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_unbburst_ctrl.vhd|-work|fft_ii_0|
+Z340 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_unbburst_ctrl.vhd|
 !i113 1
 R13
 R14
 Aburst_sw
-R31
-R21
 R32
+R20
+R33
 R4
 R5
 DEx4 work 21 asj_fft_unbburst_ctrl 0 22 Y[4A20CHO6bf8z];8CRFL3
@@ -3419,42 +3419,42 @@ VYk4jV55fai>ma8hGj_dOQ2
 !s100 e9memZDSHI9MD_7D3e>=20
 R8
 32
-R322
+R329
 !i10b 1
-R323
-R333
-R334
+R330
+R339
+R340
 !i113 1
 R13
 R14
 Easj_fft_unbburst_ctrl_de
-R236
-R31
-R21
+R168
 R32
+R20
+R33
 R4
 R5
 R0
-Z335 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_unbburst_ctrl_de.vhd
-Z336 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_unbburst_ctrl_de.vhd
+Z341 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_unbburst_ctrl_de.vhd
+Z342 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_unbburst_ctrl_de.vhd
 l0
 L34
 VL3<OI9JEW`<?:FjZ^9=060
 !s100 em>?<TI2I:i7IEJb[W]Qm2
 R8
 32
-R322
+R329
 !i10b 1
-R323
-Z337 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_unbburst_ctrl_de.vhd|-work|fft_ii_0|
-Z338 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_unbburst_ctrl_de.vhd|
+R330
+Z343 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_unbburst_ctrl_de.vhd|-work|fft_ii_0|
+Z344 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_unbburst_ctrl_de.vhd|
 !i113 1
 R13
 R14
 Acnt_sw
-R31
-R21
 R32
+R20
+R33
 R4
 R5
 DEx4 work 24 asj_fft_unbburst_ctrl_de 0 22 L3<OI9JEW`<?:FjZ^9=060
@@ -3464,42 +3464,42 @@ VGdYF;RnDN9XMZ6F8;LJ>`2
 !s100 @45Rb?<;D3XleTJVPWg=T2
 R8
 32
-R322
+R329
 !i10b 1
-R323
-R337
-R338
+R330
+R343
+R344
 !i113 1
 R13
 R14
 Easj_fft_unbburst_ctrl_qe
-R236
-R31
-R21
+R168
 R32
+R20
+R33
 R4
 R5
 R0
-Z339 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_unbburst_ctrl_qe.vhd
-Z340 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_unbburst_ctrl_qe.vhd
+Z345 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_unbburst_ctrl_qe.vhd
+Z346 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_unbburst_ctrl_qe.vhd
 l0
 L37
 Vfo8gE<KVj;eVXNL3lHI`F3
 !s100 J;LKBL4EZ<YV01B];XmHN3
 R8
 32
-R322
+Z347 !s110 1556319671
 !i10b 1
-R323
-Z341 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_unbburst_ctrl_qe.vhd|-work|fft_ii_0|
-Z342 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_unbburst_ctrl_qe.vhd|
+R330
+Z348 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_unbburst_ctrl_qe.vhd|-work|fft_ii_0|
+Z349 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_unbburst_ctrl_qe.vhd|
 !i113 1
 R13
 R14
 Acnt_sw
-R31
-R21
 R32
+R20
+R33
 R4
 R5
 DEx4 work 24 asj_fft_unbburst_ctrl_qe 0 22 fo8gE<KVj;eVXNL3lHI`F3
@@ -3509,42 +3509,42 @@ V4^B`U?FclP6M=mR8elUM;1
 !s100 DHAG;Oo]9OnBbUIl:XAAU3
 R8
 32
-R322
+R347
 !i10b 1
-R323
-R341
-R342
+R330
+R348
+R349
 !i113 1
 R13
 R14
 Easj_fft_unbburst_sose_ctrl
-R236
-R31
-R21
+R168
 R32
+R20
+R33
 R4
 R5
 R0
-Z343 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_unbburst_sose_ctrl.vhd
-Z344 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_unbburst_sose_ctrl.vhd
+Z350 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_unbburst_sose_ctrl.vhd
+Z351 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_unbburst_sose_ctrl.vhd
 l0
 L41
 VMAzm:KJ?j<S31P@6bO7JD3
 !s100 _Xc;>SoFo=o6=2KIcW=UI3
 R8
 32
-R322
+R347
 !i10b 1
-R323
-Z345 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_unbburst_sose_ctrl.vhd|-work|fft_ii_0|
-Z346 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_unbburst_sose_ctrl.vhd|
+Z352 !s108 1556319671.000000
+Z353 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_unbburst_sose_ctrl.vhd|-work|fft_ii_0|
+Z354 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_unbburst_sose_ctrl.vhd|
 !i113 1
 R13
 R14
 Aburst_sw
-R31
-R21
 R32
+R20
+R33
 R4
 R5
 DEx4 work 26 asj_fft_unbburst_sose_ctrl 0 22 MAzm:KJ?j<S31P@6bO7JD3
@@ -3554,42 +3554,42 @@ VlCbTHcj9:KLNFSGR1nm;g3
 !s100 0>l3T68=[[b`U1;XRD91f0
 R8
 32
-R322
+R347
 !i10b 1
-R323
-R345
-R346
+R352
+R353
+R354
 !i113 1
 R13
 R14
 Easj_fft_wrengen
-R236
-R31
-R21
+R168
 R32
+R20
+R33
 R4
 R5
 R0
-Z347 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_wrengen.vhd
-Z348 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_wrengen.vhd
+Z355 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_wrengen.vhd
+Z356 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_wrengen.vhd
 l0
 L37
 VhH51F]=EBJFgIc<aId@[m0
 !s100 o4WM7>j@763PcZ^TLL8Mz0
 R8
 32
-R322
+R347
 !i10b 1
-R323
-Z349 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_wrengen.vhd|-work|fft_ii_0|
-Z350 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_wrengen.vhd|
+R352
+Z357 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_wrengen.vhd|-work|fft_ii_0|
+Z358 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_wrengen.vhd|
 !i113 1
 R13
 R14
 Agen_all
-R31
-R21
 R32
+R20
+R33
 R4
 R5
 DEx4 work 15 asj_fft_wrengen 0 22 hH51F]=EBJFgIc<aId@[m0
@@ -3599,42 +3599,42 @@ VA53M=INN27B62fYPHRFle0
 !s100 lRQHo?NX:7E9gbK3zzUJe1
 R8
 32
-R322
+R347
 !i10b 1
-R323
-R349
-R350
+R352
+R357
+R358
 !i113 1
 R13
 R14
 Easj_fft_wrswgen
-R236
-R31
-R21
+R168
 R32
+R20
+R33
 R4
 R5
 R0
-Z351 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_wrswgen.vhd
-Z352 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_wrswgen.vhd
+Z359 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_wrswgen.vhd
+Z360 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_wrswgen.vhd
 l0
 L37
 V<HkOA9I;0Q=jITh:_Mb3U3
 !s100 GI88cdWGT?`2P@[Dl2G?M0
 R8
 32
-R53
+R347
 !i10b 1
-R323
-Z353 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_wrswgen.vhd|-work|fft_ii_0|
-Z354 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_wrswgen.vhd|
+R352
+Z361 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_wrswgen.vhd|-work|fft_ii_0|
+Z362 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/asj_fft_wrswgen.vhd|
 !i113 1
 R13
 R14
 Agen_all
-R31
-R21
 R32
+R20
+R33
 R4
 R5
 DEx4 work 15 asj_fft_wrswgen 0 22 <HkOA9I;0Q=jITh:_Mb3U3
@@ -3644,40 +3644,40 @@ VgZkfCChLYZWLOPPCDzIzC0
 !s100 5;[9om09o6W6d5T1ghb`k1
 R8
 32
-R53
+R347
 !i10b 1
-R323
-R353
-R354
+R352
+R361
+R362
 !i113 1
 R13
 R14
 Eauk_dspip_avalon_streaming_block_sink
 R1
-R194
-R44
+R201
+R46
 R4
 R5
 R0
-Z355 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/auk_dspip_avalon_streaming_block_sink.vhd
-Z356 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/auk_dspip_avalon_streaming_block_sink.vhd
+Z363 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/auk_dspip_avalon_streaming_block_sink.vhd
+Z364 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/auk_dspip_avalon_streaming_block_sink.vhd
 l0
 L22
 VWW05ER=nE=[fUH26>cVX;2
 !s100 5FkmY2J9_R^OCddRZBZ_i1
 R8
 32
-Z357 !s110 1556030258
+Z365 !s110 1556319651
 !i10b 1
-Z358 !s108 1556030258.000000
-Z359 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/auk_dspip_avalon_streaming_block_sink.vhd|-work|fft_ii_0|
-Z360 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/auk_dspip_avalon_streaming_block_sink.vhd|
+Z366 !s108 1556319651.000000
+Z367 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/auk_dspip_avalon_streaming_block_sink.vhd|-work|fft_ii_0|
+Z368 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/auk_dspip_avalon_streaming_block_sink.vhd|
 !i113 1
 R13
 R14
 Artl
-R194
-R44
+R201
+R46
 R4
 R5
 DEx4 work 37 auk_dspip_avalon_streaming_block_sink 0 22 WW05ER=nE=[fUH26>cVX;2
@@ -3687,44 +3687,44 @@ Vik803:S;e99?elY9o>[n11
 !s100 38QZ;1;3801MEH1PhgNl=3
 R8
 32
-R357
+R365
 !i10b 1
-R358
-R359
-R360
+R366
+R367
+R368
 !i113 1
 R13
 R14
 Eauk_dspip_avalon_streaming_block_source
 R1
 R3
-R194
-R195
-R44
+R201
+R202
+R46
 R4
 R5
 R0
-Z361 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/auk_dspip_avalon_streaming_block_source.vhd
-Z362 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/auk_dspip_avalon_streaming_block_source.vhd
+Z369 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/auk_dspip_avalon_streaming_block_source.vhd
+Z370 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/auk_dspip_avalon_streaming_block_source.vhd
 l0
 L25
 Voll^MJQjIiGj;<c@0:__Z3
 !s100 PcknmbOT5fM?^3Ua7SJWA0
 R8
 32
-R9
+R365
 !i10b 1
-R10
-Z363 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/auk_dspip_avalon_streaming_block_source.vhd|-work|fft_ii_0|
-Z364 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/auk_dspip_avalon_streaming_block_source.vhd|
+R366
+Z371 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/auk_dspip_avalon_streaming_block_source.vhd|-work|fft_ii_0|
+Z372 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/auk_dspip_avalon_streaming_block_source.vhd|
 !i113 1
 R13
 R14
 Artl
 R3
-R194
-R195
-R44
+R201
+R202
+R46
 R4
 R5
 DEx4 work 39 auk_dspip_avalon_streaming_block_source 0 22 oll^MJQjIiGj;<c@0:__Z3
@@ -3734,38 +3734,38 @@ VHj>HJbQ>0aVDf5ifSaAOH2
 !s100 :k4nQbJ<X1g=i>`Jeb;XM1
 R8
 32
-R9
+R365
 !i10b 1
-R10
-R363
-R364
+R366
+R371
+R372
 !i113 1
 R13
 R14
 Eauk_dspip_avalon_streaming_controller
 R1
-R21
+R20
 R4
 R5
 R0
-Z365 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/auk_dspip_avalon_streaming_controller.vhd
-Z366 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/auk_dspip_avalon_streaming_controller.vhd
+Z373 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/auk_dspip_avalon_streaming_controller.vhd
+Z374 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/auk_dspip_avalon_streaming_controller.vhd
 l0
 L57
 V_n<>D1cdnZ;=XV17KGA0a0
 !s100 `cYja=lbnJ^F3>dl>Pc6[3
 R8
 32
-R9
+Z375 !s110 1556319652
 !i10b 1
 R10
-Z367 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/auk_dspip_avalon_streaming_controller.vhd|-work|fft_ii_0|
-Z368 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/auk_dspip_avalon_streaming_controller.vhd|
+Z376 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/auk_dspip_avalon_streaming_controller.vhd|-work|fft_ii_0|
+Z377 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/auk_dspip_avalon_streaming_controller.vhd|
 !i113 1
 R13
 R14
 Astruct
-R21
+R20
 R4
 R5
 DEx4 work 37 auk_dspip_avalon_streaming_controller 0 22 _n<>D1cdnZ;=XV17KGA0a0
@@ -3775,44 +3775,44 @@ V<X9HcACcmzAZ^nU?0R9gC2
 !s100 ml<bfFIC28PDReZ@kc_k;2
 R8
 32
-R9
+R375
 !i10b 1
 R10
-R367
-R368
+R376
+R377
 !i113 1
 R13
 R14
 Eauk_dspip_avalon_streaming_sink
 R1
 R3
-R194
-R195
-R44
+R201
+R202
+R46
 R4
 R5
 R0
-Z369 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/auk_dspip_avalon_streaming_sink.vhd
-Z370 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/auk_dspip_avalon_streaming_sink.vhd
+Z378 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/auk_dspip_avalon_streaming_sink.vhd
+Z379 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/auk_dspip_avalon_streaming_sink.vhd
 l0
 L60
 VB7j60_Mc1ZI`anmh`zPCz2
 !s100 WR_9jEX0=Z8MK;14ie:eB1
 R8
 32
-R9
+R375
 !i10b 1
 R10
-Z371 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/auk_dspip_avalon_streaming_sink.vhd|-work|fft_ii_0|
-Z372 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/auk_dspip_avalon_streaming_sink.vhd|
+Z380 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/auk_dspip_avalon_streaming_sink.vhd|-work|fft_ii_0|
+Z381 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/auk_dspip_avalon_streaming_sink.vhd|
 !i113 1
 R13
 R14
 Artl
 R3
-R194
-R195
-R44
+R201
+R202
+R46
 R4
 R5
 DEx4 work 31 auk_dspip_avalon_streaming_sink 0 22 B7j60_Mc1ZI`anmh`zPCz2
@@ -3822,40 +3822,40 @@ V8NbHmcT`gfWOQa0ZLn>@_0
 !s100 :P<1@5=zol[G9AX>0lMI;3
 R8
 32
-R9
+R375
 !i10b 1
 R10
-R371
-R372
+R380
+R381
 !i113 1
 R13
 R14
 Eauk_dspip_avalon_streaming_source
 R1
-R194
-R44
+R201
+R46
 R4
 R5
 R0
-Z373 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/auk_dspip_avalon_streaming_source.vhd
-Z374 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/auk_dspip_avalon_streaming_source.vhd
+Z382 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/auk_dspip_avalon_streaming_source.vhd
+Z383 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/auk_dspip_avalon_streaming_source.vhd
 l0
 L72
 VR]@8HRWIEc[3KB7gaK=K=0
 !s100 =CcIhGGaPN[@fj@Yj`LI_0
 R8
 32
-R9
+R375
 !i10b 1
 R10
-Z375 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/auk_dspip_avalon_streaming_source.vhd|-work|fft_ii_0|
-Z376 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/auk_dspip_avalon_streaming_source.vhd|
+Z384 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/auk_dspip_avalon_streaming_source.vhd|-work|fft_ii_0|
+Z385 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/auk_dspip_avalon_streaming_source.vhd|
 !i113 1
 R13
 R14
 Artl
-R194
-R44
+R201
+R46
 R4
 R5
 DEx4 work 33 auk_dspip_avalon_streaming_source 0 22 R]@8HRWIEc[3KB7gaK=K=0
@@ -3865,17 +3865,17 @@ VDJbbg0i40K79dOL:jhPBl2
 !s100 YQD:X[dIDUTl8ZlcW2EK[0
 R8
 32
-R9
+R375
 !i10b 1
 R10
-R375
-R376
+R384
+R385
 !i113 1
 R13
 R14
 Pauk_dspip_lib_pkg
-R194
-R44
+R201
+R46
 R4
 R5
 R1
@@ -3888,22 +3888,22 @@ V[Lag;Z:I^H?=5^_LMn`Zl2
 !s100 KcRlL:CTnlUz=1CF=kC_S0
 R8
 32
-R357
+Z386 !s110 1556319650
 !i10b 1
-R358
+Z387 !s108 1556319650.000000
 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/auk_dspip_lib_pkg.vhd|-work|fft_ii_0|
 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/auk_dspip_lib_pkg.vhd|
 !i113 1
 R13
 R14
 Pauk_dspip_math_pkg
-R44
+R46
 R4
 R5
 R1
 R0
-Z377 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/auk_dspip_math_pkg.vhd
-Z378 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/auk_dspip_math_pkg.vhd
+Z388 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/auk_dspip_math_pkg.vhd
+Z389 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/auk_dspip_math_pkg.vhd
 l0
 L51
 Vn?1X_^XLl;O4a:8M64kRS0
@@ -3911,17 +3911,17 @@ Vn?1X_^XLl;O4a:8M64kRS0
 R8
 32
 b1
-R357
+R386
 !i10b 1
-R358
-Z379 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/auk_dspip_math_pkg.vhd|-work|fft_ii_0|
-Z380 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/auk_dspip_math_pkg.vhd|
+R387
+Z390 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/auk_dspip_math_pkg.vhd|-work|fft_ii_0|
+Z391 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/auk_dspip_math_pkg.vhd|
 !i113 1
 R13
 R14
 Bbody
-R194
-R44
+R201
+R46
 R4
 R5
 l0
@@ -3930,38 +3930,38 @@ V^H`3M4[WME?EzH^Ed7LNU1
 !s100 `941_Ff6o7=GBNnXYB1eU3
 R8
 32
-R357
+R386
 !i10b 1
-R358
-R379
-R380
+R387
+R390
+R391
 !i113 1
 R13
 R14
 Eauk_dspip_roundsat
 R1
-R44
+R46
 R4
 R5
 R0
-Z381 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/auk_dspip_roundsat.vhd
-Z382 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/auk_dspip_roundsat.vhd
+Z392 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/auk_dspip_roundsat.vhd
+Z393 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/auk_dspip_roundsat.vhd
 l0
 L45
 VB?9f2JYDRH_oj4;=FSnJ32
 !s100 :Ro[aE[BH^N6eIGEG[O?N3
 R8
 32
-R9
+R375
 !i10b 1
 R10
-Z383 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/auk_dspip_roundsat.vhd|-work|fft_ii_0|
-Z384 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/auk_dspip_roundsat.vhd|
+Z394 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/auk_dspip_roundsat.vhd|-work|fft_ii_0|
+Z395 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/auk_dspip_roundsat.vhd|
 !i113 1
 R13
 R14
 Abeh
-R44
+R46
 R4
 R5
 DEx4 work 18 auk_dspip_roundsat 0 22 B?9f2JYDRH_oj4;=FSnJ32
@@ -3971,22 +3971,22 @@ VXggCldKcC78L[78CV4YMB3
 !s100 ]_3I0;m7RDoiJeFA6M^`A1
 R8
 32
-R9
+R375
 !i10b 1
 R10
-R383
-R384
+R394
+R395
 !i113 1
 R13
 R14
 Pauk_dspip_text_pkg
-R44
+R46
 R4
 R5
 R1
 R0
-Z385 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/auk_dspip_text_pkg.vhd
-Z386 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/auk_dspip_text_pkg.vhd
+Z396 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/auk_dspip_text_pkg.vhd
+Z397 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/auk_dspip_text_pkg.vhd
 l0
 L60
 V?9650dUc4EIVa?hL>i2Z[2
@@ -3994,17 +3994,17 @@ V?9650dUc4EIVa?hL>i2Z[2
 R8
 32
 b1
-R357
+R386
 !i10b 1
-R358
-Z387 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/auk_dspip_text_pkg.vhd|-work|fft_ii_0|
-Z388 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/auk_dspip_text_pkg.vhd|
+R387
+Z398 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/auk_dspip_text_pkg.vhd|-work|fft_ii_0|
+Z399 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/auk_dspip_text_pkg.vhd|
 !i113 1
 R13
 R14
 Bbody
 DPx4 work 18 auk_dspip_text_pkg 0 22 ?9650dUc4EIVa?hL>i2Z[2
-R44
+R46
 R4
 R5
 l0
@@ -4013,22 +4013,22 @@ VBMT?2FQ;8ajiSf>Kz973e3
 !s100 8<?]li33IkB>fMMF[SR`S2
 R8
 32
-R357
+R386
 !i10b 1
-R358
 R387
-R388
+R398
+R399
 !i113 1
 R13
 R14
 Pauk_fft_pkg
-R44
+R46
 R4
 R5
 R1
 R0
-Z389 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/auk_fft_pkg.vhd
-Z390 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/auk_fft_pkg.vhd
+Z400 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/auk_fft_pkg.vhd
+Z401 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/auk_fft_pkg.vhd
 l0
 L18
 VlGBLUAU9@>gB3fj1oZY713
@@ -4036,17 +4036,17 @@ VlGBLUAU9@>gB3fj1oZY713
 R8
 32
 b1
-R17
+R28
 !i10b 1
-R18
-Z391 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/auk_fft_pkg.vhd|-work|fft_ii_0|
-Z392 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/auk_fft_pkg.vhd|
+R29
+Z402 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/auk_fft_pkg.vhd|-work|fft_ii_0|
+Z403 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/auk_fft_pkg.vhd|
 !i113 1
 R13
 R14
 Bbody
 DPx4 work 11 auk_fft_pkg 0 22 lGBLUAU9@>gB3fj1oZY713
-R44
+R46
 R4
 R5
 l0
@@ -4055,74 +4055,74 @@ VEf7VAQOgil7[UkHS3;gdW3
 !s100 PON1X2]W1W82nXe?d6j<h2
 R8
 32
-R17
+R28
 !i10b 1
-R18
-R391
-R392
+R29
+R402
+R403
 !i113 1
 R13
 R14
-vVz8r/7bj1I+Bn8vgMkc9hQ==
-Z393 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z394 !s110 1556030261
+vvSsWQN1Aq0e9tFQThiqttA==
+Z404 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+R36
 !i10b 0
 !s100 QdHzZ<>7ZdJ4XRAz9oZQA0
 I]Cb47mR;BQ<F>8_zSnb4z3
-R54
-!i8a 256022320
+R57
+!i8a 1522079520
 !s105 counter_module_sv_unit
 S1
 R0
-Z395 w1556030261
+w1556319655
 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/counter_module.sv
 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/counter_module.sv
-R55
-R56
+R58
+R59
 r1
 !s85 0
 31
-R36
+R37
 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/counter_module.sv|
 !s90 -reportprogress|300|-sv|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/counter_module.sv|-work|fft_ii_0|
 !i113 1
-Z396 o-sv -work fft_ii_0
-R58
+Z405 o-sv -work fft_ii_0
+R61
 n50012c5
 vFFT_fft_ii_0
-R393
-R53
+R404
+R56
 !i10b 1
-!s100 5d>o_TbIE8LfMeoHcfm9=3
-ISFSUBA6`Y?LmkR7kPI6ZC1
-R54
+!s100 I3A[TXYHQE`=PlJIVoAP=1
+I?g[H9Nze6V3]D<;n2]`a22
+R57
 !s105 FFT_fft_ii_0_sv_unit
 S1
 R0
-R236
+R168
 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/FFT_fft_ii_0.sv
 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/FFT_fft_ii_0.sv
 L0 15
-R56
+R59
 r1
 !s85 0
 31
-R57
+R60
 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/FFT_fft_ii_0.sv|
 !s90 -reportprogress|300|-sv|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/FFT_fft_ii_0.sv|-work|fft_ii_0|
 !i113 1
-R396
-R58
+R405
+R61
 n@f@f@t_fft_ii_0
 Pfft_pack
-R32
-R21
+R33
+R20
 R4
 R5
 R1
 R0
-Z397 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/fft_pack.vhd
-Z398 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/fft_pack.vhd
+Z406 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/fft_pack.vhd
+Z407 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/fft_pack.vhd
 l0
 L34
 V8cmehlU<iKfVa62GQ3MT@0
@@ -4130,18 +4130,18 @@ V8cmehlU<iKfVa62GQ3MT@0
 R8
 32
 b1
-R394
-!i10b 1
 R36
-Z399 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/fft_pack.vhd|-work|fft_ii_0|
-Z400 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/fft_pack.vhd|
+!i10b 1
+R37
+Z408 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/fft_pack.vhd|-work|fft_ii_0|
+Z409 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/fft_pack.vhd|
 !i113 1
 R13
 R14
 Bbody
-R31
 R32
-R21
+R33
+R20
 R4
 R5
 l0
@@ -4150,69 +4150,69 @@ Ve[K=Vb3bm[4b;aRgcMUN71
 !s100 aiJm8h=n]IJOG00moeCiL2
 R8
 32
-R394
-!i10b 1
 R36
-R399
-R400
+!i10b 1
+R37
+R408
+R409
 !i113 1
 R13
 R14
-vTfFNGBrTYmat4FsYTQugUtWn32l0jg7TLrjU+y7fYjg=
-R394
+vGf7WEwK0mTVVt3rcznQEyTcc4ND0Ijf8Hvs8PZ0iVIw=
+R28
 !i10b 0
 !s100 L^@BnRdg_lel_IeL9W?Th1
 IVWmQT88eQTHl[E_ISoXH43
-R54
-!i8a 1655040192
+R57
+!i8a 387369856
 R0
-R395
+w1556319654
 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/hyper_pipeline_interface.v
 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/hyper_pipeline_interface.v
-R55
-R56
+R58
+R59
 r1
 !s85 0
 31
-R18
+R29
 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/hyper_pipeline_interface.v|
 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/hyper_pipeline_interface.v|-work|fft_ii_0|
 !i113 1
 R13
-R58
+R61
 n5f39f65
 Etwid_rom
-R236
+R168
 R3
-R59
+R62
+R33
+R20
 R32
-R21
-R31
 R4
 R5
 R0
-Z401 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/twid_rom.vhd
-Z402 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/twid_rom.vhd
+Z410 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/twid_rom.vhd
+Z411 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/twid_rom.vhd
 l0
 L59
 VbHb4dm0fdaECb2=akKcNo3
 !s100 N:N;E9BjTk`5z@C9o1d7C0
 R8
 32
-R53
+R347
 !i10b 1
-R57
-Z403 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/twid_rom.vhd|-work|fft_ii_0|
-Z404 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/twid_rom.vhd|
+R352
+Z412 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/twid_rom.vhd|-work|fft_ii_0|
+Z413 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/mentor/twid_rom.vhd|
 !i113 1
 R13
 R14
 Asyn
 R3
-R59
+R62
+R33
+R20
 R32
-R21
-R31
 R4
 R5
 DEx4 work 8 twid_rom 0 22 bHb4dm0fdaECb2=akKcNo3
@@ -4222,11 +4222,11 @@ Vb[:=?zfMM9Q<LG4YC;9L12
 !s100 8JcZJ@WIWhZc=CAB55VZl3
 R8
 32
-R53
+R347
 !i10b 1
-R57
-R403
-R404
+R352
+R412
+R413
 !i113 1
 R13
 R14

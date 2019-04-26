@@ -1,21 +1,21 @@
-# system info FFT on 2019.04.09.23:11:23
+# system info FFT on 2019.04.26.23:49:25
 system_info:
 name,value
 DEVICE,5CSEMA5F31C6
 DEVICE_FAMILY,Cyclone V
-GENERATION_ID,1554847879
+GENERATION_ID,1556318963
 #
 #
-# Files generated for FFT on 2019.04.09.23:11:23
+# Files generated for FFT on 2019.04.26.23:49:25
 files:
 filepath,kind,attributes,module,is_top
 simulation/FFT.v,VERILOG,,FFT,true
-simulation/submodules/FFT_fft_ii_0_1n4096cos.hex,HEX,,FFT_fft_ii_0,false
-simulation/submodules/FFT_fft_ii_0_2n4096cos.hex,HEX,,FFT_fft_ii_0,false
-simulation/submodules/FFT_fft_ii_0_1n4096sin.hex,HEX,,FFT_fft_ii_0,false
-simulation/submodules/FFT_fft_ii_0_2n4096sin.hex,HEX,,FFT_fft_ii_0,false
-simulation/submodules/FFT_fft_ii_0_3n4096cos.hex,HEX,,FFT_fft_ii_0,false
-simulation/submodules/FFT_fft_ii_0_3n4096sin.hex,HEX,,FFT_fft_ii_0,false
+simulation/submodules/FFT_fft_ii_0_1n1024cos.hex,HEX,,FFT_fft_ii_0,false
+simulation/submodules/FFT_fft_ii_0_2n1024cos.hex,HEX,,FFT_fft_ii_0,false
+simulation/submodules/FFT_fft_ii_0_1n1024sin.hex,HEX,,FFT_fft_ii_0,false
+simulation/submodules/FFT_fft_ii_0_2n1024sin.hex,HEX,,FFT_fft_ii_0,false
+simulation/submodules/FFT_fft_ii_0_3n1024cos.hex,HEX,,FFT_fft_ii_0,false
+simulation/submodules/FFT_fft_ii_0_3n1024sin.hex,HEX,,FFT_fft_ii_0,false
 simulation/submodules/auk_dspip_text_pkg.vhd,VHDL,,FFT_fft_ii_0,false
 simulation/submodules/auk_dspip_math_pkg.vhd,VHDL,,FFT_fft_ii_0,false
 simulation/submodules/auk_dspip_lib_pkg.vhd,VHDL,,FFT_fft_ii_0,false

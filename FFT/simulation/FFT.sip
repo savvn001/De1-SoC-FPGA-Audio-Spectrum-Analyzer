@@ -2,15 +2,15 @@ set_global_assignment -entity "FFT" -library "lib_FFT" -name IP_TOOL_NAME "Qsys"
 set_global_assignment -entity "FFT" -library "lib_FFT" -name IP_TOOL_VERSION "17.1"
 set_global_assignment -entity "FFT" -library "lib_FFT" -name IP_TOOL_ENV "Qsys"
 set_global_assignment -library "lib_FFT" -name SPD_FILE [file join $::quartus(sip_path) "../FFT.spd"]
-set_global_assignment -library "lib_FFT" -name MISC_FILE [file join $::quartus(sip_path) "../../../FFT.qsys"]
+set_global_assignment -library "lib_FFT" -name MISC_FILE [file join $::quartus(sip_path) "../../FFT.qsys"]
 
 set_global_assignment -library "lib_FFT" -name MISC_FILE [file join $::quartus(sip_path) "FFT.v"]
-set_global_assignment -library "lib_FFT" -name MISC_FILE [file join $::quartus(sip_path) "submodules/FFT_fft_ii_0_1n4096cos.hex"]
-set_global_assignment -library "lib_FFT" -name MISC_FILE [file join $::quartus(sip_path) "submodules/FFT_fft_ii_0_2n4096cos.hex"]
-set_global_assignment -library "lib_FFT" -name MISC_FILE [file join $::quartus(sip_path) "submodules/FFT_fft_ii_0_1n4096sin.hex"]
-set_global_assignment -library "lib_FFT" -name MISC_FILE [file join $::quartus(sip_path) "submodules/FFT_fft_ii_0_2n4096sin.hex"]
-set_global_assignment -library "lib_FFT" -name MISC_FILE [file join $::quartus(sip_path) "submodules/FFT_fft_ii_0_3n4096cos.hex"]
-set_global_assignment -library "lib_FFT" -name MISC_FILE [file join $::quartus(sip_path) "submodules/FFT_fft_ii_0_3n4096sin.hex"]
+set_global_assignment -library "lib_FFT" -name MISC_FILE [file join $::quartus(sip_path) "submodules/FFT_fft_ii_0_1n1024cos.hex"]
+set_global_assignment -library "lib_FFT" -name MISC_FILE [file join $::quartus(sip_path) "submodules/FFT_fft_ii_0_2n1024cos.hex"]
+set_global_assignment -library "lib_FFT" -name MISC_FILE [file join $::quartus(sip_path) "submodules/FFT_fft_ii_0_1n1024sin.hex"]
+set_global_assignment -library "lib_FFT" -name MISC_FILE [file join $::quartus(sip_path) "submodules/FFT_fft_ii_0_2n1024sin.hex"]
+set_global_assignment -library "lib_FFT" -name MISC_FILE [file join $::quartus(sip_path) "submodules/FFT_fft_ii_0_3n1024cos.hex"]
+set_global_assignment -library "lib_FFT" -name MISC_FILE [file join $::quartus(sip_path) "submodules/FFT_fft_ii_0_3n1024sin.hex"]
 set_global_assignment -library "lib_FFT" -name MISC_FILE [file join $::quartus(sip_path) "submodules/auk_dspip_text_pkg.vhd"]
 set_global_assignment -library "lib_FFT" -name MISC_FILE [file join $::quartus(sip_path) "submodules/auk_dspip_math_pkg.vhd"]
 set_global_assignment -library "lib_FFT" -name MISC_FILE [file join $::quartus(sip_path) "submodules/auk_dspip_lib_pkg.vhd"]

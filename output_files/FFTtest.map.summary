@@ -1,14 +1,14 @@
-Analysis & Synthesis Status : Successful - Tue Apr 23 15:36:13 2019
+Analysis & Synthesis Status : Successful - Fri Apr 26 23:58:51 2019
 Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 Revision Name : FFTtest
-Top-level Entity Name : ledMatrix
+Top-level Entity Name : FFTcore
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A
-Total registers : 0
-Total pins : 40
+Total registers : 6971
+Total pins : 113
 Total virtual pins : 0
-Total block memory bits : 0
-Total DSP Blocks : 0
+Total block memory bits : 234,122
+Total DSP Blocks : 9
 Total HSSI RX PCSs : 0
 Total HSSI PMA RX Deserializers : 0
 Total HSSI TX PCSs : 0

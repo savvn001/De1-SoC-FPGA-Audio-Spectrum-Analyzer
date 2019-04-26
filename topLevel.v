@@ -68,7 +68,7 @@ audioCore audioCore_inst
 
 	
 /************** FFT *************************/	
-	/*
+	
 	reg [SAMPLE_LEGTH-1:0] sink_imag_sig = 24'd0;
 	wire sink_ready_sig;
 	wire [1:0] source_error_sig;
@@ -78,12 +78,15 @@ audioCore audioCore_inst
 	wire [SAMPLE_LEGTH-1:0] source_real_sig;
 	wire [5:0] source_exp_sig;
 		
-	FFTtest FFTtest_inst
+	FFTcore FFTcore_inst
 (
-	.MCLK(MCLK) ,	// input  MCLK_sig
-	.sink_real(FIFO_OUTPUT) ,	// input [23:0] sink_real_sig
+	.MCLK(MCLK_sig) ,	// input  MCLK_sig
+	.sink_real(sink_real_sig) ,	// input [23:0] sink_real_sig
 	.sink_imag(sink_imag_sig) ,	// input [23:0] sink_imag_sig
-	.reset(RESET) ,	// input  reset_sig
+	.sink_valid(sink_valid_sig) ,	// input  sink_valid_sig
+	.sink_sop(sink_sop_sig) ,	// input  sink_sop_sig
+	.sink_eop(sink_eop_sig) ,	// input  sink_eop_sig
+	.reset(reset_sig) ,	// input  reset_sig
 	.sink_ready(sink_ready_sig) ,	// output  sink_ready_sig
 	.source_error(source_error_sig) ,	// output [1:0] source_error_sig
 	.source_valid(source_valid_sig) ,	// output  source_valid_sig
@@ -95,7 +98,6 @@ audioCore audioCore_inst
 );
 	
 	
-*/	
 /*********** LED Driver *********************/	
 	
 	

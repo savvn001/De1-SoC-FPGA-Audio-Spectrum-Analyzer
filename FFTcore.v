@@ -18,7 +18,7 @@ module FFTcore(
 	output [5:0] source_exp 		//Exponent 
 );
 	
-	reg [11:0] sample_counter;
+	reg [9:0] sample_counter;
 	
 	//reg sink_sop; //input start of incoming FFT frame 
 	//reg sink_eop; //input 	 of incoming FFT frame

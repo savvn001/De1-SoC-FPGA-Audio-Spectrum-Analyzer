@@ -33,11 +33,11 @@ module FFT_fft_ii_0 (
 	output [23 : 0] source_imag
 	);
 
-	asj_fft_dualstream #(
+	asj_fft_sglstream #(
 		.device_family("Cyclone V"),
-		.nps(4096),
+		.nps(1024),
 		.bfp(1),
-		.nume(2),
+		.nume(1),
 		.mpr(24),
 		.twr(24),
 		.bpr(24),
@@ -49,14 +49,14 @@ module FFT_fft_ii_0 (
 		.mult_imp(0),
 		.dsp_arch(2),
 		.srr("AUTO_SHIFT_REGISTER_RECOGNITION=OFF"),
-		.rfs1("FFT_fft_ii_0_1n4096sin.hex"),
-		.rfs2("FFT_fft_ii_0_2n4096sin.hex"),
-		.rfs3("FFT_fft_ii_0_3n4096sin.hex"),
-		.rfc1("FFT_fft_ii_0_1n4096cos.hex"),
-		.rfc2("FFT_fft_ii_0_2n4096cos.hex"),
-		.rfc3("FFT_fft_ii_0_3n4096cos.hex")
+		.rfs1("FFT_fft_ii_0_1n1024sin.hex"),
+		.rfs2("FFT_fft_ii_0_2n1024sin.hex"),
+		.rfs3("FFT_fft_ii_0_3n1024sin.hex"),
+		.rfc1("FFT_fft_ii_0_1n1024cos.hex"),
+		.rfc2("FFT_fft_ii_0_2n1024cos.hex"),
+		.rfc3("FFT_fft_ii_0_3n1024cos.hex")
 	)
-	asj_fft_dualstream_inst (
+	asj_fft_sglstream_inst (
 		.clk(clk),
 		.clk_ena(1'b1),
 		.reset_n(reset_n),

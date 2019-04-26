@@ -1,5 +1,5 @@
 Flow report for FFTtest
-Tue Apr 23 15:36:13 2019
+Fri Apr 26 23:58:52 2019
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -40,19 +40,19 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Tue Apr 23 15:36:13 2019       ;
+; Flow Status                     ; Successful - Fri Apr 26 23:58:52 2019       ;
 ; Quartus Prime Version           ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
 ; Revision Name                   ; FFTtest                                     ;
-; Top-level Entity Name           ; ledMatrix                                   ;
+; Top-level Entity Name           ; FFTcore                                     ;
 ; Family                          ; Cyclone V                                   ;
 ; Device                          ; 5CSEMA5F31C6                                ;
 ; Timing Models                   ; Final                                       ;
 ; Logic utilization (in ALMs)     ; N/A                                         ;
-; Total registers                 ; 0                                           ;
-; Total pins                      ; 40                                          ;
+; Total registers                 ; 6971                                        ;
+; Total pins                      ; 113                                         ;
 ; Total virtual pins              ; 0                                           ;
-; Total block memory bits         ; 0                                           ;
-; Total DSP Blocks                ; 0                                           ;
+; Total block memory bits         ; 234,122                                     ;
+; Total DSP Blocks                ; 9                                           ;
 ; Total HSSI RX PCSs              ; 0                                           ;
 ; Total HSSI PMA RX Deserializers ; 0                                           ;
 ; Total HSSI TX PCSs              ; 0                                           ;
@@ -67,7 +67,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 04/23/2019 15:35:48 ;
+; Start date & time ; 04/26/2019 23:57:37 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; FFTtest             ;
 +-------------------+---------------------+
@@ -78,16 +78,16 @@ refer to the applicable agreement for further details.
 +----------------------------------------+------------------------------------------------------------------------------+---------------+--------------+----------------+
 ; Assignment Name                        ; Value                                                                        ; Default Value ; Entity Name  ; Section Id     ;
 +----------------------------------------+------------------------------------------------------------------------------+---------------+--------------+----------------+
-; COMPILER_SIGNATURE_ID                  ; 52240603169.155603014609756                                                  ; --            ; --           ; --             ;
+; COMPILER_SIGNATURE_ID                  ; 52240603169.155631945509568                                                  ; --            ; --           ; --             ;
 ; EDA_DESIGN_INSTANCE_NAME               ; fft_vcddump                                                                  ; --            ; --           ; audioCore_tb   ;
 ; EDA_DESIGN_INSTANCE_NAME               ; NA                                                                           ; --            ; --           ; ledMatrix_tb   ;
 ; EDA_DESIGN_INSTANCE_NAME               ; fft_vcddump                                                                  ; --            ; --           ; afifo_tb       ;
-; EDA_DESIGN_INSTANCE_NAME               ; NA                                                                           ; --            ; --           ; FFTtest_tb     ;
+; EDA_DESIGN_INSTANCE_NAME               ; fft_vcddump                                                                  ; --            ; --           ; FFTcore_tb     ;
 ; EDA_DESIGN_INSTANCE_NAME               ; fft_vcddump                                                                  ; --            ; --           ; topLevel_tb    ;
 ; EDA_ENABLE_GLITCH_FILTERING            ; On                                                                           ; --            ; --           ; eda_simulation ;
 ; EDA_MAP_ILLEGAL_CHARACTERS             ; On                                                                           ; --            ; --           ; eda_simulation ;
 ; EDA_NATIVELINK_SIMULATION_SETUP_SCRIPT ; simulation/load_sim.tcl                                                      ; --            ; --           ; eda_simulation ;
-; EDA_NATIVELINK_SIMULATION_TEST_BENCH   ; ledMatrix_tb                                                                 ; --            ; --           ; eda_simulation ;
+; EDA_NATIVELINK_SIMULATION_TEST_BENCH   ; FFTcore_tb                                                                   ; --            ; --           ; eda_simulation ;
 ; EDA_NETLIST_WRITER_OUTPUT_DIR          ; simulation                                                                   ; --            ; --           ; eda_simulation ;
 ; EDA_OUTPUT_DATA_FORMAT                 ; Verilog Hdl                                                                  ; --            ; --           ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                    ; ModelSim-Altera (Verilog)                                                    ; <None>        ; --           ; --             ;
@@ -95,33 +95,33 @@ refer to the applicable agreement for further details.
 ; EDA_TEST_BENCH_ENABLE_STATUS           ; TEST_BENCH_MODE                                                              ; --            ; --           ; eda_simulation ;
 ; EDA_TEST_BENCH_FILE                    ; simulation/audioCore_tb.v                                                    ; --            ; --           ; audioCore_tb   ;
 ; EDA_TEST_BENCH_FILE                    ; simulation/ledMatrix_tb.v                                                    ; --            ; --           ; ledMatrix_tb   ;
-; EDA_TEST_BENCH_FILE                    ; simulation/FFTtest_tb.v                                                      ; --            ; --           ; FFTtest_tb     ;
+; EDA_TEST_BENCH_FILE                    ; simulation/FFTcore_tb.v                                                      ; --            ; --           ; FFTcore_tb     ;
 ; EDA_TEST_BENCH_FILE                    ; simulation/aFifo_tb.v                                                        ; --            ; --           ; aFifo_tb       ;
 ; EDA_TEST_BENCH_FILE                    ; simulation/topLevel_tb.v                                                     ; --            ; --           ; topLevel_tb    ;
 ; EDA_TEST_BENCH_MODULE_NAME             ; audioCore_tb                                                                 ; --            ; --           ; audioCore_tb   ;
 ; EDA_TEST_BENCH_MODULE_NAME             ; ledMatrix_tb                                                                 ; --            ; --           ; ledMatrix_tb   ;
-; EDA_TEST_BENCH_MODULE_NAME             ; FFTtest_tb                                                                   ; --            ; --           ; FFTtest_tb     ;
+; EDA_TEST_BENCH_MODULE_NAME             ; FFTcore_tb                                                                   ; --            ; --           ; FFTcore_tb     ;
 ; EDA_TEST_BENCH_MODULE_NAME             ; aFifo_tb                                                                     ; --            ; --           ; aFifo_tb       ;
 ; EDA_TEST_BENCH_MODULE_NAME             ; topLevel_tb                                                                  ; --            ; --           ; topLevel_tb    ;
-; EDA_TEST_BENCH_NAME                    ; FFTtest_tb                                                                   ; --            ; --           ; eda_simulation ;
 ; EDA_TEST_BENCH_NAME                    ; audioCore_tb                                                                 ; --            ; --           ; eda_simulation ;
 ; EDA_TEST_BENCH_NAME                    ; aFifo_tb                                                                     ; --            ; --           ; eda_simulation ;
 ; EDA_TEST_BENCH_NAME                    ; topLevel_tb                                                                  ; --            ; --           ; eda_simulation ;
 ; EDA_TEST_BENCH_NAME                    ; ledMatrix_tb                                                                 ; --            ; --           ; eda_simulation ;
+; EDA_TEST_BENCH_NAME                    ; FFTcore_tb                                                                   ; --            ; --           ; eda_simulation ;
 ; EDA_TEST_BENCH_RUN_SIM_FOR             ; 400 us                                                                       ; --            ; --           ; ledMatrix_tb   ;
 ; EDA_TIME_SCALE                         ; 1 ps                                                                         ; --            ; --           ; eda_simulation ;
 ; EDA_WRITE_NODES_FOR_POWER_ESTIMATION   ; Off                                                                          ; --            ; --           ; eda_simulation ;
 ; MAX_CORE_JUNCTION_TEMP                 ; 85                                                                           ; --            ; --           ; --             ;
 ; MESSAGE_DISABLE                        ; 270007                                                                       ; --            ; FFT_fft_ii_0 ; --             ;
 ; MIN_CORE_JUNCTION_TEMP                 ; 0                                                                            ; --            ; --           ; --             ;
-; MISC_FILE                              ; FFT/simulation/../../../FFT.qsys                                             ; --            ; --           ; --             ;
+; MISC_FILE                              ; FFT/simulation/../../FFT.qsys                                                ; --            ; --           ; --             ;
 ; MISC_FILE                              ; FFT/simulation/FFT.v                                                         ; --            ; --           ; --             ;
-; MISC_FILE                              ; FFT/simulation/submodules/FFT_fft_ii_0_1n4096cos.hex                         ; --            ; --           ; --             ;
-; MISC_FILE                              ; FFT/simulation/submodules/FFT_fft_ii_0_2n4096cos.hex                         ; --            ; --           ; --             ;
-; MISC_FILE                              ; FFT/simulation/submodules/FFT_fft_ii_0_1n4096sin.hex                         ; --            ; --           ; --             ;
-; MISC_FILE                              ; FFT/simulation/submodules/FFT_fft_ii_0_2n4096sin.hex                         ; --            ; --           ; --             ;
-; MISC_FILE                              ; FFT/simulation/submodules/FFT_fft_ii_0_3n4096cos.hex                         ; --            ; --           ; --             ;
-; MISC_FILE                              ; FFT/simulation/submodules/FFT_fft_ii_0_3n4096sin.hex                         ; --            ; --           ; --             ;
+; MISC_FILE                              ; FFT/simulation/submodules/FFT_fft_ii_0_1n1024cos.hex                         ; --            ; --           ; --             ;
+; MISC_FILE                              ; FFT/simulation/submodules/FFT_fft_ii_0_2n1024cos.hex                         ; --            ; --           ; --             ;
+; MISC_FILE                              ; FFT/simulation/submodules/FFT_fft_ii_0_1n1024sin.hex                         ; --            ; --           ; --             ;
+; MISC_FILE                              ; FFT/simulation/submodules/FFT_fft_ii_0_2n1024sin.hex                         ; --            ; --           ; --             ;
+; MISC_FILE                              ; FFT/simulation/submodules/FFT_fft_ii_0_3n1024cos.hex                         ; --            ; --           ; --             ;
+; MISC_FILE                              ; FFT/simulation/submodules/FFT_fft_ii_0_3n1024sin.hex                         ; --            ; --           ; --             ;
 ; MISC_FILE                              ; FFT/simulation/submodules/auk_dspip_text_pkg.vhd                             ; --            ; --           ; --             ;
 ; MISC_FILE                              ; FFT/simulation/submodules/auk_dspip_math_pkg.vhd                             ; --            ; --           ; --             ;
 ; MISC_FILE                              ; FFT/simulation/submodules/auk_dspip_lib_pkg.vhd                              ; --            ; --           ; --             ;
@@ -360,19 +360,19 @@ refer to the applicable agreement for further details.
 ; MISC_FILE                              ; FFT/simulation/submodules/c_model/r22sdf/util.cpp                            ; --            ; --           ; --             ;
 ; MISC_FILE                              ; FFT/simulation/submodules/c_model/r22sdf/util.h                              ; --            ; --           ; --             ;
 ; MISC_FILE                              ; FFT/synthesis/../FFT.cmp                                                     ; --            ; --           ; --             ;
-; MISC_FILE                              ; FFT/synthesis/../../../FFT.qsys                                              ; --            ; --           ; --             ;
-; PARTITION_COLOR                        ; -- (Not supported for targeted family)                                       ; --            ; ledMatrix    ; Top            ;
-; PARTITION_FITTER_PRESERVATION_LEVEL    ; -- (Not supported for targeted family)                                       ; --            ; ledMatrix    ; Top            ;
-; PARTITION_NETLIST_TYPE                 ; -- (Not supported for targeted family)                                       ; --            ; ledMatrix    ; Top            ;
+; MISC_FILE                              ; FFT/synthesis/../../FFT.qsys                                                 ; --            ; --           ; --             ;
+; PARTITION_COLOR                        ; -- (Not supported for targeted family)                                       ; --            ; FFTcore      ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL    ; -- (Not supported for targeted family)                                       ; --            ; FFTcore      ; Top            ;
+; PARTITION_NETLIST_TYPE                 ; -- (Not supported for targeted family)                                       ; --            ; FFTcore      ; Top            ;
 ; POWER_BOARD_THERMAL_MODEL              ; None (CONSERVATIVE)                                                          ; --            ; --           ; --             ;
 ; POWER_PRESET_COOLING_SOLUTION          ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW                                        ; --            ; --           ; --             ;
 ; PROJECT_OUTPUT_DIRECTORY               ; output_files                                                                 ; --            ; --           ; --             ;
 ; SLD_FILE                               ; FFT/synthesis/FFT.debuginfo                                                  ; --            ; --           ; --             ;
-; SLD_INFO                               ; QSYS_NAME FFT HAS_SOPCINFO 1 GENERATION_ID 1554847887                        ; --            ; FFT          ; --             ;
-; SOPCINFO_FILE                          ; FFT/synthesis/../../../FFT.sopcinfo                                          ; --            ; --           ; --             ;
+; SLD_INFO                               ; QSYS_NAME FFT HAS_SOPCINFO 1 GENERATION_ID 1556318969                        ; --            ; FFT          ; --             ;
+; SOPCINFO_FILE                          ; FFT/synthesis/../../FFT.sopcinfo                                             ; --            ; --           ; --             ;
 ; SPD_FILE                               ; FFT/simulation/../FFT.spd                                                    ; --            ; --           ; --             ;
 ; SYNTHESIS_ONLY_QIP                     ; On                                                                           ; --            ; --           ; --             ;
-; TOP_LEVEL_ENTITY                       ; ledMatrix                                                                    ; FFTtest       ; --           ; --             ;
+; TOP_LEVEL_ENTITY                       ; FFTcore                                                                      ; FFTtest       ; --           ; --             ;
 +----------------------------------------+------------------------------------------------------------------------------+---------------+--------------+----------------+
 
 
@@ -381,8 +381,8 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:27     ; 1.0                     ; 4929 MB             ; 00:00:44                           ;
-; Total                ; 00:00:27     ; --                      ; --                  ; 00:00:44                           ;
+; Analysis & Synthesis ; 00:01:11     ; 1.0                     ; 5141 MB             ; 00:01:35                           ;
+; Total                ; 00:01:11     ; --                      ; --                  ; 00:01:35                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

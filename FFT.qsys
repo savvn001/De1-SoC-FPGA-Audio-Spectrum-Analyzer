@@ -6,7 +6,7 @@
    version="1.0"
    description=""
    tags="INTERNAL_COMPONENT=true"
-   categories="" />
+   categories="System" />
  <parameter name="bonusData"><![CDATA[bonusData 
 {
    element fft_ii_0
@@ -31,7 +31,7 @@
  <parameter name="hideFromIPCatalog" value="true" />
  <parameter name="lockedInterfaceDefinition" value="" />
  <parameter name="maxAdditionalLatency" value="1" />
- <parameter name="projectName" value="" />
+ <parameter name="projectName" value="FFTtest.qpf" />
  <parameter name="sopcBorderPoints" value="false" />
  <parameter name="systemHash" value="0" />
  <parameter name="testBenchDutName" value="" />
@@ -80,7 +80,7 @@
   <parameter name="hyper_opt" value="false" />
   <parameter name="in_order" value="Natural" />
   <parameter name="in_width" value="24" />
-  <parameter name="length" value="4096" />
+  <parameter name="length" value="1024" />
   <parameter name="num_engines" value="1" />
   <parameter name="out_order" value="Natural" />
   <parameter name="out_width" value="29" />

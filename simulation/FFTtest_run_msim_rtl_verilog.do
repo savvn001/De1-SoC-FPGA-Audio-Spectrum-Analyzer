@@ -15,12 +15,12 @@ vmap fft_ii_0 ./FFTtest_iputf_libs/fft_ii_0
 ###### End libraries for IPUTF cores 
 ###### MIF file copy and HDL compilation commands for IPUTF cores 
 
-file copy -force C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/FFT_fft_ii_0_1n4096cos.hex ./
-file copy -force C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/FFT_fft_ii_0_2n4096cos.hex ./
-file copy -force C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/FFT_fft_ii_0_1n4096sin.hex ./
-file copy -force C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/FFT_fft_ii_0_2n4096sin.hex ./
-file copy -force C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/FFT_fft_ii_0_3n4096cos.hex ./
-file copy -force C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/FFT_fft_ii_0_3n4096sin.hex ./
+file copy -force C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/FFT_fft_ii_0_1n1024cos.hex ./
+file copy -force C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/FFT_fft_ii_0_2n1024cos.hex ./
+file copy -force C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/FFT_fft_ii_0_1n1024sin.hex ./
+file copy -force C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/FFT_fft_ii_0_2n1024sin.hex ./
+file copy -force C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/FFT_fft_ii_0_3n1024cos.hex ./
+file copy -force C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/FFT_fft_ii_0_3n1024sin.hex ./
 
 vcom     "C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/auk_dspip_text_pkg.vhd"                             -work fft_ii_0
 vcom     "C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/auk_dspip_math_pkg.vhd"                             -work fft_ii_0
@@ -115,10 +115,11 @@ vlog     "C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/ment
 vlog -sv "C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/FFT_fft_ii_0.sv"                                    -work fft_ii_0
 vlog     "C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/FFT.v"                                                                       
 
-vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/17.1/projects/FFTtest {C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v}
+vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/17.1/projects/FFTtest {C:/intelFPGA_lite/17.1/projects/FFTtest/FFTcore.v}
+vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/17.1/projects/FFTtest/simulation {C:/intelFPGA_lite/17.1/projects/FFTtest/simulation/FFTcore_tb.v}
 
-vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/17.1/projects/FFTtest/simulation {C:/intelFPGA_lite/17.1/projects/FFTtest/simulation/ledMatrix_tb.v}
+vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/17.1/projects/FFTtest/simulation {C:/intelFPGA_lite/17.1/projects/FFTtest/simulation/FFTcore_tb.v}
 
-vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -L fft_ii_0 -voptargs="+acc"  ledMatrix_tb
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -L fft_ii_0 -voptargs="+acc"  FFTcore_tb
 
 do C:/intelFPGA_lite/17.1/projects/FFTtest/simulation/load_sim.tcl

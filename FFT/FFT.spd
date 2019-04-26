@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <simPackage>
  <file
-   path="simulation/submodules/FFT_fft_ii_0_1n4096cos.hex"
+   path="simulation/submodules/FFT_fft_ii_0_1n1024cos.hex"
    type="HEX"
    library="fft_ii_0" />
  <file
-   path="simulation/submodules/FFT_fft_ii_0_2n4096cos.hex"
+   path="simulation/submodules/FFT_fft_ii_0_2n1024cos.hex"
    type="HEX"
    library="fft_ii_0" />
  <file
-   path="simulation/submodules/FFT_fft_ii_0_1n4096sin.hex"
+   path="simulation/submodules/FFT_fft_ii_0_1n1024sin.hex"
    type="HEX"
    library="fft_ii_0" />
  <file
-   path="simulation/submodules/FFT_fft_ii_0_2n4096sin.hex"
+   path="simulation/submodules/FFT_fft_ii_0_2n1024sin.hex"
    type="HEX"
    library="fft_ii_0" />
  <file
-   path="simulation/submodules/FFT_fft_ii_0_3n4096cos.hex"
+   path="simulation/submodules/FFT_fft_ii_0_3n1024cos.hex"
    type="HEX"
    library="fft_ii_0" />
  <file
-   path="simulation/submodules/FFT_fft_ii_0_3n4096sin.hex"
+   path="simulation/submodules/FFT_fft_ii_0_3n1024sin.hex"
    type="HEX"
    library="fft_ii_0" />
  <file

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <EnsembleReport name="FFT" kind="system" version="17.1" fabric="QSYS">
  <!-- Format version 17.1 590 (Future versions may contain additional information.) -->
- <!-- 2019.04.09.23:11:30 -->
+ <!-- 2019.04.26.23:49:30 -->
  <!-- A collection of modules and connections -->
  <parameter name="clockCrossingAdapter">
   <type>com.altera.sopcmodel.ensemble.EClockAdapter</type>
@@ -53,7 +53,7 @@
  </parameter>
  <parameter name="generationId">
   <type>int</type>
-  <value>1554847887</value>
+  <value>1556318969</value>
   <derived>false</derived>
   <enabled>true</enabled>
   <visible>true</visible>
@@ -101,7 +101,7 @@
  </parameter>
  <parameter name="projectName">
   <type>java.lang.String</type>
-  <value></value>
+  <value>FFTtest.qpf</value>
   <derived>false</derived>
   <enabled>true</enabled>
   <visible>false</visible>
@@ -161,7 +161,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="length">
    <type>int</type>
-   <value>4096</value>
+   <value>1024</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -273,7 +273,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="num_engines_derived">
    <type>int</type>
-   <value>2</value>
+   <value>1</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -305,7 +305,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="CALC_LATENCY">
    <type>int</type>
-   <value>4096</value>
+   <value>1024</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -313,7 +313,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="THROUGHPUT_LATENCY">
    <type>int</type>
-   <value>4096</value>
+   <value>1024</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -646,5 +646,5 @@ parameters are a RESULT of the module parameters. -->
   <version>17.1</version>
  </plugin>
  <reportVersion>17.1 590</reportVersion>
- <uniqueIdentifier>F018989C96730000016A0427F49E</uniqueIdentifier>
+ <uniqueIdentifier>F018989C96730000016A5BD6DFCD</uniqueIdentifier>
 </EnsembleReport>

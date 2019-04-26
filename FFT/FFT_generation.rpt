@@ -1,5 +1,5 @@
 Info: Starting: Create simulation model
-Info: qsys-generate C:\intelFPGA_lite\17.1\projects\FFTtest\FFT.qsys --simulation=VERILOG --allow-mixed-language-simulation --output-directory=C:\intelFPGA_lite\17.1\projects\FFTtest\FFT\simulation\simulation --family="Cyclone V" --part=5CSEMA5F31C6
+Info: qsys-generate C:\intelFPGA_lite\17.1\projects\FFTtest\FFT.qsys --simulation=VERILOG --allow-mixed-language-simulation --output-directory=C:\intelFPGA_lite\17.1\projects\FFTtest\FFT\simulation --family="Cyclone V" --part=5CSEMA5F31C6
 Progress: Loading FFTtest/FFT.qsys
 Progress: Reading input file
 Progress: Adding fft_ii_0 [altera_fft_ii 17.1]
@@ -10,37 +10,37 @@ Progress: Validating
 Progress: Done reading input file
 Info: FFT.fft_ii_0: Radix-2 digit reverse implied
 Info: FFT: Generating FFT "FFT" for SIM_VERILOG
-Info: fft_ii_0: --- add file: FFT_fft_ii_0_1n4096cos.hex
-Info: fft_ii_0: --- add file: FFT_fft_ii_0_2n4096cos.hex
-Info: fft_ii_0: --- add file: FFT_fft_ii_0_1n4096sin.hex
-Info: fft_ii_0: --- add file: FFT_fft_ii_0_2n4096sin.hex
-Info: fft_ii_0: --- add file: FFT_fft_ii_0_3n4096cos.hex
-Info: fft_ii_0: --- add file: FFT_fft_ii_0_3n4096sin.hex
+Info: fft_ii_0: --- add file: FFT_fft_ii_0_1n1024cos.hex
+Info: fft_ii_0: --- add file: FFT_fft_ii_0_2n1024cos.hex
+Info: fft_ii_0: --- add file: FFT_fft_ii_0_1n1024sin.hex
+Info: fft_ii_0: --- add file: FFT_fft_ii_0_2n1024sin.hex
+Info: fft_ii_0: --- add file: FFT_fft_ii_0_3n1024cos.hex
+Info: fft_ii_0: --- add file: FFT_fft_ii_0_3n1024sin.hex
 Info: fft_ii_0: "FFT" instantiated altera_fft_ii "fft_ii_0"
 Info: FFT: Done "FFT" with 2 modules, 244 files
 Info: qsys-generate succeeded.
 Info: Finished: Create simulation model
 Info: Starting: Create Modelsim Project.
-Info: sim-script-gen --spd=C:\intelFPGA_lite\17.1\projects\FFTtest\FFT\simulation\FFT.spd --output-directory=C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/simulation/ --use-relative-paths=true
-Info: Doing: ip-make-simscript --spd=C:\intelFPGA_lite\17.1\projects\FFTtest\FFT\simulation\FFT.spd --output-directory=C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/simulation/ --use-relative-paths=true
-Info: Generating the following file(s) for MODELSIM simulator in C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/simulation/ directory:
+Info: sim-script-gen --spd=C:\intelFPGA_lite\17.1\projects\FFTtest\FFT\FFT.spd --output-directory=C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/ --use-relative-paths=true
+Info: Doing: ip-make-simscript --spd=C:\intelFPGA_lite\17.1\projects\FFTtest\FFT\FFT.spd --output-directory=C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/ --use-relative-paths=true
+Info: Generating the following file(s) for MODELSIM simulator in C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/ directory:
 Info: 	mentor/msim_setup.tcl
 Info: Skipping VCS script generation since VHDL file $QUARTUS_INSTALL_DIR/eda/sim_lib/altera_syn_attributes.vhd is required for simulation
-Info: Generating the following file(s) for VCSMX simulator in C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/simulation/ directory:
+Info: Generating the following file(s) for VCSMX simulator in C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/ directory:
 Info: 	synopsys/vcsmx/synopsys_sim.setup
 Info: 	synopsys/vcsmx/vcsmx_setup.sh
-Info: Generating the following file(s) for NCSIM simulator in C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/simulation/ directory:
+Info: Generating the following file(s) for NCSIM simulator in C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/ directory:
 Info: 	cadence/cds.lib
 Info: 	cadence/hdl.var
 Info: 	cadence/ncsim_setup.sh
 Info: 	1 .cds.lib files in cadence/cds_libs/ directory
-Info: Generating the following file(s) for RIVIERA simulator in C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/simulation/ directory:
+Info: Generating the following file(s) for RIVIERA simulator in C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/ directory:
 Info: 	aldec/rivierapro_setup.tcl
-Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/simulation/.
+Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/.
 Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
 Info: Finished: Create Modelsim Project.
 Info: Starting: Create block symbol file (.bsf)
-Info: qsys-generate C:\intelFPGA_lite\17.1\projects\FFTtest\FFT.qsys --block-symbol-file --output-directory=C:\intelFPGA_lite\17.1\projects\FFTtest\FFT\simulation --family="Cyclone V" --part=5CSEMA5F31C6
+Info: qsys-generate C:\intelFPGA_lite\17.1\projects\FFTtest\FFT.qsys --block-symbol-file --output-directory=C:\intelFPGA_lite\17.1\projects\FFTtest\FFT --family="Cyclone V" --part=5CSEMA5F31C6
 Progress: Loading FFTtest/FFT.qsys
 Progress: Reading input file
 Progress: Adding fft_ii_0 [altera_fft_ii 17.1]
@@ -54,7 +54,7 @@ Info: qsys-generate succeeded.
 Info: Finished: Create block symbol file (.bsf)
 Info: 
 Info: Starting: Create HDL design files for synthesis
-Info: qsys-generate C:\intelFPGA_lite\17.1\projects\FFTtest\FFT.qsys --synthesis=VERILOG --output-directory=C:\intelFPGA_lite\17.1\projects\FFTtest\FFT\simulation\synthesis --family="Cyclone V" --part=5CSEMA5F31C6
+Info: qsys-generate C:\intelFPGA_lite\17.1\projects\FFTtest\FFT.qsys --synthesis=VERILOG --output-directory=C:\intelFPGA_lite\17.1\projects\FFTtest\FFT\synthesis --family="Cyclone V" --part=5CSEMA5F31C6
 Progress: Loading FFTtest/FFT.qsys
 Progress: Reading input file
 Progress: Adding fft_ii_0 [altera_fft_ii 17.1]
@@ -65,12 +65,12 @@ Progress: Validating
 Progress: Done reading input file
 Info: FFT.fft_ii_0: Radix-2 digit reverse implied
 Info: FFT: Generating FFT "FFT" for QUARTUS_SYNTH
-Info: fft_ii_0: --- add file: FFT_fft_ii_0_1n4096cos.hex
-Info: fft_ii_0: --- add file: FFT_fft_ii_0_2n4096cos.hex
-Info: fft_ii_0: --- add file: FFT_fft_ii_0_1n4096sin.hex
-Info: fft_ii_0: --- add file: FFT_fft_ii_0_2n4096sin.hex
-Info: fft_ii_0: --- add file: FFT_fft_ii_0_3n4096cos.hex
-Info: fft_ii_0: --- add file: FFT_fft_ii_0_3n4096sin.hex
+Info: fft_ii_0: --- add file: FFT_fft_ii_0_1n1024cos.hex
+Info: fft_ii_0: --- add file: FFT_fft_ii_0_2n1024cos.hex
+Info: fft_ii_0: --- add file: FFT_fft_ii_0_1n1024sin.hex
+Info: fft_ii_0: --- add file: FFT_fft_ii_0_2n1024sin.hex
+Info: fft_ii_0: --- add file: FFT_fft_ii_0_3n1024cos.hex
+Info: fft_ii_0: --- add file: FFT_fft_ii_0_3n1024sin.hex
 Info: fft_ii_0: "FFT" instantiated altera_fft_ii "fft_ii_0"
 Info: FFT: Done "FFT" with 2 modules, 108 files
 Info: qsys-generate succeeded.

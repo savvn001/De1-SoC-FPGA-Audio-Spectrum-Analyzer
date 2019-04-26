@@ -94,7 +94,7 @@
 # within the Quartus project, and generate a unified
 # script which supports all the Altera IP within the design.
 # ----------------------------------------
-# ACDS 17.1 590 win32 2019.04.09.23:11:25
+# ACDS 17.1 590 win32 2019.04.26.23:49:26
 
 # ----------------------------------------
 # Initialize variables
@@ -141,12 +141,12 @@ if ![ string match "*-64 vsim*" [ vsim -version ] ] {
 # Copy ROM/RAM files to simulation directory
 alias file_copy {
   echo "\[exec\] file_copy"
-  file copy -force $QSYS_SIMDIR/submodules/FFT_fft_ii_0_1n4096cos.hex ./
-  file copy -force $QSYS_SIMDIR/submodules/FFT_fft_ii_0_2n4096cos.hex ./
-  file copy -force $QSYS_SIMDIR/submodules/FFT_fft_ii_0_1n4096sin.hex ./
-  file copy -force $QSYS_SIMDIR/submodules/FFT_fft_ii_0_2n4096sin.hex ./
-  file copy -force $QSYS_SIMDIR/submodules/FFT_fft_ii_0_3n4096cos.hex ./
-  file copy -force $QSYS_SIMDIR/submodules/FFT_fft_ii_0_3n4096sin.hex ./
+  file copy -force $QSYS_SIMDIR/submodules/FFT_fft_ii_0_1n1024cos.hex ./
+  file copy -force $QSYS_SIMDIR/submodules/FFT_fft_ii_0_2n1024cos.hex ./
+  file copy -force $QSYS_SIMDIR/submodules/FFT_fft_ii_0_1n1024sin.hex ./
+  file copy -force $QSYS_SIMDIR/submodules/FFT_fft_ii_0_2n1024sin.hex ./
+  file copy -force $QSYS_SIMDIR/submodules/FFT_fft_ii_0_3n1024cos.hex ./
+  file copy -force $QSYS_SIMDIR/submodules/FFT_fft_ii_0_3n1024sin.hex ./
 }
 
 # ----------------------------------------
