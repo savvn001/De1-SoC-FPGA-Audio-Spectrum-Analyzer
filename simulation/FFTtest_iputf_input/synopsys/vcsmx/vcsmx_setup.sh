@@ -15,3 +15,4 @@ vhdlan -xlrm          "C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/su
 vhdlan -xlrm          "C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/auk_dspip_avalon_streaming_controller.vhd" -work fft_ii_0
 vlogan +v2k -sverilog "C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/FFT_fft_ii_0.sv"                           -work fft_ii_0
 vlogan +v2k           "C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/FFT.v"                                                              
+vlogan +v2k           "C:/intelFPGA_lite/17.1/projects/FFTtest/PLL/PLL_sim/PLL.vo"                                                                

@@ -9,69 +9,90 @@ z2
 cModel Technology
 Z0 dC:/intelFPGA_lite/17.1/projects/FFTtest/simulation
 vFFT
-Z1 !s110 1556319672
+!s110 1556631906
 !i10b 1
 !s100 n=ILWeVBI;P[MW8FhMOOB3
 InD==;OaBOzVeGf=odP`>F3
-Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
 R0
 w1556318964
 8C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/FFT.v
 FC:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/FFT.v
 L0 6
-Z3 OV;L;10.5b;63
+Z2 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1556319672.000000
+!s108 1556631906.000000
 !s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/FFT.v|
 !s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/FFT.v|
 !i113 1
-Z5 tCvgOpt 0
+Z3 tCvgOpt 0
 n@f@f@t
-vFFTcore
-R1
+vledMatrix
+Z4 !s110 1556631907
 !i10b 1
-!s100 `if4BE8<z8BMMQbXHOaZ@1
-I9Hg[A9V9c>:ITEJh7HHV42
-R2
+!s100 fVAUW:?EKaaHQgXPQXPEf3
+I]C]H`o`P8ZJ`lZPbafQFl3
+R1
 R0
-w1556319440
-8C:/intelFPGA_lite/17.1/projects/FFTtest/FFTcore.v
-FC:/intelFPGA_lite/17.1/projects/FFTtest/FFTcore.v
+w1556627477
+8C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v
+FC:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v
 L0 1
-R3
+R2
 r1
 !s85 0
 31
-R4
-!s107 C:/intelFPGA_lite/17.1/projects/FFTtest/FFTcore.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/17.1/projects/FFTtest|C:/intelFPGA_lite/17.1/projects/FFTtest/FFTcore.v|
+Z5 !s108 1556631907.000000
+!s107 C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/17.1/projects/FFTtest|C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v|
 !i113 1
 Z6 o-vlog01compat -work work
 !s92 -vlog01compat -work work +incdir+C:/intelFPGA_lite/17.1/projects/FFTtest
-R5
-n@f@f@tcore
-vFFTcore_tb
-!s110 1556319673
-!i10b 1
-!s100 A1WzRQYC[JTaA^EFTea;j3
-IT@ck_FHD4DW7T1`5^G7Vl0
-R2
-R0
-w1556319164
-8C:/intelFPGA_lite/17.1/projects/FFTtest/simulation/FFTcore_tb.v
-FC:/intelFPGA_lite/17.1/projects/FFTtest/simulation/FFTcore_tb.v
-L0 4
 R3
+nled@matrix
+vledMatrix_tb
+R4
+!i10b 1
+!s100 ^W@@M]odIh^aF?g:gRGB?2
+I<l8DJbI0Deez?=fDUH_E63
+R1
+R0
+w1556558275
+8C:/intelFPGA_lite/17.1/projects/FFTtest/simulation/ledMatrix_tb.v
+FC:/intelFPGA_lite/17.1/projects/FFTtest/simulation/ledMatrix_tb.v
+L0 5
+R2
 r1
 !s85 0
 31
-!s108 1556319673.000000
-!s107 C:/intelFPGA_lite/17.1/projects/FFTtest/simulation/FFTcore_tb.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/17.1/projects/FFTtest/simulation|C:/intelFPGA_lite/17.1/projects/FFTtest/simulation/FFTcore_tb.v|
+R5
+!s107 C:/intelFPGA_lite/17.1/projects/FFTtest/simulation/ledMatrix_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/17.1/projects/FFTtest/simulation|C:/intelFPGA_lite/17.1/projects/FFTtest/simulation/ledMatrix_tb.v|
 !i113 1
 R6
 !s92 -vlog01compat -work work +incdir+C:/intelFPGA_lite/17.1/projects/FFTtest/simulation
+R3
+nled@matrix_tb
+vPLL
+R4
+!i10b 1
+!s100 637=C]=SEz90lBIiLXToT2
+IO]ANgj@m5Db1jchP7a8GS1
+R1
+R0
+w1556573118
+8C:/intelFPGA_lite/17.1/projects/FFTtest/PLL/PLL_sim/PLL.vo
+FC:/intelFPGA_lite/17.1/projects/FFTtest/PLL/PLL_sim/PLL.vo
+L0 31
+R2
+r1
+!s85 0
+31
 R5
-n@f@f@tcore_tb
+!s107 C:/intelFPGA_lite/17.1/projects/FFTtest/PLL/PLL_sim/PLL.vo|
+!s90 -reportprogress|300|C:/intelFPGA_lite/17.1/projects/FFTtest/PLL/PLL_sim/PLL.vo|
+!i113 1
+R3
+n@p@l@l

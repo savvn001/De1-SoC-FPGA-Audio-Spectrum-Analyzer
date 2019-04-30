@@ -98,3 +98,4 @@ vcom       "C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/al
 vlog -v2k5 "C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/aldec/apn_fft_mult_cpx_1825.v"                     -work fft_ii_0
 vlog       "C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/submodules/FFT_fft_ii_0.sv"                                   -work fft_ii_0
 vlog -v2k5 "C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/simulation/FFT.v"                                                                      
+vlog -v2k5 "C:/intelFPGA_lite/17.1/projects/FFTtest/PLL/PLL_sim/PLL.vo"                                                                        

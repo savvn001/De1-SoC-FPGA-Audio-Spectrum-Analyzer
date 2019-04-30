@@ -1,5 +1,5 @@
 Flow report for FFTtest
-Fri Apr 26 23:58:52 2019
+Tue Apr 30 15:42:49 2019
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -40,25 +40,25 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Fri Apr 26 23:58:52 2019       ;
+; Flow Status                     ; Successful - Tue Apr 30 15:42:40 2019       ;
 ; Quartus Prime Version           ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
 ; Revision Name                   ; FFTtest                                     ;
-; Top-level Entity Name           ; FFTcore                                     ;
+; Top-level Entity Name           ; topLevel                                    ;
 ; Family                          ; Cyclone V                                   ;
 ; Device                          ; 5CSEMA5F31C6                                ;
 ; Timing Models                   ; Final                                       ;
-; Logic utilization (in ALMs)     ; N/A                                         ;
-; Total registers                 ; 6971                                        ;
-; Total pins                      ; 113                                         ;
+; Logic utilization (in ALMs)     ; 143 / 32,070 ( < 1 % )                      ;
+; Total registers                 ; 199                                         ;
+; Total pins                      ; 22 / 457 ( 5 % )                            ;
 ; Total virtual pins              ; 0                                           ;
-; Total block memory bits         ; 234,122                                     ;
-; Total DSP Blocks                ; 9                                           ;
+; Total block memory bits         ; 0 / 4,065,280 ( 0 % )                       ;
+; Total DSP Blocks                ; 0 / 87 ( 0 % )                              ;
 ; Total HSSI RX PCSs              ; 0                                           ;
 ; Total HSSI PMA RX Deserializers ; 0                                           ;
 ; Total HSSI TX PCSs              ; 0                                           ;
 ; Total HSSI PMA TX Serializers   ; 0                                           ;
-; Total PLLs                      ; 0                                           ;
-; Total DLLs                      ; 0                                           ;
+; Total PLLs                      ; 1 / 6 ( 17 % )                              ;
+; Total DLLs                      ; 0 / 4 ( 0 % )                               ;
 +---------------------------------+---------------------------------------------+
 
 
@@ -67,7 +67,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 04/26/2019 23:57:37 ;
+; Start date & time ; 04/30/2019 15:38:53 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; FFTtest             ;
 +-------------------+---------------------+
@@ -78,7 +78,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------+------------------------------------------------------------------------------+---------------+--------------+----------------+
 ; Assignment Name                        ; Value                                                                        ; Default Value ; Entity Name  ; Section Id     ;
 +----------------------------------------+------------------------------------------------------------------------------+---------------+--------------+----------------+
-; COMPILER_SIGNATURE_ID                  ; 52240603169.155631945509568                                                  ; --            ; --           ; --             ;
+; COMPILER_SIGNATURE_ID                  ; 52240603169.155663513108436                                                  ; --            ; --           ; --             ;
 ; EDA_DESIGN_INSTANCE_NAME               ; fft_vcddump                                                                  ; --            ; --           ; audioCore_tb   ;
 ; EDA_DESIGN_INSTANCE_NAME               ; NA                                                                           ; --            ; --           ; ledMatrix_tb   ;
 ; EDA_DESIGN_INSTANCE_NAME               ; fft_vcddump                                                                  ; --            ; --           ; afifo_tb       ;
@@ -87,7 +87,7 @@ refer to the applicable agreement for further details.
 ; EDA_ENABLE_GLITCH_FILTERING            ; On                                                                           ; --            ; --           ; eda_simulation ;
 ; EDA_MAP_ILLEGAL_CHARACTERS             ; On                                                                           ; --            ; --           ; eda_simulation ;
 ; EDA_NATIVELINK_SIMULATION_SETUP_SCRIPT ; simulation/load_sim.tcl                                                      ; --            ; --           ; eda_simulation ;
-; EDA_NATIVELINK_SIMULATION_TEST_BENCH   ; FFTcore_tb                                                                   ; --            ; --           ; eda_simulation ;
+; EDA_NATIVELINK_SIMULATION_TEST_BENCH   ; topLevel_tb                                                                  ; --            ; --           ; eda_simulation ;
 ; EDA_NETLIST_WRITER_OUTPUT_DIR          ; simulation                                                                   ; --            ; --           ; eda_simulation ;
 ; EDA_OUTPUT_DATA_FORMAT                 ; Verilog Hdl                                                                  ; --            ; --           ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                    ; ModelSim-Altera (Verilog)                                                    ; <None>        ; --           ; --             ;
@@ -361,9 +361,11 @@ refer to the applicable agreement for further details.
 ; MISC_FILE                              ; FFT/simulation/submodules/c_model/r22sdf/util.h                              ; --            ; --           ; --             ;
 ; MISC_FILE                              ; FFT/synthesis/../FFT.cmp                                                     ; --            ; --           ; --             ;
 ; MISC_FILE                              ; FFT/synthesis/../../FFT.qsys                                                 ; --            ; --           ; --             ;
-; PARTITION_COLOR                        ; -- (Not supported for targeted family)                                       ; --            ; FFTcore      ; Top            ;
-; PARTITION_FITTER_PRESERVATION_LEVEL    ; -- (Not supported for targeted family)                                       ; --            ; FFTcore      ; Top            ;
-; PARTITION_NETLIST_TYPE                 ; -- (Not supported for targeted family)                                       ; --            ; FFTcore      ; Top            ;
+; MISC_FILE                              ; PLL/PLL.cmp                                                                  ; --            ; --           ; --             ;
+; MISC_FILE                              ; PLL/PLL_sim/PLL.vo                                                           ; --            ; --           ; --             ;
+; PARTITION_COLOR                        ; -- (Not supported for targeted family)                                       ; --            ; topLevel     ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL    ; -- (Not supported for targeted family)                                       ; --            ; topLevel     ; Top            ;
+; PARTITION_NETLIST_TYPE                 ; -- (Not supported for targeted family)                                       ; --            ; topLevel     ; Top            ;
 ; POWER_BOARD_THERMAL_MODEL              ; None (CONSERVATIVE)                                                          ; --            ; --           ; --             ;
 ; POWER_PRESET_COOLING_SOLUTION          ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW                                        ; --            ; --           ; --             ;
 ; PROJECT_OUTPUT_DIRECTORY               ; output_files                                                                 ; --            ; --           ; --             ;
@@ -371,34 +373,45 @@ refer to the applicable agreement for further details.
 ; SLD_INFO                               ; QSYS_NAME FFT HAS_SOPCINFO 1 GENERATION_ID 1556318969                        ; --            ; FFT          ; --             ;
 ; SOPCINFO_FILE                          ; FFT/synthesis/../../FFT.sopcinfo                                             ; --            ; --           ; --             ;
 ; SPD_FILE                               ; FFT/simulation/../FFT.spd                                                    ; --            ; --           ; --             ;
+; SPD_FILE                               ; PLL/PLL.spd                                                                  ; --            ; --           ; --             ;
 ; SYNTHESIS_ONLY_QIP                     ; On                                                                           ; --            ; --           ; --             ;
-; TOP_LEVEL_ENTITY                       ; FFTcore                                                                      ; FFTtest       ; --           ; --             ;
+; SYNTHESIS_ONLY_QIP                     ; On                                                                           ; --            ; --           ; --             ;
+; TOP_LEVEL_ENTITY                       ; topLevel                                                                     ; FFTtest       ; --           ; --             ;
 +----------------------------------------+------------------------------------------------------------------------------+---------------+--------------+----------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------+
-; Flow Elapsed Time                                                                                                        ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:01:11     ; 1.0                     ; 5141 MB             ; 00:01:35                           ;
-; Total                ; 00:01:11     ; --                      ; --                  ; 00:01:35                           ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:01:01     ; 1.0                     ; 5067 MB             ; 00:01:22                           ;
+; Fitter                    ; 00:00:57     ; 1.0                     ; 6729 MB             ; 00:01:53                           ;
+; Assembler                 ; 00:00:09     ; 1.0                     ; 4874 MB             ; 00:00:08                           ;
+; TimeQuest Timing Analyzer ; 00:00:08     ; 1.1                     ; 5213 MB             ; 00:00:08                           ;
+; Total                     ; 00:02:15     ; --                      ; --                  ; 00:03:31                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
-+-----------------------------------------------------------------------------------+
-; Flow OS Summary                                                                   ;
-+----------------------+------------------+-----------+------------+----------------+
-; Module Name          ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
-+----------------------+------------------+-----------+------------+----------------+
-; Analysis & Synthesis ; DESKTOP-23HRAP8  ; Windows 8 ; 6.2        ; x86_64         ;
-+----------------------+------------------+-----------+------------+----------------+
++----------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                        ;
++---------------------------+------------------+-----------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
++---------------------------+------------------+-----------+------------+----------------+
+; Analysis & Synthesis      ; DESKTOP-23HRAP8  ; Windows 8 ; 6.2        ; x86_64         ;
+; Fitter                    ; DESKTOP-23HRAP8  ; Windows 8 ; 6.2        ; x86_64         ;
+; Assembler                 ; DESKTOP-23HRAP8  ; Windows 8 ; 6.2        ; x86_64         ;
+; TimeQuest Timing Analyzer ; DESKTOP-23HRAP8  ; Windows 8 ; 6.2        ; x86_64         ;
++---------------------------+------------------+-----------+------------+----------------+
 
 
 ------------
 ; Flow Log ;
 ------------
 quartus_map --read_settings_files=on --write_settings_files=off FFTtest -c FFTtest
+quartus_fit --read_settings_files=on --write_settings_files=off FFTtest -c FFTtest
+quartus_asm --read_settings_files=off --write_settings_files=off FFTtest -c FFTtest
+quartus_sta FFTtest -c FFTtest
 
 
 

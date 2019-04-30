@@ -1,6 +1,6 @@
 <sld_project_info>
   <project>
-    <hash md5_digest_80b="8beb6ab8e3f4ed51b41f"/>
+    <hash md5_digest_80b="90f865c795df7759c5ea"/>
   </project>
   <file_info>
     <file device="5CSEMA5F31C6" path="FFTtest_time_limited.sof" usercode="0xFFFFFFFF"/>
@@ -10,9 +10,9 @@
     <node hpath="pzdyqx:nabboc" instance_id="0" mfg_id="110" node_id="1" sld_node_info="0x86E00" version="0"/>
   </node_info>
   <sld_infos>
-    <sld_info hpath="FFTtest:FFTtest_inst|FFT:u0" name="u0">
+    <sld_info hpath="FFTcore:FFTcore_inst|FFT:u0" name="u0">
       <assignment_values>
-        <assignment_value text="QSYS_NAME FFT HAS_SOPCINFO 1 GENERATION_ID 1554847887"/>
+        <assignment_value text="QSYS_NAME FFT HAS_SOPCINFO 1 GENERATION_ID 1556318969"/>
       </assignment_values>
       <parameters/>
     </sld_info>

@@ -1,1 +1,3 @@
-Warning (10268): Verilog HDL information at ledMatrix.v(80): always construct contains both blocking and non-blocking assignments File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 80
+Warning (10268): Verilog HDL information at ledMatrix.v(81): always construct contains both blocking and non-blocking assignments File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 81
+Warning (10268): Verilog HDL information at ledMatrix.v(166): always construct contains both blocking and non-blocking assignments File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 166
+Warning (10268): Verilog HDL information at ledMatrix.v(231): always construct contains both blocking and non-blocking assignments File: C:/intelFPGA_lite/17.1/projects/FFTtest/ledMatrix.v Line: 231

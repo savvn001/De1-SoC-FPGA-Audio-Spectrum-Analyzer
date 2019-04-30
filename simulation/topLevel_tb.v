@@ -25,8 +25,8 @@ module topLevel_tb;
 	.MCLK(MCLK_sig) ,	// input  MCLK_sig
 	.AUD_LRC(AUD_LRC_sig) ,	// input  AUD_LRC_sig
 	.AUD_ADC_DATA(AUD_ADC_DATA_sig) ,	// input  AUD_ADC_DATA_sig
-	.RESET(RESET_sig) ,	// input  RESET_sig
-	.b(b_sig) 	// output  b_sig
+	.RESET(RESET_sig) // input  RESET_sig
+		// output  b_sig
 );
 	
 	initial begin
@@ -38,7 +38,7 @@ module topLevel_tb;
 	sample_value_bit_ctr = 5'd0;
 	
 
-	repeat(5) @(negedge AUD_BCLK_sig);
+	repeat(10) @(negedge MCLK_sig);
 	
 	RESET_sig = 1; 
 	

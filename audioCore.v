@@ -17,14 +17,13 @@ module audioCore(
 	input reset,			//Reset - ACTIVE LOW
 	
 	output wire LRC_OUT,		//Output LR clock for FFT module
-	output wire [23:0] DATA_OUT	//FIFO data output from core
+	output reg [23:0] DATA_OUT = 0	//FIFO data output from core
 );
 
 
 	/****** Internals for codec data*******/
 	reg [23:0] left_data;
 	reg [23:0] right_data;
-	reg [23:0] sample_mono;
 	reg AUD_LRC_EXT;
 	
 	reg [4:0] adcbitcntr32;
@@ -40,7 +39,7 @@ module audioCore(
 	
 	assign LRC_OUT = AUD_LRC;
 	
-	assign DATA_OUT = sample_mono;
+	//assign DATA_OUT = sample_mono;
 	
 	
 	/****** FIFO regs *******/
@@ -110,7 +109,7 @@ module audioCore(
 		if(LRCLK_posedge) begin
 		
 			//Sum left and right channels to mono and divide by 2 (keep volume same)
-			sample_mono = ((left_data + right_data) >> 1);
+			DATA_OUT = ((left_data + right_data) >> 1);
 		
 		end
 		

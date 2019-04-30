@@ -1,5 +1,5 @@
 Info: Start Nativelink Simulation process
-executing command line: ip-make-simscript --nativelink-mode --output-directory=FFTtest_iputf_input --spd=C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/FFT.spd 
+executing command line: ip-make-simscript --nativelink-mode --output-directory=FFTtest_iputf_input --spd=C:/intelFPGA_lite/17.1/projects/FFTtest/FFT/FFT.spd --spd=C:/intelFPGA_lite/17.1/projects/FFTtest/PLL/PLL.spd 
 
 ========= EDA Simulation Settings =====================
 
